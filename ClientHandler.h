@@ -5,9 +5,16 @@
 #ifndef EX4_SERVER_SIDE_CLIENTHANDLER_H_
 #define EX4_SERVER_SIDE_CLIENTHANDLER_H_
 
-class ClientHandler{
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <unistd.h>
+
+namespace server_side {
+
+class ClientHandler {
  public:
-  void handleClient()
+  virtual void handleClient(int client_socket, int server_socket) = 0;
 };
 
+}
 #endif //EX4_SERVER_SIDE_CLIENTHANDLER_H_

@@ -84,6 +84,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManager.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MySerialServer.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MySerialServer.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Server.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solver.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solver.h">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/main.cpp">
 			<Option target="ex4"/>
 		</Unit>
