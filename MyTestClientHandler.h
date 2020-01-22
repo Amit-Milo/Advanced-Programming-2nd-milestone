@@ -7,6 +7,7 @@
 
 #include "ClientHandler.h"
 #include "Solver.h"
+
 class MyTestClientHandler : public server_side::ClientHandler {
   Solver solver;
  public:
