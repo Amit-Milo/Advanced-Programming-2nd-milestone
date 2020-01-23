@@ -5,8 +5,9 @@
 #ifndef EX4__SOLVER_H_
 #define EX4__SOLVER_H_
 
-template<class Problem,class Solution>
-class Solver {
+
+<template class Problem, class Solution>
+class Solver<Problem, Solution>{
  public:
   /**
    * Solve a problem.

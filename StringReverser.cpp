@@ -1,0 +1,20 @@
+//
+// Created by amit on 22/01/2020.
+//
+
+#include "StringReverser.h"
+
+
+string StringReverser::solve(const string &p) const {
+  string result;
+
+  int length = p.length();
+  int lastIndex = length - 1;
+
+  for (int i = 0; i < length; ++i) {
+    // Copy next char from the corresponding place from the end.
+    result[i] = p[lastIndex - i];
+  }
+
+  return result;
+}

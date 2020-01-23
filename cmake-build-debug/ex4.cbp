@@ -90,6 +90,42 @@
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandler.h">
 			<Option target="ex4"/>
 		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ConstMatrix.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Cost.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Cost.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixGraph.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixGraph.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertex.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertex.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Movement.h">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MySerialServer.cpp">
 			<Option target="ex4"/>
 		</Unit>
@@ -102,25 +138,40 @@
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.h">
 			<Option target="ex4"/>
 		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Point.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Point.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchable.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searcher.h">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Server.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunner.cpp">
-			<Option target="ex4"/>
-		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunner.h">
-			<Option target="ex4"/>
-		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.cpp">
-			<Option target="ex4"/>
-		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.h">
-			<Option target="ex4"/>
-		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solver.cpp">
-			<Option target="ex4"/>
-		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solver.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringReverser.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringReverser.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Vertex.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VertexAdapter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VertexAdapter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VertexFactory.h">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/main.cpp">

@@ -4,11 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/yoav/CLionProjects/cpp/ex4/Cost.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Cost.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/MatrixGraph.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MatrixGraph.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/MatrixVertex.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MatrixVertex.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/MySerialServer.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MySerialServer.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o"
-  "/home/yoav/CLionProjects/cpp/ex4/ServerRunner.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/ServerRunner.cpp.o"
-  "/home/yoav/CLionProjects/cpp/ex4/ServerSocket.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/ServerSocket.cpp.o"
-  "/home/yoav/CLionProjects/cpp/ex4/Solver.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Solver.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/Point.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Point.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/StringReverser.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/StringReverser.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/VertexAdapter.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/VertexAdapter.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/main.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

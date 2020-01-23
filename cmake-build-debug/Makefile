@@ -123,6 +123,141 @@ ex4/fast:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
 .PHONY : ex4/fast
 
+Cost.o: Cost.cpp.o
+
+.PHONY : Cost.o
+
+# target to build an object file
+Cost.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Cost.cpp.o
+.PHONY : Cost.cpp.o
+
+Cost.i: Cost.cpp.i
+
+.PHONY : Cost.i
+
+# target to preprocess a source file
+Cost.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Cost.cpp.i
+.PHONY : Cost.cpp.i
+
+Cost.s: Cost.cpp.s
+
+.PHONY : Cost.s
+
+# target to generate assembly for a file
+Cost.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Cost.cpp.s
+.PHONY : Cost.cpp.s
+
+MatrixGraph.o: MatrixGraph.cpp.o
+
+.PHONY : MatrixGraph.o
+
+# target to build an object file
+MatrixGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixGraph.cpp.o
+.PHONY : MatrixGraph.cpp.o
+
+MatrixGraph.i: MatrixGraph.cpp.i
+
+.PHONY : MatrixGraph.i
+
+# target to preprocess a source file
+MatrixGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixGraph.cpp.i
+.PHONY : MatrixGraph.cpp.i
+
+MatrixGraph.s: MatrixGraph.cpp.s
+
+.PHONY : MatrixGraph.s
+
+# target to generate assembly for a file
+MatrixGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixGraph.cpp.s
+.PHONY : MatrixGraph.cpp.s
+
+MatrixVertex.o: MatrixVertex.cpp.o
+
+.PHONY : MatrixVertex.o
+
+# target to build an object file
+MatrixVertex.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertex.cpp.o
+.PHONY : MatrixVertex.cpp.o
+
+MatrixVertex.i: MatrixVertex.cpp.i
+
+.PHONY : MatrixVertex.i
+
+# target to preprocess a source file
+MatrixVertex.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertex.cpp.i
+.PHONY : MatrixVertex.cpp.i
+
+MatrixVertex.s: MatrixVertex.cpp.s
+
+.PHONY : MatrixVertex.s
+
+# target to generate assembly for a file
+MatrixVertex.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertex.cpp.s
+.PHONY : MatrixVertex.cpp.s
+
+MatrixVertexCreator.o: MatrixVertexCreator.cpp.o
+
+.PHONY : MatrixVertexCreator.o
+
+# target to build an object file
+MatrixVertexCreator.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o
+.PHONY : MatrixVertexCreator.cpp.o
+
+MatrixVertexCreator.i: MatrixVertexCreator.cpp.i
+
+.PHONY : MatrixVertexCreator.i
+
+# target to preprocess a source file
+MatrixVertexCreator.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.i
+.PHONY : MatrixVertexCreator.cpp.i
+
+MatrixVertexCreator.s: MatrixVertexCreator.cpp.s
+
+.PHONY : MatrixVertexCreator.s
+
+# target to generate assembly for a file
+MatrixVertexCreator.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.s
+.PHONY : MatrixVertexCreator.cpp.s
+
+MatrixVertexFactory.o: MatrixVertexFactory.cpp.o
+
+.PHONY : MatrixVertexFactory.o
+
+# target to build an object file
+MatrixVertexFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.o
+.PHONY : MatrixVertexFactory.cpp.o
+
+MatrixVertexFactory.i: MatrixVertexFactory.cpp.i
+
+.PHONY : MatrixVertexFactory.i
+
+# target to preprocess a source file
+MatrixVertexFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.i
+.PHONY : MatrixVertexFactory.cpp.i
+
+MatrixVertexFactory.s: MatrixVertexFactory.cpp.s
+
+.PHONY : MatrixVertexFactory.s
+
+# target to generate assembly for a file
+MatrixVertexFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.s
+.PHONY : MatrixVertexFactory.cpp.s
+
 MySerialServer.o: MySerialServer.cpp.o
 
 .PHONY : MySerialServer.o
@@ -177,86 +312,86 @@ MyTestClientHandler.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyTestClientHandler.cpp.s
 .PHONY : MyTestClientHandler.cpp.s
 
-ServerRunner.o: ServerRunner.cpp.o
+Point.o: Point.cpp.o
 
-.PHONY : ServerRunner.o
-
-# target to build an object file
-ServerRunner.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunner.cpp.o
-.PHONY : ServerRunner.cpp.o
-
-ServerRunner.i: ServerRunner.cpp.i
-
-.PHONY : ServerRunner.i
-
-# target to preprocess a source file
-ServerRunner.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunner.cpp.i
-.PHONY : ServerRunner.cpp.i
-
-ServerRunner.s: ServerRunner.cpp.s
-
-.PHONY : ServerRunner.s
-
-# target to generate assembly for a file
-ServerRunner.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunner.cpp.s
-.PHONY : ServerRunner.cpp.s
-
-ServerSocket.o: ServerSocket.cpp.o
-
-.PHONY : ServerSocket.o
+.PHONY : Point.o
 
 # target to build an object file
-ServerSocket.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.o
-.PHONY : ServerSocket.cpp.o
+Point.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.o
+.PHONY : Point.cpp.o
 
-ServerSocket.i: ServerSocket.cpp.i
+Point.i: Point.cpp.i
 
-.PHONY : ServerSocket.i
+.PHONY : Point.i
 
 # target to preprocess a source file
-ServerSocket.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.i
-.PHONY : ServerSocket.cpp.i
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.i
+.PHONY : Point.cpp.i
 
-ServerSocket.s: ServerSocket.cpp.s
+Point.s: Point.cpp.s
 
-.PHONY : ServerSocket.s
+.PHONY : Point.s
 
 # target to generate assembly for a file
-ServerSocket.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.s
-.PHONY : ServerSocket.cpp.s
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.s
+.PHONY : Point.cpp.s
 
-Solver.o: Solver.cpp.o
+StringReverser.o: StringReverser.cpp.o
 
-.PHONY : Solver.o
+.PHONY : StringReverser.o
 
 # target to build an object file
-Solver.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solver.cpp.o
-.PHONY : Solver.cpp.o
+StringReverser.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringReverser.cpp.o
+.PHONY : StringReverser.cpp.o
 
-Solver.i: Solver.cpp.i
+StringReverser.i: StringReverser.cpp.i
 
-.PHONY : Solver.i
+.PHONY : StringReverser.i
 
 # target to preprocess a source file
-Solver.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solver.cpp.i
-.PHONY : Solver.cpp.i
+StringReverser.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringReverser.cpp.i
+.PHONY : StringReverser.cpp.i
 
-Solver.s: Solver.cpp.s
+StringReverser.s: StringReverser.cpp.s
 
-.PHONY : Solver.s
+.PHONY : StringReverser.s
 
 # target to generate assembly for a file
-Solver.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solver.cpp.s
-.PHONY : Solver.cpp.s
+StringReverser.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringReverser.cpp.s
+.PHONY : StringReverser.cpp.s
+
+VertexAdapter.o: VertexAdapter.cpp.o
+
+.PHONY : VertexAdapter.o
+
+# target to build an object file
+VertexAdapter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VertexAdapter.cpp.o
+.PHONY : VertexAdapter.cpp.o
+
+VertexAdapter.i: VertexAdapter.cpp.i
+
+.PHONY : VertexAdapter.i
+
+# target to preprocess a source file
+VertexAdapter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VertexAdapter.cpp.i
+.PHONY : VertexAdapter.cpp.i
+
+VertexAdapter.s: VertexAdapter.cpp.s
+
+.PHONY : VertexAdapter.s
+
+# target to generate assembly for a file
+VertexAdapter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VertexAdapter.cpp.s
+.PHONY : VertexAdapter.cpp.s
 
 main.o: main.cpp.o
 
@@ -294,21 +429,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex4"
 	@echo "... edit_cache"
+	@echo "... Cost.o"
+	@echo "... Cost.i"
+	@echo "... Cost.s"
+	@echo "... MatrixGraph.o"
+	@echo "... MatrixGraph.i"
+	@echo "... MatrixGraph.s"
+	@echo "... MatrixVertex.o"
+	@echo "... MatrixVertex.i"
+	@echo "... MatrixVertex.s"
+	@echo "... MatrixVertexCreator.o"
+	@echo "... MatrixVertexCreator.i"
+	@echo "... MatrixVertexCreator.s"
+	@echo "... MatrixVertexFactory.o"
+	@echo "... MatrixVertexFactory.i"
+	@echo "... MatrixVertexFactory.s"
 	@echo "... MySerialServer.o"
 	@echo "... MySerialServer.i"
 	@echo "... MySerialServer.s"
 	@echo "... MyTestClientHandler.o"
 	@echo "... MyTestClientHandler.i"
 	@echo "... MyTestClientHandler.s"
-	@echo "... ServerRunner.o"
-	@echo "... ServerRunner.i"
-	@echo "... ServerRunner.s"
-	@echo "... ServerSocket.o"
-	@echo "... ServerSocket.i"
-	@echo "... ServerSocket.s"
-	@echo "... Solver.o"
-	@echo "... Solver.i"
-	@echo "... Solver.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
+	@echo "... StringReverser.o"
+	@echo "... StringReverser.i"
+	@echo "... StringReverser.s"
+	@echo "... VertexAdapter.o"
+	@echo "... VertexAdapter.i"
+	@echo "... VertexAdapter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
