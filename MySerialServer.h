@@ -8,7 +8,9 @@
 #include "Server.h"
 
 class MySerialServer :public server_side::Server{
-
+ public:
+  void start(int port, server_side::ClientHandler *c) override;
+  void stop() override;
 };
 
 #endif //EX4_SERVER_SIDE_MYSERIALSERVER_H_

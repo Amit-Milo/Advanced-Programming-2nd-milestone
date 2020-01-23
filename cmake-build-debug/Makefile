@@ -123,33 +123,6 @@ ex4/fast:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
 .PHONY : ex4/fast
 
-CacheManager.o: CacheManager.cpp.o
-
-.PHONY : CacheManager.o
-
-# target to build an object file
-CacheManager.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManager.cpp.o
-.PHONY : CacheManager.cpp.o
-
-CacheManager.i: CacheManager.cpp.i
-
-.PHONY : CacheManager.i
-
-# target to preprocess a source file
-CacheManager.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManager.cpp.i
-.PHONY : CacheManager.cpp.i
-
-CacheManager.s: CacheManager.cpp.s
-
-.PHONY : CacheManager.s
-
-# target to generate assembly for a file
-CacheManager.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManager.cpp.s
-.PHONY : CacheManager.cpp.s
-
 MySerialServer.o: MySerialServer.cpp.o
 
 .PHONY : MySerialServer.o
@@ -203,6 +176,60 @@ MyTestClientHandler.s: MyTestClientHandler.cpp.s
 MyTestClientHandler.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyTestClientHandler.cpp.s
 .PHONY : MyTestClientHandler.cpp.s
+
+ServerRunner.o: ServerRunner.cpp.o
+
+.PHONY : ServerRunner.o
+
+# target to build an object file
+ServerRunner.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunner.cpp.o
+.PHONY : ServerRunner.cpp.o
+
+ServerRunner.i: ServerRunner.cpp.i
+
+.PHONY : ServerRunner.i
+
+# target to preprocess a source file
+ServerRunner.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunner.cpp.i
+.PHONY : ServerRunner.cpp.i
+
+ServerRunner.s: ServerRunner.cpp.s
+
+.PHONY : ServerRunner.s
+
+# target to generate assembly for a file
+ServerRunner.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunner.cpp.s
+.PHONY : ServerRunner.cpp.s
+
+ServerSocket.o: ServerSocket.cpp.o
+
+.PHONY : ServerSocket.o
+
+# target to build an object file
+ServerSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.o
+.PHONY : ServerSocket.cpp.o
+
+ServerSocket.i: ServerSocket.cpp.i
+
+.PHONY : ServerSocket.i
+
+# target to preprocess a source file
+ServerSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.i
+.PHONY : ServerSocket.cpp.i
+
+ServerSocket.s: ServerSocket.cpp.s
+
+.PHONY : ServerSocket.s
+
+# target to generate assembly for a file
+ServerSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.s
+.PHONY : ServerSocket.cpp.s
 
 Solver.o: Solver.cpp.o
 
@@ -267,15 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex4"
 	@echo "... edit_cache"
-	@echo "... CacheManager.o"
-	@echo "... CacheManager.i"
-	@echo "... CacheManager.s"
 	@echo "... MySerialServer.o"
 	@echo "... MySerialServer.i"
 	@echo "... MySerialServer.s"
 	@echo "... MyTestClientHandler.o"
 	@echo "... MyTestClientHandler.i"
 	@echo "... MyTestClientHandler.s"
+	@echo "... ServerRunner.o"
+	@echo "... ServerRunner.i"
+	@echo "... ServerRunner.s"
+	@echo "... ServerSocket.o"
+	@echo "... ServerSocket.i"
+	@echo "... ServerSocket.s"
 	@echo "... Solver.o"
 	@echo "... Solver.i"
 	@echo "... Solver.s"

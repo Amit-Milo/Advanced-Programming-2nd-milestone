@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManager.cpp">
-			<Option target="ex4"/>
-		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManager.h">
 			<Option target="ex4"/>
 		</Unit>
@@ -106,6 +103,18 @@
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Server.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunner.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunner.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.h">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solver.cpp">

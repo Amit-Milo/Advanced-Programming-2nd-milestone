@@ -7,8 +7,11 @@
 
 #include "ClientHandler.h"
 #include "Solver.h"
+#include "CacheManager.h"
+//TODO notice that in part 2 there is only one type of client handler - with strings. should probably change later.
 class MyTestClientHandler : public server_side::ClientHandler {
-  Solver solver;
+  Solver<string, string> *solver;
+  CacheManager<string> *cache_manager;
  public:
   void handleClient(int client_socket, int server_socket) override;
 };
