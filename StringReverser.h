@@ -7,12 +7,18 @@
 
 #include <string>
 
-#include <Solver.h>
+#include "Solver.h"
 
 using namespace std;
 
 class StringReverser : public Solver<string, string> {
  public:
+  /**
+   * Solve a problem.
+   * Reverse a given string.
+   * @param p a problem to solve. A string to reverse.
+   * @return A solution to the problem. The reversed string.
+   */
   string solve(const string &p) const;
 };
 

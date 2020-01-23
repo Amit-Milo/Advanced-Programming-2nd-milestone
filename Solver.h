@@ -5,9 +5,16 @@
 #ifndef EX4__SOLVER_H_
 #define EX4__SOLVER_H_
 
-class Solver<class Problem, class Solution>{
+
+<template class Problem, class Solution>
+class Solver<Problem, Solution>{
  public:
-  Solution solve(const Problem &p) const;
+  /**
+   * Solve a problem.
+   * @param p a problem to solve.
+   * @return A solution to the problem.
+   */
+  virtual Solution solve(const Problem &p) const = 0;
 };
 
 #endif //EX4__SOLVER_H_
