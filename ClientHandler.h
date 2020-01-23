@@ -8,12 +8,13 @@
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <unistd.h>
+#include "ServerSocket.h"
 
 namespace server_side {
 
 class ClientHandler {
  public:
-  virtual void handleClient(int client_socket, int server_socket) = 0;
+  virtual void handleClient(ServerSocket* server_socket, int client_socket) = 0;
 };
 
 }

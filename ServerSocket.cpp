@@ -33,12 +33,7 @@ ServerSocket::~ServerSocket() {
 
 void ServerSocket::BindServer() {
   // Try to bind server.
-  if (bind(server_socket, (struct sockaddr *) &(server_address), sizeof(server_address)) != -1) {
-    // Run server in a new thread.
-    ServerRunner *s = new ServerRunner();
-    //TODO decide where to start the thread
-    //std::thread(&ServerRunner::RunServer, s, this);
-  } else {
+  if (bind(server_socket, (struct sockaddr *) &(server_address), sizeof(server_address)) == -1) {
     throw "Couldn't bind server.";
   }
 }
@@ -48,6 +43,9 @@ int ServerSocket::GetServerSocket() const {
 }
 int ServerSocket::GetServerPort() const {
   return server_address.sin_port;
+}
+const sockaddr_in &ServerSocket::GetServerAddress() const {
+  return server_address;
 }
 
 

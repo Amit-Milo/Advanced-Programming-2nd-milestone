@@ -4,15 +4,18 @@
 
 #include "MySerialServer.h"
 #include "ServerSocket.h"
+#include "ServerRunner.h"
 
 void MySerialServer::start(int port, server_side::ClientHandler *c) {
-  ServerSocket s(port);
-  s.BindServer();
-  //here have a loop in another thread that listens to clients and uses client handler.
-
+  //init the server
+  server_socket =  new ServerSocket(port);
+  server_socket->BindServer();
+  //call the run server function
+  ServerRunner server_runner;
+  server_runner.RunServer(server_socket, c);
 }
 
-//TODO
+//TODO - DONE?
 void MySerialServer::stop() {
-
+  delete server_socket;
 }

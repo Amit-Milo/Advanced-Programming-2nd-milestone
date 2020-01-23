@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yoav/CLionProjects/cpp/ex4/MySerialServer.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MySerialServer.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/Point.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Point.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/ServerRunner.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/ServerRunner.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/ServerSocket.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/ServerSocket.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/StringReverser.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/StringReverser.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/VertexAdapter.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/VertexAdapter.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/main.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/main.cpp.o"

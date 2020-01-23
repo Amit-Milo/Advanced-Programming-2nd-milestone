@@ -23,6 +23,7 @@ class ServerSocket{
 
   int GetServerSocket() const;
   int GetServerPort() const;
+  const sockaddr_in &GetServerAddress() const;
 };
 
 #endif //EX4__SERVERSOCKET_H_

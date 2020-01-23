@@ -8,8 +8,9 @@
 #include "Server.h"
 
 class MySerialServer :public server_side::Server{
+  ServerSocket* server_socket;
  public:
-  void start(int port, server_side::ClientHandler *c) override;
+  void start(int port, server_side::ClientHandler *c) override ;
   void stop() override;
 };
 

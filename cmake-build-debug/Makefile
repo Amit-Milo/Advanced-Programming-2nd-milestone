@@ -339,6 +339,60 @@ Point.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.s
 .PHONY : Point.cpp.s
 
+ServerRunner.o: ServerRunner.cpp.o
+
+.PHONY : ServerRunner.o
+
+# target to build an object file
+ServerRunner.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunner.cpp.o
+.PHONY : ServerRunner.cpp.o
+
+ServerRunner.i: ServerRunner.cpp.i
+
+.PHONY : ServerRunner.i
+
+# target to preprocess a source file
+ServerRunner.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunner.cpp.i
+.PHONY : ServerRunner.cpp.i
+
+ServerRunner.s: ServerRunner.cpp.s
+
+.PHONY : ServerRunner.s
+
+# target to generate assembly for a file
+ServerRunner.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunner.cpp.s
+.PHONY : ServerRunner.cpp.s
+
+ServerSocket.o: ServerSocket.cpp.o
+
+.PHONY : ServerSocket.o
+
+# target to build an object file
+ServerSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.o
+.PHONY : ServerSocket.cpp.o
+
+ServerSocket.i: ServerSocket.cpp.i
+
+.PHONY : ServerSocket.i
+
+# target to preprocess a source file
+ServerSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.i
+.PHONY : ServerSocket.cpp.i
+
+ServerSocket.s: ServerSocket.cpp.s
+
+.PHONY : ServerSocket.s
+
+# target to generate assembly for a file
+ServerSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.s
+.PHONY : ServerSocket.cpp.s
+
 StringReverser.o: StringReverser.cpp.o
 
 .PHONY : StringReverser.o
@@ -453,6 +507,12 @@ help:
 	@echo "... Point.o"
 	@echo "... Point.i"
 	@echo "... Point.s"
+	@echo "... ServerRunner.o"
+	@echo "... ServerRunner.i"
+	@echo "... ServerRunner.s"
+	@echo "... ServerSocket.o"
+	@echo "... ServerSocket.i"
+	@echo "... ServerSocket.s"
 	@echo "... StringReverser.o"
 	@echo "... StringReverser.i"
 	@echo "... StringReverser.s"

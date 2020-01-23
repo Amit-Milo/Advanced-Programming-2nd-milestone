@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex4.dir/MySerialServer.cpp.o"
   "CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o"
   "CMakeFiles/ex4.dir/Point.cpp.o"
+  "CMakeFiles/ex4.dir/ServerRunner.cpp.o"
+  "CMakeFiles/ex4.dir/ServerSocket.cpp.o"
   "CMakeFiles/ex4.dir/StringReverser.cpp.o"
   "CMakeFiles/ex4.dir/VertexAdapter.cpp.o"
   "CMakeFiles/ex4.dir/main.cpp.o"

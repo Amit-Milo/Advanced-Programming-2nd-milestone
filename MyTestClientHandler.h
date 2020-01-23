@@ -10,11 +10,13 @@
 #include <string>
 #include "CacheManager.h"
 
+#define BUFFER_SIZE 1024
+
 class MyTestClientHandler : public server_side::ClientHandler {
   Solver<std::string, std::string> *solver;
   CacheManager<string> *cache_manager;
  public:
-  void handleClient(int client_socket, int server_socket) override;
+  void handleClient(ServerSocket* server_socket, int client_socket) override;
 };
 
 #endif //EX4__MYTESTCLIENTHANDLER_H_
