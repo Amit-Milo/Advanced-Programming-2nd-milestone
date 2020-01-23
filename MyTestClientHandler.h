@@ -7,9 +7,12 @@
 
 #include "ClientHandler.h"
 #include "Solver.h"
+#include <string>
+#include "CacheManager.h"
 
 class MyTestClientHandler : public server_side::ClientHandler {
-  Solver solver;
+  Solver<std::string, std::string> *solver;
+  CacheManager<string> *cache_manager;
  public:
   void handleClient(int client_socket, int server_socket) override;
 };

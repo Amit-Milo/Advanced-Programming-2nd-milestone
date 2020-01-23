@@ -6,8 +6,8 @@
 #define EX4__SOLVER_H_
 
 
-<template class Problem, class Solution>
-class Solver<Problem, Solution>{
+template <class Problem, class Solution>
+class Solver{
  public:
   /**
    * Solve a problem.
