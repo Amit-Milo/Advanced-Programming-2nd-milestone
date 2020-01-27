@@ -1,0 +1,3 @@
+/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles/advancedProgrammingMilestone2.dir
+/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles/edit_cache.dir

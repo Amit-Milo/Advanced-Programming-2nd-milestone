@@ -1,0 +1,28 @@
+"""
+Searchable: An object that can be searched.
+abstarct
+"""
+
+
+"""
+Graph extends Searchable: A regular graph.
+abstarct
+
+
+public methods (in addition to parent):
+virtual list<Vertex>* GetNeighbors(const Vertex &v) const: Get the neighbors of a vertex.
+
+virtual const Vertex& GetStart() const: Get the start vertex in the graph.
+
+virtual const Vertex& GetEnd() const: Get the end vertex in the graph.
+"""
+
+
+"""
+MatrixGraph extends Graph: A graph represented by a matrix.
+not abstarct.
+
+
+public methods (in addition to parent):
+MatrixGraph(const Matrix<int> &mat, const Point &start, const Point &end): the constructor.
+"""

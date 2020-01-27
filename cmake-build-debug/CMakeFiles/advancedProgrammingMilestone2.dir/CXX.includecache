@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.h
+
+/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertex.h
+Cost.h
+/home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.h
+Vertex.h
+/home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h
+
+/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexFactory.cpp
+MatrixVertexFactory.h
+/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexFactory.h
+
+/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexFactory.h
+MatrixVertex.h
+/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertex.h
+VertexFactory.h
+/home/amit/CLionProjects/advancedProgrammngMilestone2/VertexFactory.h
+
+/home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h
+
+/home/amit/CLionProjects/advancedProgrammngMilestone2/VertexFactory.h
+list
+-
+Vertex.h
+/home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h
+

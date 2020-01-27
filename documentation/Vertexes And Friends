@@ -1,0 +1,123 @@
+"""
+Vertex: implements a simple vertex, indicated only by an index.
+not abstract (but we won't implement it, maybe should be abstract).
+
+
+no public methods.
+constructor is protected - vertexes implement singeleton design pattern.
+
+protected members (in addition to parent):
+int _index - the index of the vertex.
+
+
+friend class VertexFactory.
+"""
+
+
+"""
+MatrixVertex extends Vertex: a vertex in a graph represented by matrix.
+
+
+public methods (in addition to parent):
+== and != operators (you can now compare vertexes).
+
+private constructor - vertexes implement singeleton design patter.
+
+friend function NextStep (compare the relation between two adjacent vertexes, returns a movement, not implemented yet).
+"""
+
+
+"""
+VertexAdapter: A comprehend version of vertex. Contains the cost of the vertex, and if it was traveled or not.
+As an adapter, contains a vertex.
+
+
+public methods (in addition to parent):
+VertexAdapter(const Vertex &vertex, const Cost &cost): A constructor.
+
+virtual const Cost& GetCost(): Get the cost of the vertex.
+
+virtual void travel(): Travel the vertex.
+
+virtual bool isTraveled(): Check if the vertex has already been traveled.
+
+
+Notice: VertexAdapter doesn't implement Singeleton design pattern! (it can't, as its status changes).
+"""
+
+
+"""
+Cost: A cost of traveling a vertex.
+
+const.
+
+
+public methods (in addition to parent):
+Cost(int value): A constructor.
+
+==, !=, <=, >=, <, > operators.
+"""
+
+
+"""
+Point: a point.
+
+
+public methods (in addition to parent):
+Point(int i, int j): A constructor.
+
+GetI(): Get i coordinate.
+
+GetJ: Get J coordinate.
+"""
+
+
+"""
+template <class T>
+Matrix<T>: A matrix.
+
+
+public methods (in addition to parent):
+Matrix(T **mat, int rows, int columns): A constructor.
+
+~Matrix(): A destructor.
+
+T& Get(int i, int j) const: Get object in a given cell.
+
+int GetRows() const: Get num of rows.
+
+int GetColumns() const: Get num of columns.
+"""
+
+
+"""
+VertexFactory: A factory for vertexes.
+abstract.
+
+
+protected members:
+list<Vertex> instances: As we implement singeleton design pattern.
+
+
+public methods (in addition to parent):
+virtual const Vertex& create(int index): Create a verte by a given index.
+"""
+
+
+"""
+MatrixVertexFactory extends VertexFactory: A factory of MatrixVertexes.
+Not abstract, but you shouldn't use it.
+"""
+
+
+"""
+MatrixVertexCreator: creator for MatrixVertexes.
+Contains a private factory used for creating the matrix vertexes.
+
+
+public methods (in addition to parent):
+MatrixVertexCreator() A contructor.
+
+const MatrixVertex & create(int i, int j, int rowLength): Create a matrix vertex using i and j coordinates. rowLength is a length of a row.
+
+const MatrixVertex & create(const Point &p, int rowLength): Create a matrix vertex using a point. rowLength is a length of a row.
