@@ -37,7 +37,7 @@ class Matrix {
 
   T* Get(int i, int j) const {
     if (i > this->_rows || i < 0 || j > this->_columns || j < 0)
-      throw -1; // TODO maybe replace with custom error.
+      throw -1;
 
     return &(this->_mat[i][j]);
   }

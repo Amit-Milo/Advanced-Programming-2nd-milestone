@@ -11,15 +11,7 @@
 
 class VertexFactory {
  protected:
-  Vertex** _instances;
-  int _amount;
-
-  int getIndex(const Vertex &v) {return v._index;}
-
-  VertexFactory() {
-    this->_instances = (Vertex**) malloc(0);
-    this->_amount = 0;
-  }
+  VertexFactory() = default;
 
  public:
   virtual const Vertex* create(int index) = 0;

@@ -11,7 +11,7 @@ class Vertex {
 
   int _index;
 
- protected://Todo
+ protected:
   /**
    * A constructor.
    * @param index the index of the vertex.
