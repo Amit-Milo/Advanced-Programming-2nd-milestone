@@ -3,3 +3,7 @@
 //
 
 #include "FileStringCacheManager.h"
+
+FileStringCacheManager::FileStringCacheManager() {
+  converter = new StringToFileNameConverter();
+}

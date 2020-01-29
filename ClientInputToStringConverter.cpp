@@ -3,3 +3,6 @@
 //
 
 #include "ClientInputToStringConverter.h"
+string ClientInputToStringConverter::convertToProblem(string clientInput) {
+  return clientInput;
+}

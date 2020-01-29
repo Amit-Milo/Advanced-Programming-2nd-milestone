@@ -5,12 +5,17 @@
 #ifndef EX4__MYTESTCLIENTHANDLER_H_
 #define EX4__MYTESTCLIENTHANDLER_H_
 
-#include "ClientHandler.h"
-#include "Solver.h"
-class MyTestClientHandler : public server_side::ClientHandler {
-  Solver solver;
+
+#include "ClientInputToProblemConverter.h"
+#include "ClientHandlerAbs.h"
+
+
+class MyTestClientHandler : public ClientHandlerAbs<string> {
  public:
-  void handleClient(int client_socket, int server_socket) override;
+  MyTestClientHandler(CacheManager<string> *cache_manager,
+                      Solver<string, string> *solver,
+                      ClientInputToProblemConverter<string> *input_to_problem);
+  string readFromClient(int client_socket, char* buffer) override;
 };
 
 #endif //EX4__MYTESTCLIENTHANDLER_H_

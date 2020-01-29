@@ -5,4 +5,13 @@
 #ifndef EX4__CLIENTINPUTTOSTRINGCONVERTER_H_
 #define EX4__CLIENTINPUTTOSTRINGCONVERTER_H_
 
+#include <string>
+using namespace std;
+
+#include "ClientInputToProblemConverter.h"
+
+class ClientInputToStringConverter : public ClientInputToProblemConverter<string>{
+  string convertToProblem(string clientInput) override;
+};
+
 #endif //EX4__CLIENTINPUTTOSTRINGCONVERTER_H_

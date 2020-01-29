@@ -3,3 +3,8 @@
 //
 
 #include "FileMatrixCacheManager.h"
+
+
+FileMatrixCacheManager::FileMatrixCacheManager() {
+  converter = new MatrixToFileMameConverter();
+}

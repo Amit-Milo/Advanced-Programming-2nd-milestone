@@ -4,10 +4,10 @@
 
 #include <unistd.h>
 #include "ServerSocket.h"
-#include "ServerRunner.h"
+#include "SerialServerRunner.h"
 #include <thread>
 
-void ServerRunner::RunServer(ServerSocket *s, server_side::ClientHandler *client_handler) {
+void SerialServerRunner::RunServer(ServerSocket *s, server_side::ClientHandler *client_handler) {
   printf("entered RunServer\n");
   if (listen(s->GetServerSocket(), 1) == -1)
     // If can't listen, throw an error.
@@ -29,12 +29,12 @@ void ServerRunner::RunServer(ServerSocket *s, server_side::ClientHandler *client
   //accept client
   printf("want to accept client\n");
   while ((client_socket =
-      accept(s->GetServerSocket(),
-                                 (struct sockaddr *) &s->GetServerAddress(),
-                                 (socklen_t *) &s->GetServerAddress())) != -1) {
+              accept(s->GetServerSocket(),
+                     (struct sockaddr *) &s->GetServerAddress(),
+                     (socklen_t *) &s->GetServerAddress())) != -1) {
     printf("connected to client!\n");
 
-    client_handler->handleClient(server_socket, client_socket);
+    client_handler->handleClient(client_socket);
 
     printf("disconnected from client!\n");
   }
@@ -43,12 +43,3 @@ void ServerRunner::RunServer(ServerSocket *s, server_side::ClientHandler *client
 
 }
 
-void ServerRunner::printSecond() {
-  printf("entered thread\n");
-  int seconds = 1;
-  while (true) {
-    sleep(1);
-    printf("a second passed, %d\n", seconds);
-    seconds++;
-  }
-}

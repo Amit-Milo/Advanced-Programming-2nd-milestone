@@ -123,32 +123,113 @@ ex4/fast:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
 .PHONY : ex4/fast
 
-CacheManager.o: CacheManager.cpp.o
+ClientInputToStringConverter.o: ClientInputToStringConverter.cpp.o
 
-.PHONY : CacheManager.o
+.PHONY : ClientInputToStringConverter.o
 
 # target to build an object file
-CacheManager.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManager.cpp.o
-.PHONY : CacheManager.cpp.o
+ClientInputToStringConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o
+.PHONY : ClientInputToStringConverter.cpp.o
 
-CacheManager.i: CacheManager.cpp.i
+ClientInputToStringConverter.i: ClientInputToStringConverter.cpp.i
 
-.PHONY : CacheManager.i
+.PHONY : ClientInputToStringConverter.i
 
 # target to preprocess a source file
-CacheManager.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManager.cpp.i
-.PHONY : CacheManager.cpp.i
+ClientInputToStringConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.i
+.PHONY : ClientInputToStringConverter.cpp.i
 
-CacheManager.s: CacheManager.cpp.s
+ClientInputToStringConverter.s: ClientInputToStringConverter.cpp.s
 
-.PHONY : CacheManager.s
+.PHONY : ClientInputToStringConverter.s
 
 # target to generate assembly for a file
-CacheManager.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManager.cpp.s
-.PHONY : CacheManager.cpp.s
+ClientInputToStringConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.s
+.PHONY : ClientInputToStringConverter.cpp.s
+
+FileStringCacheManager.o: FileStringCacheManager.cpp.o
+
+.PHONY : FileStringCacheManager.o
+
+# target to build an object file
+FileStringCacheManager.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o
+.PHONY : FileStringCacheManager.cpp.o
+
+FileStringCacheManager.i: FileStringCacheManager.cpp.i
+
+.PHONY : FileStringCacheManager.i
+
+# target to preprocess a source file
+FileStringCacheManager.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/FileStringCacheManager.cpp.i
+.PHONY : FileStringCacheManager.cpp.i
+
+FileStringCacheManager.s: FileStringCacheManager.cpp.s
+
+.PHONY : FileStringCacheManager.s
+
+# target to generate assembly for a file
+FileStringCacheManager.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/FileStringCacheManager.cpp.s
+.PHONY : FileStringCacheManager.cpp.s
+
+MyClientHandler.o: MyClientHandler.cpp.o
+
+.PHONY : MyClientHandler.o
+
+# target to build an object file
+MyClientHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyClientHandler.cpp.o
+.PHONY : MyClientHandler.cpp.o
+
+MyClientHandler.i: MyClientHandler.cpp.i
+
+.PHONY : MyClientHandler.i
+
+# target to preprocess a source file
+MyClientHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyClientHandler.cpp.i
+.PHONY : MyClientHandler.cpp.i
+
+MyClientHandler.s: MyClientHandler.cpp.s
+
+.PHONY : MyClientHandler.s
+
+# target to generate assembly for a file
+MyClientHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyClientHandler.cpp.s
+.PHONY : MyClientHandler.cpp.s
+
+MyParallelServer.o: MyParallelServer.cpp.o
+
+.PHONY : MyParallelServer.o
+
+# target to build an object file
+MyParallelServer.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyParallelServer.cpp.o
+.PHONY : MyParallelServer.cpp.o
+
+MyParallelServer.i: MyParallelServer.cpp.i
+
+.PHONY : MyParallelServer.i
+
+# target to preprocess a source file
+MyParallelServer.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyParallelServer.cpp.i
+.PHONY : MyParallelServer.cpp.i
+
+MyParallelServer.s: MyParallelServer.cpp.s
+
+.PHONY : MyParallelServer.s
+
+# target to generate assembly for a file
+MyParallelServer.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyParallelServer.cpp.s
+.PHONY : MyParallelServer.cpp.s
 
 MySerialServer.o: MySerialServer.cpp.o
 
@@ -204,32 +285,140 @@ MyTestClientHandler.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyTestClientHandler.cpp.s
 .PHONY : MyTestClientHandler.cpp.s
 
-Solver.o: Solver.cpp.o
+ParallelServerRunner.o: ParallelServerRunner.cpp.o
 
-.PHONY : Solver.o
+.PHONY : ParallelServerRunner.o
 
 # target to build an object file
-Solver.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solver.cpp.o
-.PHONY : Solver.cpp.o
+ParallelServerRunner.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o
+.PHONY : ParallelServerRunner.cpp.o
 
-Solver.i: Solver.cpp.i
+ParallelServerRunner.i: ParallelServerRunner.cpp.i
 
-.PHONY : Solver.i
+.PHONY : ParallelServerRunner.i
 
 # target to preprocess a source file
-Solver.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solver.cpp.i
-.PHONY : Solver.cpp.i
+ParallelServerRunner.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ParallelServerRunner.cpp.i
+.PHONY : ParallelServerRunner.cpp.i
 
-Solver.s: Solver.cpp.s
+ParallelServerRunner.s: ParallelServerRunner.cpp.s
 
-.PHONY : Solver.s
+.PHONY : ParallelServerRunner.s
 
 # target to generate assembly for a file
-Solver.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solver.cpp.s
-.PHONY : Solver.cpp.s
+ParallelServerRunner.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ParallelServerRunner.cpp.s
+.PHONY : ParallelServerRunner.cpp.s
+
+SerialServerRunner.o: SerialServerRunner.cpp.o
+
+.PHONY : SerialServerRunner.o
+
+# target to build an object file
+SerialServerRunner.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/SerialServerRunner.cpp.o
+.PHONY : SerialServerRunner.cpp.o
+
+SerialServerRunner.i: SerialServerRunner.cpp.i
+
+.PHONY : SerialServerRunner.i
+
+# target to preprocess a source file
+SerialServerRunner.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/SerialServerRunner.cpp.i
+.PHONY : SerialServerRunner.cpp.i
+
+SerialServerRunner.s: SerialServerRunner.cpp.s
+
+.PHONY : SerialServerRunner.s
+
+# target to generate assembly for a file
+SerialServerRunner.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/SerialServerRunner.cpp.s
+.PHONY : SerialServerRunner.cpp.s
+
+ServerSocket.o: ServerSocket.cpp.o
+
+.PHONY : ServerSocket.o
+
+# target to build an object file
+ServerSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.o
+.PHONY : ServerSocket.cpp.o
+
+ServerSocket.i: ServerSocket.cpp.i
+
+.PHONY : ServerSocket.i
+
+# target to preprocess a source file
+ServerSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.i
+.PHONY : ServerSocket.cpp.i
+
+ServerSocket.s: ServerSocket.cpp.s
+
+.PHONY : ServerSocket.s
+
+# target to generate assembly for a file
+ServerSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.s
+.PHONY : ServerSocket.cpp.s
+
+StringReverser.o: StringReverser.cpp.o
+
+.PHONY : StringReverser.o
+
+# target to build an object file
+StringReverser.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringReverser.cpp.o
+.PHONY : StringReverser.cpp.o
+
+StringReverser.i: StringReverser.cpp.i
+
+.PHONY : StringReverser.i
+
+# target to preprocess a source file
+StringReverser.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringReverser.cpp.i
+.PHONY : StringReverser.cpp.i
+
+StringReverser.s: StringReverser.cpp.s
+
+.PHONY : StringReverser.s
+
+# target to generate assembly for a file
+StringReverser.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringReverser.cpp.s
+.PHONY : StringReverser.cpp.s
+
+StringToFileNameConverter.o: StringToFileNameConverter.cpp.o
+
+.PHONY : StringToFileNameConverter.o
+
+# target to build an object file
+StringToFileNameConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.o
+.PHONY : StringToFileNameConverter.cpp.o
+
+StringToFileNameConverter.i: StringToFileNameConverter.cpp.i
+
+.PHONY : StringToFileNameConverter.i
+
+# target to preprocess a source file
+StringToFileNameConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.i
+.PHONY : StringToFileNameConverter.cpp.i
+
+StringToFileNameConverter.s: StringToFileNameConverter.cpp.s
+
+.PHONY : StringToFileNameConverter.s
+
+# target to generate assembly for a file
+StringToFileNameConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.s
+.PHONY : StringToFileNameConverter.cpp.s
 
 main.o: main.cpp.o
 
@@ -267,18 +456,39 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex4"
 	@echo "... edit_cache"
-	@echo "... CacheManager.o"
-	@echo "... CacheManager.i"
-	@echo "... CacheManager.s"
+	@echo "... ClientInputToStringConverter.o"
+	@echo "... ClientInputToStringConverter.i"
+	@echo "... ClientInputToStringConverter.s"
+	@echo "... FileStringCacheManager.o"
+	@echo "... FileStringCacheManager.i"
+	@echo "... FileStringCacheManager.s"
+	@echo "... MyClientHandler.o"
+	@echo "... MyClientHandler.i"
+	@echo "... MyClientHandler.s"
+	@echo "... MyParallelServer.o"
+	@echo "... MyParallelServer.i"
+	@echo "... MyParallelServer.s"
 	@echo "... MySerialServer.o"
 	@echo "... MySerialServer.i"
 	@echo "... MySerialServer.s"
 	@echo "... MyTestClientHandler.o"
 	@echo "... MyTestClientHandler.i"
 	@echo "... MyTestClientHandler.s"
-	@echo "... Solver.o"
-	@echo "... Solver.i"
-	@echo "... Solver.s"
+	@echo "... ParallelServerRunner.o"
+	@echo "... ParallelServerRunner.i"
+	@echo "... ParallelServerRunner.s"
+	@echo "... SerialServerRunner.o"
+	@echo "... SerialServerRunner.i"
+	@echo "... SerialServerRunner.s"
+	@echo "... ServerSocket.o"
+	@echo "... ServerSocket.i"
+	@echo "... ServerSocket.s"
+	@echo "... StringReverser.o"
+	@echo "... StringReverser.i"
+	@echo "... StringReverser.s"
+	@echo "... StringToFileNameConverter.o"
+	@echo "... StringToFileNameConverter.i"
+	@echo "... StringToFileNameConverter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
