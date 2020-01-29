@@ -13,10 +13,12 @@ Matrix<VertexAdapter> CostsToVertexes(const Matrix<int> &mat, MatrixVertexCreato
     tempMat[i] = (VertexAdapter *)malloc(sizeof(VertexAdapter) * mat.GetColumns());
 
   for (int i = 0; i < mat.GetRows(); ++i)
-    for (int j = 0; j < mat.GetColumns(); ++i)
-      tempMat[i][j] = VertexAdapter(creator.create(i, j, mat.GetRows()), Cost(mat.Get(i, j)));
+    for (int j = 0; j < mat.GetColumns(); ++j)
+      tempMat[i][j] = VertexAdapter(creator.create(i, j, mat.GetRows()), Cost(*mat.Get(i, j)));
 
   Matrix<VertexAdapter> _mat = Matrix<VertexAdapter>(tempMat, mat.GetRows(), mat.GetColumns());
+
+  return _mat;
 }
 
 
@@ -36,10 +38,10 @@ const MatrixVertex* MatrixGraph::GetEnd() const {
 
 
 list<Vertex>* MatrixGraph::GetNeighbors(const Vertex &v) {
-  auto *neighbors = new list<Vertex>;
+  auto neighbors = new list<Vertex>;
 
   int i = v.GetIndex() / this->_mat.GetRows();
-  int j = v.GetIndex() / this->_mat.GetColumns();
+  int j = v.GetIndex() % this->_mat.GetRows();
 
   // Add cell left to current.
   if (i > 0) neighbors->push_front(this->_creator.create(i - 1, j, this->_mat.GetRows()));
@@ -63,7 +65,7 @@ void MatrixGraph::Visit(const Vertex &v) const {
   int i = index / this->_mat.GetRows();
   int j = index % this->_mat.GetColumns();
 
-  this->_mat.Get(i, j).travel();
+  this->_mat.Get(i, j)->travel();
 }
 
 
@@ -72,7 +74,8 @@ bool MatrixGraph::IsVisited(const Vertex &v) const {
   int i = index / this->_mat.GetRows();
   int j = index % this->_mat.GetColumns();
 
-  return this->_mat.Get(i, j).isTraveled();
+  auto temp = this->_mat.Get(i, j);
+  return temp->isTraveled();
 }
 
 
@@ -85,11 +88,12 @@ void MatrixGraph::UpdateVertex(const Vertex &v, const Vertex &p) const {
   int pi = pIndex / this->_mat.GetRows();
   int pj = pIndex % this->_mat.GetColumns();
 
-  VertexAdapter& vAdapter = this->_mat.Get(vi, vj);
-  VertexAdapter& pAdapter = this->_mat.Get(pi, pj);
+  auto vAdapter = this->_mat.Get(vi, vj);
+  auto pAdapter = this->_mat.Get(pi, pj);
 
-  if (vAdapter.GetPathLength() > pAdapter.GetPathLength() + vAdapter.GetCost()->GetValue())
-    vAdapter.SetParent(pAdapter);
+  if (vAdapter->GetPathLength() > pAdapter->GetPathLength() + vAdapter->GetCost()->GetValue()) {
+    vAdapter->SetParent(*pAdapter);
+  }
 }
 
 
@@ -98,5 +102,5 @@ const Vertex *MatrixGraph::GetParent(const Vertex &v) const {
   int i = index / this->_mat.GetRows();
   int j = index % this->_mat.GetColumns();
 
-  return this->_mat.Get(i, j).GetParent();
+  return this->_mat.Get(i, j)->GetParent();
 }

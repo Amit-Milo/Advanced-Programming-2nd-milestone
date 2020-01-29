@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/advancedProgrammingMilestone2.dir/BFS.cpp.o"
   "CMakeFiles/advancedProgrammingMilestone2.dir/Cost.cpp.o"
+  "CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o"
   "CMakeFiles/advancedProgrammingMilestone2.dir/MatrixGraph.cpp.o"
   "CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertex.cpp.o"
   "CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertexCreator.cpp.o"

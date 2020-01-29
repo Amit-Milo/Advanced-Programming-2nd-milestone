@@ -18,56 +18,66 @@ class VertexAdapter {
   Cost *_pathLength;
 
  public:
-  VertexAdapter(const Vertex &vertex, const Cost &cost) :_vertex(&vertex), _cost(&cost), _traveled(false),
+  VertexAdapter(const Vertex &vertex, const Cost &cost) :_vertex(&vertex), _cost(new Cost(cost.GetValue())), _traveled(false),
   _parent(nullptr), _pathLength(new Cost(INFINITY)) {  }
 
 
-  ~VertexAdapter() {
+  /*~VertexAdapter() {
     delete this->_pathLength;
-  }
+  }*/
 
 
   /**
    * Get the cost to step in this vertex.
    * @return the cost of the vertex.
    */
-  virtual const Cost* GetCost();
+   //todo
+   const Cost* GetCost();
 
 
   /**
    * Get the vertex of the adapter.
    * @return the vertex member.
    */
-  virtual const Vertex* GetVertex();
+   //todo
+   const Vertex* GetVertex();
 
   /**
    * Travel the vertex.
    */
-  virtual void travel();
+   //TODO
+   void travel();
 
   /**
    * Check if the vertex has already been traveled.
    * @return true if the vertex has been traveled, false otherwise.
    */
-  virtual bool isTraveled();
+   //TODO
+   bool isTraveled();
 
   /**
    * Get the parent of the vertex.
    * @return the parent of the vertex.
    */
-  virtual const Vertex* GetParent();
+   //todo
+   const Vertex* GetParent();
 
   /**
    * Set the parent of the vertex.
    * @param parent a pointer to the adapter of the parent to set.
    */
-  virtual void SetParent(VertexAdapter &parent);
+   //todo
+   void SetParent(VertexAdapter &parent);
 
   /**
    * Get the length of the path from start to this vertex.
    * @return the length to this vertex.
    */
-  virtual int GetPathLength();
+   //todo
+   Cost GetPathLength();
+
+
+   void SetPathLength();
 
   bool friend operator==(const Vertex &first, const VertexAdapter &second);
 

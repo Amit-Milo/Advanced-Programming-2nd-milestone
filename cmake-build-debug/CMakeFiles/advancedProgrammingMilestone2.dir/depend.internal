@@ -11,6 +11,13 @@ CMakeFiles/advancedProgrammingMilestone2.dir/BFS.cpp.o
 CMakeFiles/advancedProgrammingMilestone2.dir/Cost.cpp.o
  /home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.cpp
  /home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.h
+CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o
+ /home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.cpp
+ /home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.h
+ /home/amit/CLionProjects/advancedProgrammngMilestone2/GraphSearcher.h
+ /home/amit/CLionProjects/advancedProgrammngMilestone2/Searchable.h
+ /home/amit/CLionProjects/advancedProgrammngMilestone2/Searcher.h
+ /home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h
 CMakeFiles/advancedProgrammingMilestone2.dir/MatrixGraph.cpp.o
  /home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.h
  /home/amit/CLionProjects/advancedProgrammngMilestone2/Matrix.h
@@ -73,6 +80,7 @@ CMakeFiles/advancedProgrammingMilestone2.dir/VertexAdapter.cpp.o
 CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.o
  /home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.h
  /home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.h
+ /home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.h
  /home/amit/CLionProjects/advancedProgrammngMilestone2/GraphSearcher.h
  /home/amit/CLionProjects/advancedProgrammngMilestone2/Matrix.h
  /home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixGraph.h

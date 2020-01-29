@@ -5,21 +5,24 @@
 #ifndef EX4__VERTEXFACTORY_H_
 #define EX4__VERTEXFACTORY_H_
 
-#include <list>
+#include <stdlib.h>
 
 #include "Vertex.h"
 
-using namespace std;
-
 class VertexFactory {
  protected:
-  list<Vertex>* instances;
+  Vertex** _instances;
+  int _amount;
 
   int getIndex(const Vertex &v) {return v._index;}
 
+  VertexFactory() {
+    this->_instances = (Vertex**) malloc(0);
+    this->_amount = 0;
+  }
+
  public:
-  VertexFactory() : instances(new list<Vertex>) {}
-  virtual const Vertex& create(int index) = 0;
+  virtual const Vertex* create(int index) = 0;
 };
 
 #endif //EX4__VERTEXFACTORY_H_

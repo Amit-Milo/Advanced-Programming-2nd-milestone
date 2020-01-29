@@ -6,7 +6,7 @@
 
 
 const MatrixVertex& MatrixVertexCreator::create(int i, int j, int rowLength)  {
-  return this->_factory.create(i * rowLength + j);
+  return *(this->_factory.create(i * rowLength + j));
 }
 
 

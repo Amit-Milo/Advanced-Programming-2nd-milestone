@@ -10,7 +10,8 @@
 
 class MatrixVertexFactory : public VertexFactory{
  public:
-  virtual const MatrixVertex& create(int index);
+  MatrixVertexFactory() : VertexFactory() {}
+  virtual const MatrixVertex* create(int index);
 };
 
 #endif //EX4__MATRIXVERTEXFACTORY_H_

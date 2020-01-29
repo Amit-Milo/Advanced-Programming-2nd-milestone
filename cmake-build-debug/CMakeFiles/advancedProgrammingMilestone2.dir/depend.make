@@ -11,6 +11,13 @@ CMakeFiles/advancedProgrammingMilestone2.dir/BFS.cpp.o: ../Vertex.h
 CMakeFiles/advancedProgrammingMilestone2.dir/Cost.cpp.o: ../Cost.cpp
 CMakeFiles/advancedProgrammingMilestone2.dir/Cost.cpp.o: ../Cost.h
 
+CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o: ../DFS.cpp
+CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o: ../DFS.h
+CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o: ../GraphSearcher.h
+CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o: ../Searchable.h
+CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o: ../Searcher.h
+CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o: ../Vertex.h
+
 CMakeFiles/advancedProgrammingMilestone2.dir/MatrixGraph.cpp.o: ../Cost.h
 CMakeFiles/advancedProgrammingMilestone2.dir/MatrixGraph.cpp.o: ../Matrix.h
 CMakeFiles/advancedProgrammingMilestone2.dir/MatrixGraph.cpp.o: ../MatrixGraph.cpp
@@ -72,6 +79,7 @@ CMakeFiles/advancedProgrammingMilestone2.dir/VertexAdapter.cpp.o: ../VertexAdapt
 
 CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.o: ../BFS.h
 CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.o: ../Cost.h
+CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.o: ../DFS.h
 CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.o: ../GraphSearcher.h
 CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.o: ../Matrix.h
 CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.o: ../MatrixGraph.h

@@ -35,12 +35,12 @@ void VertexAdapter::SetParent(VertexAdapter &parent) {
 
   delete this->_pathLength;
 
-  this->_pathLength = new Cost(this->GetCost()->GetValue() + parent.GetPathLength());
+  this->_pathLength = new Cost(this->GetCost()->GetValue() + parent.GetPathLength().GetValue());
 }
 
 
-int VertexAdapter::GetPathLength() {
-  return this->_pathLength->GetValue();
+Cost VertexAdapter::GetPathLength() {
+  return *this->_pathLength;
 }
 
 

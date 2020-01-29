@@ -177,6 +177,33 @@ Cost.cpp.s:
 	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Cost.cpp.s
 .PHONY : Cost.cpp.s
 
+DFS.o: DFS.cpp.o
+
+.PHONY : DFS.o
+
+# target to build an object file
+DFS.cpp.o:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o
+.PHONY : DFS.cpp.o
+
+DFS.i: DFS.cpp.i
+
+.PHONY : DFS.i
+
+# target to preprocess a source file
+DFS.cpp.i:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.i
+.PHONY : DFS.cpp.i
+
+DFS.s: DFS.cpp.s
+
+.PHONY : DFS.s
+
+# target to generate assembly for a file
+DFS.cpp.s:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.s
+.PHONY : DFS.cpp.s
+
 MatrixGraph.o: MatrixGraph.cpp.o
 
 .PHONY : MatrixGraph.o
@@ -489,6 +516,9 @@ help:
 	@echo "... Cost.o"
 	@echo "... Cost.i"
 	@echo "... Cost.s"
+	@echo "... DFS.o"
+	@echo "... DFS.i"
+	@echo "... DFS.s"
 	@echo "... MatrixGraph.o"
 	@echo "... MatrixGraph.i"
 	@echo "... MatrixGraph.s"

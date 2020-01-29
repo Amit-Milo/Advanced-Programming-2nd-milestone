@@ -7,7 +7,7 @@
 list<Vertex>* BFS::search(Searchable &graph) const {
   queue<Vertex> _structure;
 
-  auto *vertices = new list<Vertex>;
+  auto vertices = new list<Vertex>;
 
   _structure.push(*graph.GetStart());
   graph.Visit(*graph.GetStart());
@@ -16,24 +16,24 @@ list<Vertex>* BFS::search(Searchable &graph) const {
     const Vertex &v = _structure.front();
     _structure.pop();
 
-    auto neighbors = graph.GetNeighbors(v);
-    auto it = neighbors->begin();
+      auto neighbors = graph.GetNeighbors(v);
+      auto it = neighbors->begin();
 
-    while (it != neighbors->end()) {
-      if (!graph.IsVisited(*it)) {
-        graph.Visit(*it);
-        graph.UpdateVertex(*it, v);
-        _structure.push(*it);
+      while (it != neighbors->end()) {
+        if (!graph.IsVisited(*it)) {
+          graph.Visit(*it);
+          graph.UpdateVertex(*it, v);
+          _structure.push(*it);
+        }
+
+        it++;
       }
-
-      it++;
-    }
   }
 
   const Vertex *temp = graph.GetEnd();
   const Vertex *start = graph.GetStart();
 
-  while (temp != start) {
+  while (*temp != *start) {
     vertices->push_front(*temp);
     temp = graph.GetParent(*temp);
   }

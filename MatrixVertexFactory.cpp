@@ -2,24 +2,21 @@
 // Created by amit on 23/01/2020.
 //
 
+#include <stdlib.h>
+
 #include "MatrixVertexFactory.h"
 
-using namespace std;
 
-
-const MatrixVertex & MatrixVertexFactory::create(int index)  {
-  auto it = this->instances->begin();
-  auto end = this->instances->end();
-  size_t size = this->instances->size();
-
-  if (size > 0) {
-    for (; it != end && this->getIndex(*it) != index; ++it);
-
-    if (it != end) return static_cast<const MatrixVertex &>(*it);
+const MatrixVertex * MatrixVertexFactory::create(int index)  {
+  /*for (int i = 0; i < this->_amount; ++i) {
+    if (this->getIndex(*this->_instances[i]) == index)
+      return (MatrixVertex*) this->_instances[i];
   }
+  this->_instances = (Vertex **) realloc(this->_instances, sizeof(MatrixVertex *) * (++this->_amount));
 
-  this->instances->push_front(MatrixVertex(index));
+  this->_instances[this->_amount - 1] = new MatrixVertex(index);
 
-  --it;
-  return static_cast<const MatrixVertex &>(*it);
+  return (MatrixVertex*) this->_instances[this->_amount - 1];*/ //todo
+
+  return new MatrixVertex(index);
 }

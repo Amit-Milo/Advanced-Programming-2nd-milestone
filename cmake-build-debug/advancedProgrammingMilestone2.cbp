@@ -102,6 +102,12 @@
 		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.h">
 			<Option target="advancedProgrammingMilestone2"/>
 		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
 		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/GraphSearcher.h">
 			<Option target="advancedProgrammingMilestone2"/>
 		</Unit>

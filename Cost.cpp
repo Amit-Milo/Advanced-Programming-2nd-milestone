@@ -40,3 +40,12 @@ bool operator<=(const Cost &first, const Cost &second) {
 bool operator<(const Cost &first, const Cost &second) {
   return first <= second && first != second;
 }
+
+
+Cost operator+(const Cost &first, int second) {
+  return Cost(first.GetValue() + second);
+}
+
+Cost operator+(int &first, const Cost &second) {
+  return second + first;
+}

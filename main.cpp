@@ -10,11 +10,14 @@
 #include "Point.h"
 #include <list>
 #include <queue>
+#include <stack>
+#include "DFS.h"
 
 int main() {
   queue<int> q;
   BFS b;
-  MatrixGraphSearcher m = MatrixGraphSearcher(&b);
+  DFS d;
+  MatrixGraphSearcher m = MatrixGraphSearcher(&d);
 
   int **arr = new int*[3];
 
