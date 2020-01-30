@@ -5,7 +5,7 @@
 #include "StringReverser.h"
 
 
-string StringReverser::solve(const string &p) const {
+string StringReverser::solve(string p) {
   string result;
 
   int length = p.length();

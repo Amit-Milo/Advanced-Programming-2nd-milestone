@@ -22,6 +22,12 @@ class ClientHandler {
    * @param client_socket the client to handle
    */
   virtual void handleClient(int client_socket) = 0;
+
+  /**
+   * clone the client handler
+   * @return a pointer to a cloned client handler.
+   */
+  virtual ClientHandler *clone() = 0;
 };
 
 }

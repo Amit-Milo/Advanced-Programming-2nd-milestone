@@ -105,6 +105,42 @@ const Vertex *MatrixGraph::GetParent(const Vertex &v) const {
   return this->_mat.Get(i, j)->GetParent();
 }
 
+
+Cost MatrixGraph::distance(const Vertex &src, const Vertex &dst) const {
+  int srcIndex = src.GetIndex();
+  int srcI = srcIndex / this->_mat.GetRows();
+  int srcJ = srcIndex % this->_mat.GetColumns();
+
+  int dstIndex = dst.GetIndex();
+  int dstI = dstIndex / this->_mat.GetRows();
+  int dstJ = dstIndex % this->_mat.GetColumns();
+
+  return Cost(abs(dstI - srcI) + abs(dstJ - srcJ));
+}
+
+
+Cost MatrixGraph::currentPathLength(const Vertex &v) const {
+  int index = v.GetIndex();
+  int i = index / this->_mat.GetRows();
+  int j = index % this->_mat.GetColumns();
+
+  return this->_mat.Get(i, j)->GetPathLength();
+}
+
+
+Cost MatrixGraph::GetCost(const Vertex &v) const {
+  int index = v.GetIndex();
+  int i = index / this->_mat.GetRows();
+  int j = index % this->_mat.GetColumns();
+
+  return *this->_mat.Get(i, j)->GetCost();
+}
+
+
+int MatrixGraph::GetRows() const {
+  return this->_mat.GetRows();
+}
+
 //TODO
 size_t MatrixGraph::hash() {
   size_t result=0;

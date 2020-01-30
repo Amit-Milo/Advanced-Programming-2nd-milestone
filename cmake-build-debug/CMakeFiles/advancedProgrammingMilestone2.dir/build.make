@@ -239,6 +239,45 @@ CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.cpp -o CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.s
 
+CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.o: CMakeFiles/advancedProgrammingMilestone2.dir/flags.make
+CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.o: ../AStar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.o -c /home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.cpp
+
+CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.cpp > CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.i
+
+CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.cpp -o CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.s
+
+CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.o: CMakeFiles/advancedProgrammingMilestone2.dir/flags.make
+CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.o: ../BestFirstSearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.o -c /home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.cpp
+
+CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.cpp > CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.i
+
+CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.cpp -o CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.s
+
+CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.o: CMakeFiles/advancedProgrammingMilestone2.dir/flags.make
+CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.o: ../MatrixShortestPathSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.o -c /home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.cpp
+
+CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.cpp > CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.i
+
+CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.cpp -o CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.s
+
 # Object files for target advancedProgrammingMilestone2
 advancedProgrammingMilestone2_OBJECTS = \
 "CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.o" \
@@ -254,7 +293,10 @@ advancedProgrammingMilestone2_OBJECTS = \
 "CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertexCreator.cpp.o" \
 "CMakeFiles/advancedProgrammingMilestone2.dir/Vertex.cpp.o" \
 "CMakeFiles/advancedProgrammingMilestone2.dir/BFS.cpp.o" \
-"CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o"
+"CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o" \
+"CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.o" \
+"CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.o" \
+"CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.o"
 
 # External object files for target advancedProgrammingMilestone2
 advancedProgrammingMilestone2_EXTERNAL_OBJECTS =
@@ -273,9 +315,12 @@ advancedProgrammingMilestone2: CMakeFiles/advancedProgrammingMilestone2.dir/Matr
 advancedProgrammingMilestone2: CMakeFiles/advancedProgrammingMilestone2.dir/Vertex.cpp.o
 advancedProgrammingMilestone2: CMakeFiles/advancedProgrammingMilestone2.dir/BFS.cpp.o
 advancedProgrammingMilestone2: CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o
+advancedProgrammingMilestone2: CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.o
+advancedProgrammingMilestone2: CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.o
+advancedProgrammingMilestone2: CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.o
 advancedProgrammingMilestone2: CMakeFiles/advancedProgrammingMilestone2.dir/build.make
 advancedProgrammingMilestone2: CMakeFiles/advancedProgrammingMilestone2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable advancedProgrammingMilestone2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable advancedProgrammingMilestone2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/advancedProgrammingMilestone2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -32,6 +32,8 @@ class Cost {
   friend Cost operator+(const Cost &first, int second);
 
   friend Cost operator+(int first, const Cost &second);
+
+  friend Cost operator+(const Cost &first, const Cost &second);
 };
 
 #endif //EX4__COST_H_

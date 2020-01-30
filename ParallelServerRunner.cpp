@@ -27,6 +27,9 @@ void ParallelServerRunner::RunServer(ServerSocket *s, server_side::ClientHandler
   //server closes only after it has finished handling all the client.
   std::vector<std::thread> threads;
 
+  //save a vector of all the cloned client handlers to be able to delete it at the end.
+  std::vector<server_side::ClientHandler *> client_handlers;
+
   //accept client
   printf("want to accept client\n");
   while (true) {
@@ -40,11 +43,14 @@ void ParallelServerRunner::RunServer(ServerSocket *s, server_side::ClientHandler
 
     printf("connected to client!\n");
 
+    server_side::ClientHandler *client_handler_copy = client_handler->clone();
+
     //handle the client in a new thread
     threads.emplace_back(std::thread(&server_side::ClientHandler::handleClient,
-                                     client_handler,
+                                     client_handler_copy,
                                      client_socket));
     threads.back().detach();
+    client_handlers.emplace_back(client_handler_copy);
 
     //printf("disconnected from client!\n");
   }
@@ -54,6 +60,11 @@ void ParallelServerRunner::RunServer(ServerSocket *s, server_side::ClientHandler
     // if thread is joinable then join.
     if (th.joinable())
       th.join();
+  }
+
+  //and delete the client handler clones
+  for (server_side::ClientHandler *c : client_handlers) {
+    delete c;
   }
 
   //and close the time counting thread:

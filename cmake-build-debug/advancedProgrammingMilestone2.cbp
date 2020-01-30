@@ -84,10 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
 		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.cpp">
 			<Option target="advancedProgrammingMilestone2"/>
 		</Unit>
 		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.h">
 			<Option target="advancedProgrammingMilestone2"/>
 		</Unit>
 		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/CacheManager.h">
@@ -121,6 +133,12 @@
 			<Option target="advancedProgrammingMilestone2"/>
 		</Unit>
 		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixGraphSearcher.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.h">
 			<Option target="advancedProgrammingMilestone2"/>
 		</Unit>
 		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertex.cpp">

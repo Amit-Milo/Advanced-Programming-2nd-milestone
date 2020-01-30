@@ -23,6 +23,11 @@ class MyTestClientHandler : public ClientHandlerAbs<string> {
    * @return the data from the client
    */
   string readFromClient(int client_socket, char *buffer) override;
+
+  ClientHandler *clone() override {
+    return new MyTestClientHandler(this->cache_manager->clone(),
+                                   this->solver->clone(), this->input_to_problem->clone());
+  }
 };
 
 #endif //EX4__MYTESTCLIENTHANDLER_H_

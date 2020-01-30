@@ -24,5 +24,10 @@ class MyClientHandler : public ClientHandlerAbs<MatrixGraph> {
    * @return the data from the client
    */
   string readFromClient(int client_socket, char *buffer) override;
+
+  ClientHandler *clone() override {
+    return new MyClientHandler(this->cache_manager->clone(),
+                                          this->solver->clone(), this->input_to_problem->clone());
+  }
 };
 #endif //EX4__MYCLIENTHANDLER_H_

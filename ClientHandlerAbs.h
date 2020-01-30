@@ -71,6 +71,8 @@ class ClientHandlerAbs : public server_side::ClientHandler {
    * @return the whole data from teh client
    */
   virtual string readFromClient(int client_socket, char *buffer) = 0;
+
+
 };
 
 #endif //EX4__CLIENTHANDLERABS_H_

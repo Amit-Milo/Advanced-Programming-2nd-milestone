@@ -7,6 +7,7 @@
 
 #include <list>
 
+#include "Cost.h"
 #include "Vertex.h"
 
 using namespace std;
@@ -64,6 +65,14 @@ class Searchable {
    * @return the parent.
    */
   virtual const Vertex* GetParent(const Vertex &v) const = 0;
+
+
+  virtual Cost distance(const Vertex &src, const Vertex &dst) const = 0;
+
+
+  virtual Cost currentPathLength(const Vertex &v) const = 0;
+
+  virtual Cost GetCost(const Vertex &v) const = 0;
 };
 
 #endif //EX4__SEARCHABLE_H_

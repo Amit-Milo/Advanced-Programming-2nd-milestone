@@ -22,7 +22,7 @@ class StringReverser : public Solver<string, string> {
    * @param p a problem to solve. A string to reverse.
    * @return A solution to the problem. The reversed string.
    */
-  string solve(const string &p) const;
+  string solve(string p);
 };
 
 #endif //EX4__STRINGREVERSER_H_

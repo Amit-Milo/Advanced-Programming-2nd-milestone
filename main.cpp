@@ -7,6 +7,10 @@
 #include "ClientInputToStringConverter.h"
 #include "MyClientHandler.h"
 #include "FileMatrixCacheManager.h"
+#include "MatrixGraphSearcher.h"
+#include "BestFirstSearch.h"
+#include "MatrixShortestPathSolver.h"
+#include "ClientInputToMatrixConverter.h"
 
 //TODO remove couts and printfs
 
@@ -21,16 +25,23 @@ int main(int argc, char *argv[]) {
   //MySerialServer serialServer;
   MyParallelServer parallel_server;
 
+  BestFirstSearch bf;
+  MatrixGraphSearcher m(&bf);
+  MatrixShortestPathSolver msps(m);
+
 
   //init a client handler with a cache manager that has a problems solver.
-  //TODO for running, doesnt compile on purpose. should have the solve that uses a searcher.
-  x =;
   MyClientHandler *clientHandler =
-      new MyClientHandler(new FileMatrixCacheManager(),);
+      new MyClientHandler(new FileMatrixCacheManager(),
+                          (&msps), new ClientInputToMatrixConverter());
+
+  //reinterpret_cast<Solver<struct MatrixGraph, std::__cxx11::string> *>
 
   parallel_server.start(port_number, clientHandler);
 
   parallel_server.stop();
+
+  delete clientHandler;
 
   return 0;
 }

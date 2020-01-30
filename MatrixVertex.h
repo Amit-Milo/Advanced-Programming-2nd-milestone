@@ -10,7 +10,6 @@
 
 
 class MatrixVertex : public Vertex{
-  ///friend NextStep; // TODO set excat return type and args.
   friend class MatrixVertexFactory;
 
   /**

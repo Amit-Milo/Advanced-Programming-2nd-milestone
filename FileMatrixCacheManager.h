@@ -13,7 +13,7 @@
 /**
  * handles a file cache memory for matrix graph.
  */
-class FileMatrixCacheManager : FileCacheManager<MatrixGraph>{
+class FileMatrixCacheManager : public FileCacheManager<MatrixGraph>{
  public:
   FileMatrixCacheManager();
 };
