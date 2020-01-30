@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/yoav/CLionProjects/cpp/ex4/AStar.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/AStar.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/BFS.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/BFS.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/BestFirstSearch.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/ClientInputToMatrixConverter.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/ClientInputToStringConverter.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/Cost.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Cost.cpp.o"
@@ -12,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yoav/CLionProjects/cpp/ex4/FileMatrixCacheManager.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/FileStringCacheManager.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/MatrixGraph.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MatrixGraph.cpp.o"
+  "/home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/MatrixToFileNameConverter.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/MatrixVertex.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MatrixVertex.cpp.o"
   "/home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.cpp" "/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o"

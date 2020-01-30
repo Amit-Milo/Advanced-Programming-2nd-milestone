@@ -14,8 +14,15 @@ MyTestClientHandler::MyTestClientHandler(CacheManager<string> *cache_manager,
     solver,
     input_to_problem) {}
 
+string MyTestClientHandler::readFromClient(int client_socket) {
+  cout << "starting to read for client:" << client_socket << endl;
+  // A buffer for reading data sent from the client.
+  char buffer[BUFFER_SIZE];
+  //need to init all the chars because for some reason it keeps the chars from prev client
+  for (int i = 0; i < BUFFER_SIZE; i++) {
+    buffer[i] = 0;
+  }
 
-string MyTestClientHandler::readFromClient(int client_socket, char *buffer) {
   string clientInput;
   int dataSize;
   while (true) {

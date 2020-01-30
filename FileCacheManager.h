@@ -26,42 +26,34 @@ class FileCacheManager : public CacheManager<T> {
     delete converter;
   }
 
-  void Save(T obj, Solver<T, string> *solver) override {
+  void Save(T obj, string solution) override {
     cout << "saving obj to file" << endl;
     string new_file_name = converter->Convert(obj);
-    ofstream solution_file;
-    solution_file.open(new_file_name.c_str());
+    ofstream solution_file(new_file_name.c_str());
     if (solution_file.is_open()) {
-      string solution = solver->solve(obj);
-      cout << "solved the problem, solution: " << solution << endl;
+      cout << new_file_name << endl;
       solution_file << solution;
+      solution_file.close();
     } else {
       throw "could not open file";
     }
-    solution_file.close();
   }
 
   bool IsAlreadySolved(T obj) override {
-    cout << "checking the files if already solved...." << endl;
+    cout << "checking the files if already solved...."<<converter->Convert(obj) << endl;
     //check if the file already exists
     ifstream saved_file(converter->Convert(obj));
     if (saved_file.is_open()) {
+      saved_file.close();
       return true;
     }
-    cout << "not in files. need to calculate" << endl;
+    cout << "not in files." << endl;
     //else, we know that the file does not exist. so we should return false, as it was not solved yet.
     return false;
   }
 
-  string Solution(T problem, Solver<T, string> *solver) override {
-    cout << "want to return solution" << endl;
-    if (IsAlreadySolved(problem)) {
-      cout << "already have a solution" << endl;
-      return WholeFileContent(converter->Convert(problem));
-    }
-    //else, calculate the solution
-    cout << "need to calculate the solution" << endl;
-    Save(problem, solver);
+  string Solution(T problem) override {
+    cout<<"return file content"<<endl;
     return WholeFileContent(converter->Convert(problem));
   }
 
@@ -70,8 +62,7 @@ class FileCacheManager : public CacheManager<T> {
    * @return the whole file content
    */
   string WholeFileContent(string file_name) {
-    ifstream file;
-    file.open(file_name);
+    ifstream file(file_name);
     if (!file.is_open()) {
       throw "could not open the file";
     }
@@ -84,6 +75,7 @@ class FileCacheManager : public CacheManager<T> {
     }
     return line;
   }
+
 };
 
 #endif //EX4__FILECACHEMANAGER_H_

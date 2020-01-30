@@ -16,6 +16,7 @@
 class FileMatrixCacheManager : public FileCacheManager<MatrixGraph>{
  public:
   FileMatrixCacheManager();
+  CacheManager<MatrixGraph> *clone() override;
 };
 
 #endif //EX4__FILEMATRIXCACHEMANAGER_H_

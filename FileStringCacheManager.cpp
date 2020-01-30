@@ -7,3 +7,6 @@
 FileStringCacheManager::FileStringCacheManager() {
   converter = new StringToFileNameConverter();
 }
+CacheManager<string> *FileStringCacheManager::clone() {
+  return new FileStringCacheManager();
+}

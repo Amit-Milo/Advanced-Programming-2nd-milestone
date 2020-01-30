@@ -48,6 +48,8 @@ class ClientInputToMatrixConverter : public ClientInputToProblemConverter<Matrix
   pair<Point, Point> getStartAndEndPoints(string s, int matrixRows);
  public:
   MatrixGraph convertToProblem(string clientInput) override;
+
+  ClientInputToProblemConverter<MatrixGraph> *clone() override;
 };
 
 #endif //EX4__CLIENTINPUTTOMATRIXCONVERTER_H_

@@ -8,12 +8,14 @@
 #include "Solver.h"
 #include <string>
 #include <cstring>
+#include <iostream>
 #include "CacheManager.h"
 #include "ClientHandler.h"
 #include "ClientInputToProblemConverter.h"
 
 #define BUFFER_SIZE 1024
 
+using namespace std;
 /**
  * this is an abstract class that implements the client handler interface's method using
  * the design pattern "template method" - it sets the skeleton of the client data reading,
@@ -39,24 +41,29 @@ class ClientHandlerAbs : public server_side::ClientHandler {
       : cache_manager(cache_manager), solver(solver), input_to_problem(input_to_problem) {}
 
   void handleClient(int client_socket) override {
-    // A buffer for reading data sent from the client.
-    char buffer[BUFFER_SIZE];
-    //need to init all the chars because for some reason it keeps the chars from prev client
-    for (int i = 0; i < BUFFER_SIZE; i++) {
-      buffer[i] = 0;
-    }
+
 
     // Receive the amount of data sent by the simulator.
     int dataSize;
 
     // the total string from the client
-    string clientInput = readFromClient(client_socket, buffer);
+    string clientInput = readFromClient(client_socket);
 
     printf("final message from client: %s\n", clientInput.c_str());
 
     T problem = input_to_problem->convertToProblem(clientInput);
 
-    string solution = cache_manager->Solution(problem, solver);
+    string solution;
+    cout << "checking for solution: client number is " << client_socket << endl;
+    if (cache_manager->IsAlreadySolved(problem)) {
+      cout << "was already solved: client number is " << client_socket << endl;
+      solution = cache_manager->Solution(problem);
+    } else {
+      cout << "was not already solved: client number is " << client_socket << endl;
+      solution = solver->solve(problem);
+      cout << "solution for client " << client_socket << " , is: " << solution << endl;
+      cache_manager->Save(problem, solution);
+    }
 
     printf("the solution: %s \n", solution.c_str());
     send(client_socket, solution.c_str(), strlen(solution.c_str()), 0);
@@ -70,8 +77,7 @@ class ClientHandlerAbs : public server_side::ClientHandler {
    * @param buffer a buffer to read data to
    * @return the whole data from teh client
    */
-  virtual string readFromClient(int client_socket, char *buffer) = 0;
-
+  virtual string readFromClient(int client_socket) = 0;
 
 };
 

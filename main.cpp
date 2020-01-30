@@ -13,7 +13,7 @@
 #include "ClientInputToMatrixConverter.h"
 
 //TODO remove couts and printfs
-
+#include "BFS.h"
 
 int main(int argc, char *argv[]) {
   int port_number;
@@ -26,6 +26,7 @@ int main(int argc, char *argv[]) {
   MyParallelServer parallel_server;
 
   BestFirstSearch bf;
+  BFS b;
   MatrixGraphSearcher m(&bf);
   MatrixShortestPathSolver msps(m);
 
@@ -44,4 +45,35 @@ int main(int argc, char *argv[]) {
   delete clientHandler;
 
   return 0;
+  /*///queue<int> q;
+  ///BFS b;
+  ///DFS d;
+  ///AStar a;
+  BestFirstSearch bf;
+  MatrixGraphSearcher m = MatrixGraphSearcher(&bf);
+
+  int **arr = new int*[3];
+
+  for (int i = 0; i < 3; i++)
+    arr[i] = new int[3];
+
+  for (int i = 0; i < 3; i++)
+    for(int j = 0; j < 3; j++)
+      if (i == 0)
+        arr[i][j] = 3;
+      else if (i == 1)
+        arr[i][j] = 2;
+      else
+        arr[i][j] = 1;
+
+  Matrix<int> mat = Matrix<int>(arr, 3, 3);
+
+  MatrixGraph graph = MatrixGraph(mat, Point(0, 0), Point(2, 2));
+
+  MatrixShortestPathSolver msps = MatrixShortestPathSolver(m);
+  string s = msps.solve(graph);
+  ///list<Vertex> *l = m.search(graph);
+  cout << s <<endl;
+
+  return 0;*/
 }

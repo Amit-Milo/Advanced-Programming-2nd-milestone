@@ -7,6 +7,7 @@
 
 #include <list>
 
+#include "Cost.h"
 #include "GraphSearcher.h"
 #include "Vertex.h"
 
@@ -17,7 +18,11 @@ class AStar : public GraphSearcher{
    * @param graph the graph to search in.
    * @return a list of vertexes which make a shortest path in the graph.
    */
-  virtual list<Vertex>* search(Searchable& graph) const;
+  virtual list<pair<Vertex, Cost>> * search(Searchable& graph) const;
+
+  virtual GraphSearcher * clone() const {
+    return new AStar;
+  }
 };
 
 #endif //ADVANCEDPROGRAMMINGMILESTONE2__ASTAR_H_

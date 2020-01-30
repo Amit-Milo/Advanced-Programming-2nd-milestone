@@ -6,3 +6,6 @@
 string ClientInputToStringConverter::convertToProblem(string clientInput) {
   return clientInput;
 }
+ClientInputToProblemConverter<string> *ClientInputToStringConverter::clone() {
+  return new ClientInputToStringConverter();
+}

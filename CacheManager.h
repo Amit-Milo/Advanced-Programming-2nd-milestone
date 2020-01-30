@@ -24,9 +24,9 @@ class CacheManager {
   /**
    * save the solution for the input object to memory using the solver.
    * @param obj the object to save to memory
-   * @param solver the solver that solves the problem that obj represents.
+   * @param solution the solution to write
    */
-  virtual void Save(T obj, Solver<T, string> *solver) = 0;
+  virtual void Save(T obj, string solution) = 0;
   /**
    * @param obj the object to check if we already have a solution to.
    * @return whether there is a solution already or not.
@@ -38,7 +38,12 @@ class CacheManager {
    * @param solver the solver of the problem
    * @return the solution to the problem
    */
-  virtual string Solution(T problem, Solver<T, string> *solver) = 0;
+  virtual string Solution(T problem) = 0;
+
+  /**
+   * clone the cache manager
+   */
+  virtual CacheManager *clone() = 0;
 };
 
 #endif //EX4__CACHEMANAGER_H_

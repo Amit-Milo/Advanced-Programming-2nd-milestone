@@ -19,6 +19,11 @@ class Solver {
    * @return A solution to the problem.
    */
   virtual Solution solve(Problem p) = 0;
+
+  /**
+   * clone the solver
+   */
+   virtual Solver<Problem,Solution> * clone()=0;
 };
 
 #endif //EX4__SOLVER_H_

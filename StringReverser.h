@@ -23,6 +23,8 @@ class StringReverser : public Solver<string, string> {
    * @return A solution to the problem. The reversed string.
    */
   string solve(string p);
+
+  Solver<string, string> *clone() override;
 };
 
 #endif //EX4__STRINGREVERSER_H_

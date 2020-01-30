@@ -16,7 +16,11 @@ class DFS : public GraphSearcher{
    * @param graph the graph to search in.
    * @return a list of vertexes which make a shortest path in the graph.
    */
-  virtual list<Vertex>* search(Searchable& graph) const;
+  virtual list<pair<Vertex, Cost>> * search(Searchable& graph) const;
+
+  virtual GraphSearcher * clone() const {
+    return new DFS;
+  }
 };
 
 #endif //ADVANCEDPROGRAMMINGMILESTONE2__DFS_H_

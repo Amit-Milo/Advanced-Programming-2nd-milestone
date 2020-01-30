@@ -84,10 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/AStar.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/AStar.h">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BFS.cpp">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BFS.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.h">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManager.h">
@@ -154,6 +166,12 @@
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixGraphSearcher.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.h">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixToFileNameConverter.cpp">

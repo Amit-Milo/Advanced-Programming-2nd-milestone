@@ -13,19 +13,22 @@
 #include "MatrixGraphSearcher.h"
 #include "Solver.h"
 
-class MatrixShortestPathSolver : public Solver<MatrixGraph, list<string>> {
+class MatrixShortestPathSolver : public Solver<MatrixGraph, string> {
   MatrixGraphSearcher _searcher;
 
  public:
-  MatrixShortestPathSolver(MatrixGraphSearcher searcher) :_searcher(std::move(searcher)) {}
-
+  MatrixShortestPathSolver(MatrixGraphSearcher searcher) : _searcher(std::move(searcher)) {}
 
   /**
    * Solve a problem.
    * @param p a problem to solve.
    * @return A solution to the problem.
    */
-  virtual list<string> solve(MatrixGraph graph);
+  virtual string solve(MatrixGraph graph);
+
+  Solver<MatrixGraph, string> *clone() override {
+    return new MatrixShortestPathSolver(*_searcher.clone());
+  }
 };
 
 #endif //ADVANCEDPROGRAMMINGMILESTONE2__MATRIXSHORTESTPATHSOLVER_H_

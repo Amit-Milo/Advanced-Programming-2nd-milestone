@@ -19,6 +19,12 @@ class ClientInputToProblemConverter {
    * @return the data converted to a problem
    */
   virtual Problem convertToProblem(string clientInput) = 0;
+
+  /**
+   * clone the converter
+   * @return
+   */
+  virtual ClientInputToProblemConverter *clone() = 0;
 };
 
 #endif //EX4__CLIENTINPUTTOPROBLEMCONVERTER_H_

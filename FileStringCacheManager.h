@@ -17,6 +17,7 @@ using namespace std;
 class FileStringCacheManager : public FileCacheManager<string> {
  public:
   FileStringCacheManager();
+  CacheManager<string> *clone() override;
 };
 
 #endif //EX4__FILESTRINGCACHEMANAGER_H_

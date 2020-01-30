@@ -6,7 +6,7 @@
 #define EX4__SERVERRUNNER_H_
 
 //TODO change to 120
-#define TIME_OUT_SECONDS 15
+#define TIME_OUT_SECONDS 15000
 
 #include "ServerSocket.h"
 #include "ClientHandler.h"

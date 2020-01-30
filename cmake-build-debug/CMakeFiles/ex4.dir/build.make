@@ -382,6 +382,45 @@ CMakeFiles/ex4.dir/DFS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/DFS.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/DFS.cpp -o CMakeFiles/ex4.dir/DFS.cpp.s
 
+CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../BestFirstSearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ex4.dir/BestFirstSearch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/BestFirstSearch.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.cpp
+
+CMakeFiles/ex4.dir/BestFirstSearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/BestFirstSearch.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.cpp > CMakeFiles/ex4.dir/BestFirstSearch.cpp.i
+
+CMakeFiles/ex4.dir/BestFirstSearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/BestFirstSearch.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.cpp -o CMakeFiles/ex4.dir/BestFirstSearch.cpp.s
+
+CMakeFiles/ex4.dir/AStar.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/AStar.cpp.o: ../AStar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ex4.dir/AStar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/AStar.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/AStar.cpp
+
+CMakeFiles/ex4.dir/AStar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/AStar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/AStar.cpp > CMakeFiles/ex4.dir/AStar.cpp.i
+
+CMakeFiles/ex4.dir/AStar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/AStar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/AStar.cpp -o CMakeFiles/ex4.dir/AStar.cpp.s
+
+CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.o: ../MatrixShortestPathSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.cpp
+
+CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.cpp > CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.i
+
+CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.cpp -o CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.s
+
 # Object files for target ex4
 ex4_OBJECTS = \
 "CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.o" \
@@ -408,7 +447,10 @@ ex4_OBJECTS = \
 "CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o" \
 "CMakeFiles/ex4.dir/Vertex.cpp.o" \
 "CMakeFiles/ex4.dir/BFS.cpp.o" \
-"CMakeFiles/ex4.dir/DFS.cpp.o"
+"CMakeFiles/ex4.dir/DFS.cpp.o" \
+"CMakeFiles/ex4.dir/BestFirstSearch.cpp.o" \
+"CMakeFiles/ex4.dir/AStar.cpp.o" \
+"CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.o"
 
 # External object files for target ex4
 ex4_EXTERNAL_OBJECTS =
@@ -438,9 +480,12 @@ ex4: CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o
 ex4: CMakeFiles/ex4.dir/Vertex.cpp.o
 ex4: CMakeFiles/ex4.dir/BFS.cpp.o
 ex4: CMakeFiles/ex4.dir/DFS.cpp.o
+ex4: CMakeFiles/ex4.dir/BestFirstSearch.cpp.o
+ex4: CMakeFiles/ex4.dir/AStar.cpp.o
+ex4: CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.o
 ex4: CMakeFiles/ex4.dir/build.make
 ex4: CMakeFiles/ex4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable ex4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable ex4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

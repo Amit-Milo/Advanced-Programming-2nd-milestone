@@ -13,6 +13,7 @@ bool operator==(const Vertex &first, const Vertex &second) {
 bool operator!=(const Vertex &first, const Vertex &second) {
   return !(first == second);
 }
+
 size_t Vertex::hash() const {
   return std::hash<int>{}(_index);
 }

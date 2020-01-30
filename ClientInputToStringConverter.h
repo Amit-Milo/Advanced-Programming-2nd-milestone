@@ -12,6 +12,9 @@ using namespace std;
 
 class ClientInputToStringConverter : public ClientInputToProblemConverter<string>{
   string convertToProblem(string clientInput) override;
+
+ public:
+  ClientInputToProblemConverter<string> *clone() override;
 };
 
 #endif //EX4__CLIENTINPUTTOSTRINGCONVERTER_H_

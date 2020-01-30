@@ -18,3 +18,6 @@ string StringReverser::solve(string p) {
 
   return result;
 }
+Solver<string, string> *StringReverser::clone() {
+  return new StringReverser();
+}

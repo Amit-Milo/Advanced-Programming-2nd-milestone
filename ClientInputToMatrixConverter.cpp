@@ -11,6 +11,7 @@
  * rows
  * columns
  */
+#include <iostream>
 
 MatrixGraph ClientInputToMatrixConverter::convertToProblem(string clientInput) {
   int totalLines = numberOfTotalLines(clientInput);
@@ -20,6 +21,7 @@ MatrixGraph ClientInputToMatrixConverter::convertToProblem(string clientInput) {
   int **matrixTable = getMatrixTable(matrixLines, rows, columns);
   //now we have rows, columns;
   Matrix<int> matrix(matrixTable, rows, columns);
+  cout << "test test:" << matrixTable[5][3] << endl;
   Point start = getStartAndEndPoints(clientInput, rows).first;
   Point end = getStartAndEndPoints(clientInput, rows).second;
   //get the final result:
@@ -68,6 +70,7 @@ string *ClientInputToMatrixConverter::getMatrixLines(string s, int rows) {
   while (rowsCount < rows) {
     int lineEnd = s.find("\n", i);
     lines[rowsCount] = s.substr(i, lineEnd - i);
+    cout << "line:" << lines[rowsCount] << endl;
     i = lineEnd + 1;
     rowsCount++;
   }
@@ -84,14 +87,24 @@ int **ClientInputToMatrixConverter::getMatrixTable(string *lines, int rows, int 
   int curr = 0;
   //now create the matrix
   for (int i = 0; i < rows; i++) {
-    int nextStop = lines[i].find(',', curr);
-    matrixTable[i][j] = atoi(lines[i].substr(curr, nextStop - curr).c_str()); //assign the value
-    if (lines[i][nextStop] == ',') { //middle of line, increment j to the next value in this line
+
+    while (j < columns) {
+      int nextStop = lines[i].find(',', curr);
+      if (nextStop == -1) {
+        cout << "test1 enter: " << lines[i].substr(curr, rows - curr - 1).c_str() << endl;
+        matrixTable[i][j] = stoi(lines[i].substr(curr, rows - curr - 1)); //assign the value
+      } else {
+        cout << "test2 enter: " << lines[i].substr(curr, nextStop - curr).c_str() << endl;
+        matrixTable[i][j] = stoi(lines[i].substr(curr, nextStop - curr)); //assign the value
+      }
+
+      cout << "test123:   " << j << "," << columns << "," << lines[i].substr(curr, nextStop - curr).c_str() << ","
+           << matrixTable[i][j] << endl;
+      curr = nextStop + 1;
       j++;
-    } else { //end of line, increment i to next line and init j back to 0
-      j = 0;
     }
-    curr = nextStop + 1;
+    j = 0;
+
   }
   return matrixTable;
 }
@@ -118,5 +131,8 @@ pair<Point, Point> ClientInputToMatrixConverter::getStartAndEndPoints(string s, 
   Point start(startX, startY);
   Point end(endX, endY);
   return pair<Point, Point>(start, end);
+}
+ClientInputToProblemConverter<MatrixGraph> *ClientInputToMatrixConverter::clone() {
+  return new ClientInputToMatrixConverter();
 }
 

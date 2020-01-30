@@ -23,7 +23,7 @@ class MyClientHandler : public ClientHandlerAbs<MatrixGraph> {
    * @param buffer the buffer to read to
    * @return the data from the client
    */
-  string readFromClient(int client_socket, char *buffer) override;
+  string readFromClient(int client_socket) override;
 
   ClientHandler *clone() override {
     return new MyClientHandler(this->cache_manager->clone(),

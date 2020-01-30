@@ -7,7 +7,7 @@
 #include <vector>
 
 #include "BestFirstSearch.h"
-list<Vertex> * BestFirstSearch::search(Searchable &graph) const {
+list<pair<Vertex, Cost>> * BestFirstSearch::search(Searchable &graph) const {
   vector<Vertex> heap;
   unordered_map<int, Cost> f_function;
 
@@ -33,10 +33,6 @@ list<Vertex> * BestFirstSearch::search(Searchable &graph) const {
     });
     heap.pop_back();
 
-    if (head == end) {
-      break;
-    }
-
     graph.Visit(head);
 
     auto neighbors = graph.GetNeighbors(head);
@@ -45,37 +41,42 @@ list<Vertex> * BestFirstSearch::search(Searchable &graph) const {
     while (it != neighbors->end()) {
       Cost tentativeScore = graph.currentPathLength(head) + graph.GetCost(*it);
 
-      if (tentativeScore < graph.currentPathLength(*it)){
-        auto val = f_function.find(it->GetIndex());
-        if (val != f_function.end())
-          val->second = graph.GetCost(*it);
-        else
-          f_function.insert({it->GetIndex(), graph.GetCost(*it)});
-      }
-      graph.UpdateVertex(*it, head);
+      if (tentativeScore.GetValue() != -1)
+        int x = 1;
 
-      if (!graph.IsVisited(*it)) {
+      if (graph.IsVisited(*it) && tentativeScore < graph.currentPathLength(*it)) {
+        f_function.find(it->GetIndex())->second = graph.GetCost(*it);
         heap.push_back(*it);
         push_heap(heap.begin(), heap.end(), [f_function](const Vertex &first, const Vertex &second) {
           return f_function.at(first.GetIndex()) > f_function.at(second.GetIndex());
         });
       }
+      else if(tentativeScore < graph.currentPathLength(*it)) {
+        f_function.insert({it->GetIndex(), graph.GetCost(*it)});
+        heap.push_back(*it);
+        push_heap(heap.begin(), heap.end(), [f_function](const Vertex &first, const Vertex &second) {
+          return f_function.at(first.GetIndex()) > f_function.at(second.GetIndex());
+        });
+      }
+      graph.UpdateVertex(*it, head);
 
       ++it;
     }
   }
 
 
-  auto vertices = new list<Vertex>;
+  auto vertices = new list<pair<Vertex, Cost>>;
 
   const Vertex *temp = graph.GetEnd();
 
+  Cost c = NULL;
   while (*temp != start) {
-    vertices->push_front(*temp);
+    c = graph.currentPathLength(*temp);
+    vertices->push_front({*temp,graph.GetCost(*temp)});
     temp = graph.GetParent(*temp);
   }
 
-  vertices->push_front(start);
+  vertices->push_front({start, graph.GetCost(start)});
 
   return vertices;
 }
