@@ -31,7 +31,7 @@ string MyClientHandler::readFromClient(int client_socket) {
       break;
     }
 
-    cout << "got the information (client  " << client_socket << "): " << buffer << endl;
+    //cout << "got the information (client  " << client_socket << "): " << buffer << endl;
 
 
     //find if the client sent "end". the "end" should appear right after the last \n:

@@ -49,7 +49,7 @@ class ClientHandlerAbs : public server_side::ClientHandler {
     // the total string from the client
     string clientInput = readFromClient(client_socket);
 
-    printf("final message from client: %s\n", clientInput.c_str());
+    printf("final message from client: \n%s", clientInput.c_str());
 
     T problem = input_to_problem->convertToProblem(clientInput);
 

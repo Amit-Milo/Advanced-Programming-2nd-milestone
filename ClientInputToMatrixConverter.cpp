@@ -4,13 +4,6 @@
 
 #include "ClientInputToMatrixConverter.h"
 
-//gets Matrix<int>, point, point
-/*
- * Matrix<int>:
- * int**
- * rows
- * columns
- */
 #include <iostream>
 
 MatrixGraph ClientInputToMatrixConverter::convertToProblem(string clientInput) {
@@ -21,9 +14,19 @@ MatrixGraph ClientInputToMatrixConverter::convertToProblem(string clientInput) {
   int **matrixTable = getMatrixTable(matrixLines, rows, columns);
   //now we have rows, columns;
   Matrix<int> matrix(matrixTable, rows, columns);
-  cout << "test test:" << matrixTable[5][3] << endl;
+  /*
+  cout << "test whole matrix with * between numbers:" << endl;
+  for (int i = 0; i < rows; i++) {
+    for (int j = 0; j < columns; j++) {
+      cout << matrixTable[i][j] << "*";
+    }
+    cout << "\n";
+  }*/
   Point start = getStartAndEndPoints(clientInput, rows).first;
   Point end = getStartAndEndPoints(clientInput, rows).second;
+  /*
+  cout<<"test start point:"<<start.GetI()<<","<<start.GetJ()<<endl;
+  cout<<"test end point:"<<end.GetI()<<","<<end.GetJ()<<endl;*/
   //get the final result:
   MatrixGraph result(matrix, start, end);
   //now delete the pointers:
@@ -70,7 +73,7 @@ string *ClientInputToMatrixConverter::getMatrixLines(string s, int rows) {
   while (rowsCount < rows) {
     int lineEnd = s.find("\n", i);
     lines[rowsCount] = s.substr(i, lineEnd - i);
-    cout << "line:" << lines[rowsCount] << endl;
+    //cout << "line:" << lines[rowsCount] << endl;
     i = lineEnd + 1;
     rowsCount++;
   }
@@ -91,15 +94,13 @@ int **ClientInputToMatrixConverter::getMatrixTable(string *lines, int rows, int 
     while (j < columns) {
       int nextStop = lines[i].find(',', curr);
       if (nextStop == -1) {
-        cout << "test1 enter: " << lines[i].substr(curr, rows - curr - 1).c_str() << endl;
+        //cout << "test last in line, i,j,n: " << i << "," << j << "," << lines[i].substr(curr, rows - curr - 1).c_str()<< endl;
         matrixTable[i][j] = stoi(lines[i].substr(curr, rows - curr - 1)); //assign the value
       } else {
-        cout << "test2 enter: " << lines[i].substr(curr, nextStop - curr).c_str() << endl;
+        //cout << "test middle of line, i,j,n: " << i << "," << j << "," << lines[i].substr(curr, nextStop - curr).c_str()<< endl;
         matrixTable[i][j] = stoi(lines[i].substr(curr, nextStop - curr)); //assign the value
       }
 
-      cout << "test123:   " << j << "," << columns << "," << lines[i].substr(curr, nextStop - curr).c_str() << ","
-           << matrixTable[i][j] << endl;
       curr = nextStop + 1;
       j++;
     }
