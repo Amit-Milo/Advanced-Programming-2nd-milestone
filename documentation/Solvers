@@ -1,0 +1,29 @@
+"""
+template <class Problem, class Solution>
+Solver<Problem, Solution> : a solver of a problem.
+abstarct
+
+
+public methods (in addition to parent):
+Solution solve(const Problem &p) const: solve a problem.
+"""
+
+
+"""
+StringReverser extends Solver<string, string>: Reverser of a string.
+not abstract.
+"""
+
+
+"""
+In future/ TODO: MatrixGraphSolver extends Solver<MatrixGraph, list*>: solves matrix graphs.
+not abstract.
+the list will bee of movements.
+"""
+
+
+"""
+typedef enum {UP, LEFT, RIGHT, DOWN} movement: movements in a matrix.
+"""
+
+

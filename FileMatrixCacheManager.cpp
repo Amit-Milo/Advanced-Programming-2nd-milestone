@@ -6,5 +6,5 @@
 
 
 FileMatrixCacheManager::FileMatrixCacheManager() {
-  converter = new MatrixToFileMameConverter();
+  converter = new MatrixToFileNameConverter();
 }

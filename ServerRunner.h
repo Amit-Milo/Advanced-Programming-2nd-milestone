@@ -11,12 +11,23 @@
 #include "ServerSocket.h"
 #include "ClientHandler.h"
 
+/**
+ * this is an interface that handles running the server
+ */
 class ServerRunner {
  protected:
   ServerSocket *server_socket;
  public:
+  /**
+   * run the input server according to your type
+   * @param s the input server
+   * @param client_handler teh clients handler of the server
+   */
   virtual void RunServer(ServerSocket *s, server_side::ClientHandler *client_handler) = 0;
 
+  /**
+   * print that a second has passed each second - for debugging
+   */
   static void printSecond() {
     printf("entered thread\n");
     int seconds = 1;

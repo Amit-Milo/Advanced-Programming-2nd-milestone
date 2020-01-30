@@ -8,8 +8,15 @@
 #include "ServerAbs.h"
 #include "SerialServerRunner.h"
 
+/**
+ * this class implements a serial server
+ */
 class MySerialServer :public ServerAbs{
  public:
+  /**
+   * call a serial server runner
+   * @param c the client handler
+   */
   void callRunner(server_side::ClientHandler *c) override;
 };
 

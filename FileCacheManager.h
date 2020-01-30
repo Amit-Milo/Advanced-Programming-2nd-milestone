@@ -5,19 +5,19 @@
 #ifndef EX4__FILECACHEMANAGER_H_
 #define EX4__FILECACHEMANAGER_H_
 
-
-
 #include "CacheManager.h"
 #include "ToFileNameConverter.h"
 #include "Solver.h"
 #include <fstream>
 #include <iostream>
 
+/**
+ * this class handles a file cache manager - saving the data to files
+ * @tparam T the data type to save to files
+ */
 template<class T>
 class FileCacheManager : public CacheManager<T> {
  protected:
-  //use this to first check in O(1) time if the solution was already calculated during this run.
-  unordered_map<T, string> files_names;
   ToFileNameConverter<T> *converter;
  public:
   FileCacheManager() {}
@@ -26,7 +26,7 @@ class FileCacheManager : public CacheManager<T> {
     delete converter;
   }
 
-  void Save(T obj, Solver<T,string> *solver) override {
+  void Save(T obj, Solver<T, string> *solver) override {
     cout << "saving obj to file" << endl;
     string new_file_name = converter->Convert(obj);
     ofstream solution_file;
@@ -42,13 +42,8 @@ class FileCacheManager : public CacheManager<T> {
   }
 
   bool IsAlreadySolved(T obj) override {
-    cout << "checking if already solved... first check the map" << endl;
-    //first check if it is in the current run's map
-    if (files_names.count(obj)) {
-      return true;
-    }
-    cout << "not in map. check the files" << endl;
-    //now check if the file exists but just from the previous runs
+    cout << "checking the files if already solved...." << endl;
+    //check if the file already exists
     ifstream saved_file(converter->Convert(obj));
     if (saved_file.is_open()) {
       return true;
@@ -58,7 +53,7 @@ class FileCacheManager : public CacheManager<T> {
     return false;
   }
 
-  string Solution(T problem, Solver<T,string> *solver) override {
+  string Solution(T problem, Solver<T, string> *solver) override {
     cout << "want to return solution" << endl;
     if (IsAlreadySolved(problem)) {
       cout << "already have a solution" << endl;
@@ -66,11 +61,14 @@ class FileCacheManager : public CacheManager<T> {
     }
     //else, calculate the solution
     cout << "need to calculate the solution" << endl;
-    files_names.insert({problem, converter->Convert(problem)});
     Save(problem, solver);
-    return WholeFileContent(files_names[problem]);
+    return WholeFileContent(converter->Convert(problem));
   }
 
+  /**
+   * @param file_name the file to read
+   * @return the whole file content
+   */
   string WholeFileContent(string file_name) {
     ifstream file;
     file.open(file_name);

@@ -11,6 +11,9 @@
 
 using namespace std;
 
+/**
+ * handles a file cache memory for strings.
+ */
 class FileStringCacheManager : public FileCacheManager<string> {
  public:
   FileStringCacheManager();

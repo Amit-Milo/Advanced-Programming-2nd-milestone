@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="advancedProgrammingMilestone2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="advancedProgrammingMilestone2">
+				<Option output="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/advancedProgrammingMilestone2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 advancedProgrammingMilestone2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="advancedProgrammingMilestone2/fast">
+				<Option output="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/advancedProgrammingMilestone2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 advancedProgrammingMilestone2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/CacheManager.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ClientHandler.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/GraphSearcher.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Matrix.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixGraph.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixGraph.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixGraphSearcher.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertex.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertex.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexCreator.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexCreator.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexFactory.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexFactory.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Movement.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MySerialServer.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MySerialServer.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MyTestClientHandler.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MyTestClientHandler.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Point.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Point.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Searchable.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Searcher.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Server.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Solver.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/StringReverser.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/StringReverser.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/VertexAdapter.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/VertexAdapter.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/VertexFactory.h">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/main.cpp">
+			<Option target="advancedProgrammingMilestone2"/>
+		</Unit>
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

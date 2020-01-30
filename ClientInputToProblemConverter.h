@@ -7,11 +7,18 @@
 
 #include <string>
 using namespace std;
-
+/**
+ * this is an interface that has a function that its role is converting the client's input string into a problem
+ * @tparam Problem the type of peroblem to solve
+ */
 template<class Problem>
-class ClientInputToProblemConverter{
+class ClientInputToProblemConverter {
  public:
-  virtual Problem convertToProblem(string clientInput)=0;
+  /**
+   * @param clientInput the whole data the client sent
+   * @return the data converted to a problem
+   */
+  virtual Problem convertToProblem(string clientInput) = 0;
 };
 
 #endif //EX4__CLIENTINPUTTOPROBLEMCONVERTER_H_

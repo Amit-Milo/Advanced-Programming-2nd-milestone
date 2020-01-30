@@ -12,8 +12,15 @@
 
 namespace server_side {
 
+/**
+ * this is an interface that has the method that a client handler should run
+ */
 class ClientHandler {
  public:
+  /**
+   * handle the given client by this client handler's functionality
+   * @param client_socket the client to handle
+   */
   virtual void handleClient(int client_socket) = 0;
 };
 

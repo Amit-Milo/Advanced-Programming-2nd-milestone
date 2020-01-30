@@ -6,6 +6,12 @@
 #define EX4__SERVERABS_H_
 
 #include "Server.h"
+
+
+/**
+ * this is an abstract class that implements the Server methods using a design pattern "template method" -
+ * it starts and binds the server and the calls the input runner to run
+ */
 class ServerAbs : public server_side::Server {
  protected:
   ServerSocket *server_socket;
@@ -20,6 +26,10 @@ class ServerAbs : public server_side::Server {
   void stop() override {
     delete server_socket;
   }
+  /**
+   * call the running of the input server runner
+   * @param c the server runner to run.
+   */
   virtual void callRunner(server_side::ClientHandler *c) = 0;
 };
 

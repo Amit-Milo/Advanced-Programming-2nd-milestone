@@ -10,6 +10,9 @@
 
 namespace server_side {
 
+/**
+ * this is an interface for a server that starts clients handling and closes when needed.
+ */
 class Server {
  public:
   /**
@@ -17,7 +20,7 @@ class Server {
    * @param port the port number to open the server on.
    * @param c the client handler to operate.
    */
-  virtual void start(int port, server_side::ClientHandler* c) = 0;
+  virtual void start(int port, server_side::ClientHandler *c) = 0;
   /**
    * should close he server.
    */

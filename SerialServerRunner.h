@@ -9,8 +9,16 @@
 #include "ClientHandler.h"
 #include "ServerRunner.h"
 
+/**
+ * this is a server runner that runs a serial server.
+ */
 class SerialServerRunner : public ServerRunner{
  public:
+  /**
+   * run the input server as a serial server
+   * @param s the input server
+   * @param client_handler teh clients handler of the server
+   */
   void RunServer(ServerSocket *s, server_side::ClientHandler *client_handler);
 };
 

@@ -14,12 +14,31 @@
 #include "Solver.h"
 
 using namespace std;
+/**
+ * this is an interface that has the methods that a cache manager should handle.
+ * @tparam T the type of data to handle
+ */
 template<class T>
 class CacheManager {
  public:
-  virtual void Save(T obj, Solver<T,string> *solver)=0;
-  virtual bool IsAlreadySolved(T obj)=0;
-  virtual string Solution(T problem, Solver<T,string> *solver)=0;
+  /**
+   * save the solution for the input object to memory using the solver.
+   * @param obj the object to save to memory
+   * @param solver the solver that solves the problem that obj represents.
+   */
+  virtual void Save(T obj, Solver<T, string> *solver) = 0;
+  /**
+   * @param obj the object to check if we already have a solution to.
+   * @return whether there is a solution already or not.
+   */
+  virtual bool IsAlreadySolved(T obj) = 0;
+  /**
+   * calculate the solution to a given problem
+   * @param problem the problem to solve
+   * @param solver the solver of the problem
+   * @return the solution to the problem
+   */
+  virtual string Solution(T problem, Solver<T, string> *solver) = 0;
 };
 
 #endif //EX4__CACHEMANAGER_H_

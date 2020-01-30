@@ -8,9 +8,12 @@
 
 #include "FileCacheManager.h"
 #include "MatrixToFileNameConverter.h"
+#include "MatrixGraph.h"
 
-
-class FileMatrixCacheManager : FileCacheManager<MatrixGraph> {
+/**
+ * handles a file cache memory for matrix graph.
+ */
+class FileMatrixCacheManager : FileCacheManager<MatrixGraph>{
  public:
   FileMatrixCacheManager();
 };

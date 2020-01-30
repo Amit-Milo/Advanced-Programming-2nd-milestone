@@ -7,7 +7,5 @@
 
 //TODO maybe fix it if it does not work
 string MatrixToFileNameConverter::Convert(MatrixGraph objToConvert) {
-  string result = to_string(std::hash<MatrixGraph>{}(objToConvert)).append(".txt");
-  cout << "the file name of: " << objToConvert << " is: " << result << endl;
-  return result;
+  return std::to_string(objToConvert.hash());
 }

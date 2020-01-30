@@ -57,9 +57,22 @@ include CMakeFiles/ex4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex4.dir/flags.make
 
+CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.o: ../FileMatrixCacheManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/FileMatrixCacheManager.cpp
+
+CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/FileMatrixCacheManager.cpp > CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.i
+
+CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/FileMatrixCacheManager.cpp -o CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.s
+
 CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o: ../FileStringCacheManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/FileStringCacheManager.cpp
 
 CMakeFiles/ex4.dir/FileStringCacheManager.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/ex4.dir/FileStringCacheManager.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/main.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex4.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex4.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/main.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/main.cpp
 
 CMakeFiles/ex4.dir/main.cpp.i: cmake_force
@@ -83,9 +96,22 @@ CMakeFiles/ex4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/main.cpp -o CMakeFiles/ex4.dir/main.cpp.s
 
+CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.o: ../ClientInputToMatrixConverter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/ClientInputToMatrixConverter.cpp
+
+CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/ClientInputToMatrixConverter.cpp > CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.i
+
+CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/ClientInputToMatrixConverter.cpp -o CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.s
+
 CMakeFiles/ex4.dir/MySerialServer.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/MySerialServer.cpp.o: ../MySerialServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex4.dir/MySerialServer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex4.dir/MySerialServer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MySerialServer.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MySerialServer.cpp
 
 CMakeFiles/ex4.dir/MySerialServer.cpp.i: cmake_force
@@ -98,7 +124,7 @@ CMakeFiles/ex4.dir/MySerialServer.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o: ../MyTestClientHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.cpp
 
 CMakeFiles/ex4.dir/MyTestClientHandler.cpp.i: cmake_force
@@ -111,7 +137,7 @@ CMakeFiles/ex4.dir/MyTestClientHandler.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/SerialServerRunner.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/SerialServerRunner.cpp.o: ../SerialServerRunner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex4.dir/SerialServerRunner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex4.dir/SerialServerRunner.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/SerialServerRunner.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/SerialServerRunner.cpp
 
 CMakeFiles/ex4.dir/SerialServerRunner.cpp.i: cmake_force
@@ -124,7 +150,7 @@ CMakeFiles/ex4.dir/SerialServerRunner.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/ServerSocket.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/ServerSocket.cpp.o: ../ServerSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex4.dir/ServerSocket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex4.dir/ServerSocket.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/ServerSocket.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/ServerSocket.cpp
 
 CMakeFiles/ex4.dir/ServerSocket.cpp.i: cmake_force
@@ -137,7 +163,7 @@ CMakeFiles/ex4.dir/ServerSocket.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/StringReverser.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/StringReverser.cpp.o: ../StringReverser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex4.dir/StringReverser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ex4.dir/StringReverser.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/StringReverser.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/StringReverser.cpp
 
 CMakeFiles/ex4.dir/StringReverser.cpp.i: cmake_force
@@ -150,7 +176,7 @@ CMakeFiles/ex4.dir/StringReverser.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.o: ../StringToFileNameConverter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/StringToFileNameConverter.cpp
 
 CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.i: cmake_force
@@ -163,7 +189,7 @@ CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o: ../ClientInputToStringConverter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/ClientInputToStringConverter.cpp
 
 CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.i: cmake_force
@@ -174,9 +200,22 @@ CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/ClientInputToStringConverter.cpp -o CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.s
 
+CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.o: ../MatrixToFileNameConverter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MatrixToFileNameConverter.cpp
+
+CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/MatrixToFileNameConverter.cpp > CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.i
+
+CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/MatrixToFileNameConverter.cpp -o CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.s
+
 CMakeFiles/ex4.dir/MyClientHandler.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/MyClientHandler.cpp.o: ../MyClientHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ex4.dir/MyClientHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ex4.dir/MyClientHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MyClientHandler.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MyClientHandler.cpp
 
 CMakeFiles/ex4.dir/MyClientHandler.cpp.i: cmake_force
@@ -189,7 +228,7 @@ CMakeFiles/ex4.dir/MyClientHandler.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/MyParallelServer.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/MyParallelServer.cpp.o: ../MyParallelServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ex4.dir/MyParallelServer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ex4.dir/MyParallelServer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MyParallelServer.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MyParallelServer.cpp
 
 CMakeFiles/ex4.dir/MyParallelServer.cpp.i: cmake_force
@@ -202,7 +241,7 @@ CMakeFiles/ex4.dir/MyParallelServer.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o: ../ParallelServerRunner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/ParallelServerRunner.cpp
 
 CMakeFiles/ex4.dir/ParallelServerRunner.cpp.i: cmake_force
@@ -213,10 +252,142 @@ CMakeFiles/ex4.dir/ParallelServerRunner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/ParallelServerRunner.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/ParallelServerRunner.cpp -o CMakeFiles/ex4.dir/ParallelServerRunner.cpp.s
 
+CMakeFiles/ex4.dir/Point.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/Point.cpp.o: ../Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ex4.dir/Point.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/Point.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/Point.cpp
+
+CMakeFiles/ex4.dir/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/Point.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/Point.cpp > CMakeFiles/ex4.dir/Point.cpp.i
+
+CMakeFiles/ex4.dir/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/Point.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/Point.cpp -o CMakeFiles/ex4.dir/Point.cpp.s
+
+CMakeFiles/ex4.dir/MatrixVertex.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/MatrixVertex.cpp.o: ../MatrixVertex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ex4.dir/MatrixVertex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MatrixVertex.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MatrixVertex.cpp
+
+CMakeFiles/ex4.dir/MatrixVertex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/MatrixVertex.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/MatrixVertex.cpp > CMakeFiles/ex4.dir/MatrixVertex.cpp.i
+
+CMakeFiles/ex4.dir/MatrixVertex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/MatrixVertex.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/MatrixVertex.cpp -o CMakeFiles/ex4.dir/MatrixVertex.cpp.s
+
+CMakeFiles/ex4.dir/MatrixGraph.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/MatrixGraph.cpp.o: ../MatrixGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ex4.dir/MatrixGraph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MatrixGraph.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MatrixGraph.cpp
+
+CMakeFiles/ex4.dir/MatrixGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/MatrixGraph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/MatrixGraph.cpp > CMakeFiles/ex4.dir/MatrixGraph.cpp.i
+
+CMakeFiles/ex4.dir/MatrixGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/MatrixGraph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/MatrixGraph.cpp -o CMakeFiles/ex4.dir/MatrixGraph.cpp.s
+
+CMakeFiles/ex4.dir/Cost.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/Cost.cpp.o: ../Cost.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ex4.dir/Cost.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/Cost.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/Cost.cpp
+
+CMakeFiles/ex4.dir/Cost.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/Cost.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/Cost.cpp > CMakeFiles/ex4.dir/Cost.cpp.i
+
+CMakeFiles/ex4.dir/Cost.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/Cost.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/Cost.cpp -o CMakeFiles/ex4.dir/Cost.cpp.s
+
+CMakeFiles/ex4.dir/VertexAdapter.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/VertexAdapter.cpp.o: ../VertexAdapter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ex4.dir/VertexAdapter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/VertexAdapter.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/VertexAdapter.cpp
+
+CMakeFiles/ex4.dir/VertexAdapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/VertexAdapter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/VertexAdapter.cpp > CMakeFiles/ex4.dir/VertexAdapter.cpp.i
+
+CMakeFiles/ex4.dir/VertexAdapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/VertexAdapter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/VertexAdapter.cpp -o CMakeFiles/ex4.dir/VertexAdapter.cpp.s
+
+CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.o: ../MatrixVertexFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.cpp
+
+CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.cpp > CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.i
+
+CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.cpp -o CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.s
+
+CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o: ../MatrixVertexCreator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.cpp
+
+CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.cpp > CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.i
+
+CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.cpp -o CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.s
+
+CMakeFiles/ex4.dir/Vertex.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/Vertex.cpp.o: ../Vertex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ex4.dir/Vertex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/Vertex.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/Vertex.cpp
+
+CMakeFiles/ex4.dir/Vertex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/Vertex.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/Vertex.cpp > CMakeFiles/ex4.dir/Vertex.cpp.i
+
+CMakeFiles/ex4.dir/Vertex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/Vertex.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/Vertex.cpp -o CMakeFiles/ex4.dir/Vertex.cpp.s
+
+CMakeFiles/ex4.dir/BFS.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/BFS.cpp.o: ../BFS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ex4.dir/BFS.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/BFS.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/BFS.cpp
+
+CMakeFiles/ex4.dir/BFS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/BFS.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/BFS.cpp > CMakeFiles/ex4.dir/BFS.cpp.i
+
+CMakeFiles/ex4.dir/BFS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/BFS.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/BFS.cpp -o CMakeFiles/ex4.dir/BFS.cpp.s
+
+CMakeFiles/ex4.dir/DFS.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/DFS.cpp.o: ../DFS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ex4.dir/DFS.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/DFS.cpp.o -c /home/yoav/CLionProjects/cpp/ex4/DFS.cpp
+
+CMakeFiles/ex4.dir/DFS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/DFS.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoav/CLionProjects/cpp/ex4/DFS.cpp > CMakeFiles/ex4.dir/DFS.cpp.i
+
+CMakeFiles/ex4.dir/DFS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/DFS.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoav/CLionProjects/cpp/ex4/DFS.cpp -o CMakeFiles/ex4.dir/DFS.cpp.s
+
 # Object files for target ex4
 ex4_OBJECTS = \
+"CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.o" \
 "CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o" \
 "CMakeFiles/ex4.dir/main.cpp.o" \
+"CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.o" \
 "CMakeFiles/ex4.dir/MySerialServer.cpp.o" \
 "CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o" \
 "CMakeFiles/ex4.dir/SerialServerRunner.cpp.o" \
@@ -224,15 +395,28 @@ ex4_OBJECTS = \
 "CMakeFiles/ex4.dir/StringReverser.cpp.o" \
 "CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.o" \
 "CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o" \
+"CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.o" \
 "CMakeFiles/ex4.dir/MyClientHandler.cpp.o" \
 "CMakeFiles/ex4.dir/MyParallelServer.cpp.o" \
-"CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o"
+"CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o" \
+"CMakeFiles/ex4.dir/Point.cpp.o" \
+"CMakeFiles/ex4.dir/MatrixVertex.cpp.o" \
+"CMakeFiles/ex4.dir/MatrixGraph.cpp.o" \
+"CMakeFiles/ex4.dir/Cost.cpp.o" \
+"CMakeFiles/ex4.dir/VertexAdapter.cpp.o" \
+"CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.o" \
+"CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o" \
+"CMakeFiles/ex4.dir/Vertex.cpp.o" \
+"CMakeFiles/ex4.dir/BFS.cpp.o" \
+"CMakeFiles/ex4.dir/DFS.cpp.o"
 
 # External object files for target ex4
 ex4_EXTERNAL_OBJECTS =
 
+ex4: CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.o
 ex4: CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o
 ex4: CMakeFiles/ex4.dir/main.cpp.o
+ex4: CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.o
 ex4: CMakeFiles/ex4.dir/MySerialServer.cpp.o
 ex4: CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o
 ex4: CMakeFiles/ex4.dir/SerialServerRunner.cpp.o
@@ -240,12 +424,23 @@ ex4: CMakeFiles/ex4.dir/ServerSocket.cpp.o
 ex4: CMakeFiles/ex4.dir/StringReverser.cpp.o
 ex4: CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.o
 ex4: CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o
+ex4: CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.o
 ex4: CMakeFiles/ex4.dir/MyClientHandler.cpp.o
 ex4: CMakeFiles/ex4.dir/MyParallelServer.cpp.o
 ex4: CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o
+ex4: CMakeFiles/ex4.dir/Point.cpp.o
+ex4: CMakeFiles/ex4.dir/MatrixVertex.cpp.o
+ex4: CMakeFiles/ex4.dir/MatrixGraph.cpp.o
+ex4: CMakeFiles/ex4.dir/Cost.cpp.o
+ex4: CMakeFiles/ex4.dir/VertexAdapter.cpp.o
+ex4: CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.o
+ex4: CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o
+ex4: CMakeFiles/ex4.dir/Vertex.cpp.o
+ex4: CMakeFiles/ex4.dir/BFS.cpp.o
+ex4: CMakeFiles/ex4.dir/DFS.cpp.o
 ex4: CMakeFiles/ex4.dir/build.make
 ex4: CMakeFiles/ex4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ex4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable ex4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

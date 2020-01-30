@@ -10,6 +10,9 @@
 
 using namespace std;
 
+/**
+ * this class handles converting of a string to a file name.
+ */
 class StringToFileNameConverter: public ToFileNameConverter<string>{
  public:
   string Convert(string objToConvert) override;

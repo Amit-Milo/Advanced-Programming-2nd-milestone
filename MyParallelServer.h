@@ -8,8 +8,15 @@
 #include "ServerAbs.h"
 #include "ParallelServerRunner.h"
 
-class MyParallelServer: public ServerAbs{
+/**
+ * this class implements a parallel server
+ */
+class MyParallelServer : public ServerAbs {
  public:
+  /**
+   * call a parallel server runner
+   * @param c the client handler
+   */
   void callRunner(server_side::ClientHandler *c) override;
 };
 

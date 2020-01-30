@@ -7,10 +7,14 @@
 
 #include <string>
 #include "ToFileNameConverter.h"
+#include "MatrixGraph.h"
 
 using namespace std;
 
-class MatrixToFileNameConverter:public ToFileNameConverter<MatrixGraph>{
+/**
+ * this class handles converting of a matrix graph to a file name.
+ */
+class MatrixToFileNameConverter : public ToFileNameConverter<MatrixGraph> {
  public:
   string Convert(MatrixGraph objToConvert) override;
 };

@@ -5,6 +5,8 @@
 #include "FileStringCacheManager.h"
 #include "StringReverser.h"
 #include "ClientInputToStringConverter.h"
+#include "MyClientHandler.h"
+#include "FileMatrixCacheManager.h"
 
 //TODO remove couts and printfs
 
@@ -21,8 +23,10 @@ int main(int argc, char *argv[]) {
 
 
   //init a client handler with a cache manager that has a problems solver.
-  MyTestClientHandler *clientHandler =
-      new MyTestClientHandler(new FileStringCacheManager(), new StringReverser(), new ClientInputToStringConverter());
+  //TODO for running, doesnt compile on purpose. should have the solve that uses a searcher.
+  x =;
+  MyClientHandler *clientHandler =
+      new MyClientHandler(new FileMatrixCacheManager(),);
 
   parallel_server.start(port_number, clientHandler);
 
