@@ -70,7 +70,7 @@ class VertexAdapter {
    Cost GetPathLength();
 
 
-   void SetPathLength();
+   void SetPathLength(const Cost &pathLength);
 
   bool friend operator==(const Vertex &first, const VertexAdapter &second);
 

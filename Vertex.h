@@ -19,6 +19,8 @@ class Vertex {
   Vertex(int index) : _index(index) { }
 
  public:
+  virtual ~Vertex(){}
+
   int GetIndex() const {
     return this->_index;
   }

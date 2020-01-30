@@ -43,9 +43,15 @@ bool operator<(const Cost &first, const Cost &second) {
 
 
 Cost operator+(const Cost &first, int second) {
+  if (first.GetValue() == INFINITY) return Cost(INFINITY);
   return Cost(first.GetValue() + second);
 }
 
+
 Cost operator+(int &first, const Cost &second) {
   return second + first;
+}
+
+Cost operator+(const Cost &first, const Cost &second) {
+  return first + second.GetValue();
 }

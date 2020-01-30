@@ -84,6 +84,15 @@ class MatrixGraph : public Searchable {
    * @return the parent.
    */
   virtual const Vertex* GetParent(const Vertex &v) const;
+
+
+  virtual Cost distance(const Vertex &src, const Vertex &dst) const;
+
+  virtual Cost currentPathLength(const Vertex &v) const;
+
+  virtual Cost GetCost(const Vertex &v) const;
+
+  int GetRows() const;
 };
 
 #endif //EX4__MATRIXGRAPH_H_

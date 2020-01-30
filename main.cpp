@@ -12,12 +12,17 @@
 #include <queue>
 #include <stack>
 #include "DFS.h"
+#include "AStar.h"
+#include "BestFirstSearch.h"
+#include "MatrixShortestPathSolver.h"
 
 int main() {
   queue<int> q;
   BFS b;
   DFS d;
-  MatrixGraphSearcher m = MatrixGraphSearcher(&d);
+  AStar a;
+  BestFirstSearch bf;
+  MatrixGraphSearcher m = MatrixGraphSearcher(&bf);
 
   int **arr = new int*[3];
 
@@ -26,19 +31,25 @@ int main() {
 
   for (int i = 0; i < 3; i++)
     for(int j = 0; j < 3; j++)
-      arr[i][j] = 1;
+      if (i == 0)
+        arr[i][j] = 3;
+      else if (i == 1)
+        arr[i][j] = 2;
+      else
+        arr[i][j] = 1;
 
   Matrix<int> mat = Matrix<int>(arr, 3, 3);
 
   MatrixGraph graph = MatrixGraph(mat, Point(0, 0), Point(2, 2));
 
+  MatrixShortestPathSolver msps = MatrixShortestPathSolver(m);
+  list<string> l = msps.solve(graph);
+  ///list<Vertex> *l = m.search(graph);
 
-  list<Vertex> *l = m.search(graph);
+  auto it = l.begin();
 
-  auto it = l->begin();
-
-  while (it != l->end()) {
-    cout << it->GetIndex() << endl;
+  while (it != l.end()) {
+    cout << *it << endl;
     it++;
   }
   return 0;

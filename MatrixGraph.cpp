@@ -24,7 +24,10 @@ Matrix<VertexAdapter> CostsToVertexes(const Matrix<int> &mat, MatrixVertexCreato
 
 MatrixGraph::MatrixGraph(const Matrix<int> &mat, const Point &start, const Point &end) : _creator(MatrixVertexCreator()),
 _start(this->_creator.create(start, mat.GetRows())), _end(this->_creator.create(end, mat.GetRows())),
-_mat(CostsToVertexes(mat, this->_creator)){}
+_mat(CostsToVertexes(mat, this->_creator)){
+  auto startVertex = this->_mat.Get(0 ,0);
+  startVertex->SetPathLength(*startVertex->GetCost());
+}
 
 
 const MatrixVertex* MatrixGraph::GetStart() const {
@@ -103,4 +106,40 @@ const Vertex *MatrixGraph::GetParent(const Vertex &v) const {
   int j = index % this->_mat.GetColumns();
 
   return this->_mat.Get(i, j)->GetParent();
+}
+
+
+Cost MatrixGraph::distance(const Vertex &src, const Vertex &dst) const {
+  int srcIndex = src.GetIndex();
+  int srcI = srcIndex / this->_mat.GetRows();
+  int srcJ = srcIndex % this->_mat.GetColumns();
+
+  int dstIndex = dst.GetIndex();
+  int dstI = dstIndex / this->_mat.GetRows();
+  int dstJ = dstIndex % this->_mat.GetColumns();
+
+  return Cost(abs(dstI - srcI) + abs(dstJ - srcJ));
+}
+
+
+Cost MatrixGraph::currentPathLength(const Vertex &v) const {
+  int index = v.GetIndex();
+  int i = index / this->_mat.GetRows();
+  int j = index % this->_mat.GetColumns();
+
+  return this->_mat.Get(i, j)->GetPathLength();
+}
+
+
+Cost MatrixGraph::GetCost(const Vertex &v) const {
+  int index = v.GetIndex();
+  int i = index / this->_mat.GetRows();
+  int j = index % this->_mat.GetColumns();
+
+  return *this->_mat.Get(i, j)->GetCost();
+}
+
+
+int MatrixGraph::GetRows() const {
+  return this->_mat.GetRows();
 }

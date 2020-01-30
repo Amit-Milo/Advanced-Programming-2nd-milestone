@@ -123,6 +123,33 @@ advancedProgrammingMilestone2/fast:
 	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/build
 .PHONY : advancedProgrammingMilestone2/fast
 
+AStar.o: AStar.cpp.o
+
+.PHONY : AStar.o
+
+# target to build an object file
+AStar.cpp.o:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.o
+.PHONY : AStar.cpp.o
+
+AStar.i: AStar.cpp.i
+
+.PHONY : AStar.i
+
+# target to preprocess a source file
+AStar.cpp.i:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.i
+.PHONY : AStar.cpp.i
+
+AStar.s: AStar.cpp.s
+
+.PHONY : AStar.s
+
+# target to generate assembly for a file
+AStar.cpp.s:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.s
+.PHONY : AStar.cpp.s
+
 BFS.o: BFS.cpp.o
 
 .PHONY : BFS.o
@@ -149,6 +176,33 @@ BFS.s: BFS.cpp.s
 BFS.cpp.s:
 	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BFS.cpp.s
 .PHONY : BFS.cpp.s
+
+BestFirstSearch.o: BestFirstSearch.cpp.o
+
+.PHONY : BestFirstSearch.o
+
+# target to build an object file
+BestFirstSearch.cpp.o:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.o
+.PHONY : BestFirstSearch.cpp.o
+
+BestFirstSearch.i: BestFirstSearch.cpp.i
+
+.PHONY : BestFirstSearch.i
+
+# target to preprocess a source file
+BestFirstSearch.cpp.i:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.i
+.PHONY : BestFirstSearch.cpp.i
+
+BestFirstSearch.s: BestFirstSearch.cpp.s
+
+.PHONY : BestFirstSearch.s
+
+# target to generate assembly for a file
+BestFirstSearch.cpp.s:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.s
+.PHONY : BestFirstSearch.cpp.s
 
 Cost.o: Cost.cpp.o
 
@@ -230,6 +284,33 @@ MatrixGraph.s: MatrixGraph.cpp.s
 MatrixGraph.cpp.s:
 	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixGraph.cpp.s
 .PHONY : MatrixGraph.cpp.s
+
+MatrixShortestPathSolver.o: MatrixShortestPathSolver.cpp.o
+
+.PHONY : MatrixShortestPathSolver.o
+
+# target to build an object file
+MatrixShortestPathSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.o
+.PHONY : MatrixShortestPathSolver.cpp.o
+
+MatrixShortestPathSolver.i: MatrixShortestPathSolver.cpp.i
+
+.PHONY : MatrixShortestPathSolver.i
+
+# target to preprocess a source file
+MatrixShortestPathSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.i
+.PHONY : MatrixShortestPathSolver.cpp.i
+
+MatrixShortestPathSolver.s: MatrixShortestPathSolver.cpp.s
+
+.PHONY : MatrixShortestPathSolver.s
+
+# target to generate assembly for a file
+MatrixShortestPathSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.s
+.PHONY : MatrixShortestPathSolver.cpp.s
 
 MatrixVertex.o: MatrixVertex.cpp.o
 
@@ -510,9 +591,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... advancedProgrammingMilestone2"
 	@echo "... edit_cache"
+	@echo "... AStar.o"
+	@echo "... AStar.i"
+	@echo "... AStar.s"
 	@echo "... BFS.o"
 	@echo "... BFS.i"
 	@echo "... BFS.s"
+	@echo "... BestFirstSearch.o"
+	@echo "... BestFirstSearch.i"
+	@echo "... BestFirstSearch.s"
 	@echo "... Cost.o"
 	@echo "... Cost.i"
 	@echo "... Cost.s"
@@ -522,6 +609,9 @@ help:
 	@echo "... MatrixGraph.o"
 	@echo "... MatrixGraph.i"
 	@echo "... MatrixGraph.s"
+	@echo "... MatrixShortestPathSolver.o"
+	@echo "... MatrixShortestPathSolver.i"
+	@echo "... MatrixShortestPathSolver.s"
 	@echo "... MatrixVertex.o"
 	@echo "... MatrixVertex.i"
 	@echo "... MatrixVertex.s"

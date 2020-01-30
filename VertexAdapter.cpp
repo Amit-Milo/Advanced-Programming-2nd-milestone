@@ -43,6 +43,10 @@ Cost VertexAdapter::GetPathLength() {
   return *this->_pathLength;
 }
 
+void VertexAdapter::SetPathLength(const Cost &pathLength) {
+  this->_pathLength = new Cost(pathLength);
+}
+
 
 bool operator==(const Vertex &first, const VertexAdapter &second) {
   return first == *(second._vertex);
