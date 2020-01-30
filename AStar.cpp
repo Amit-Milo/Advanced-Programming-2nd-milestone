@@ -7,11 +7,10 @@
 #include <vector>
 
 #include "AStar.h"
-#include "Cost.h"
 
 using namespace std;
 
-list<Vertex> *AStar::search(Searchable &graph) const {
+list<pair<Vertex, Cost>> * AStar::search(Searchable &graph) const {
   vector<Vertex> heap;
   unordered_map<int, Cost> f_function;
 
@@ -71,16 +70,16 @@ list<Vertex> *AStar::search(Searchable &graph) const {
   }
 
 
-  auto vertices = new list<Vertex>;
+  auto vertices = new list<pair<Vertex, Cost>>;
 
   const Vertex *temp = graph.GetEnd();
 
   while (*temp != start) {
-    vertices->push_front(*temp);
+    vertices->push_front({*temp, graph.GetCost(*temp)});
     temp = graph.GetParent(*temp);
   }
 
-  vertices->push_front(start);
+  vertices->push_front({start, graph.GetCost(start)});
 
   return vertices;
 }

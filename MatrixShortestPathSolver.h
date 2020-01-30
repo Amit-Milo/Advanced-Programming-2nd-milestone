@@ -13,7 +13,7 @@
 #include "MatrixGraphSearcher.h"
 #include "Solver.h"
 
-class MatrixShortestPathSolver : public Solver<MatrixGraph, list<string>> {
+class MatrixShortestPathSolver : public Solver<MatrixGraph, string> {
   MatrixGraphSearcher _searcher;
 
  public:
@@ -25,7 +25,7 @@ class MatrixShortestPathSolver : public Solver<MatrixGraph, list<string>> {
    * @param p a problem to solve.
    * @return A solution to the problem.
    */
-  virtual list<string> solve(MatrixGraph graph);
+  virtual string solve(MatrixGraph graph);
 };
 
 #endif //ADVANCEDPROGRAMMINGMILESTONE2__MATRIXSHORTESTPATHSOLVER_H_

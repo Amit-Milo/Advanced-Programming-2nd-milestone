@@ -43,14 +43,17 @@ int main() {
   MatrixGraph graph = MatrixGraph(mat, Point(0, 0), Point(2, 2));
 
   MatrixShortestPathSolver msps = MatrixShortestPathSolver(m);
-  list<string> l = msps.solve(graph);
+  //list<string> l = msps.solve(graph);
   ///list<Vertex> *l = m.search(graph);
+  string s = msps.solve(graph);
 
-  auto it = l.begin();
+  cout << s << endl;
+
+  /*auto it = l.begin();
 
   while (it != l.end()) {
     cout << *it << endl;
     it++;
-  }
+  }*/
   return 0;
 }
