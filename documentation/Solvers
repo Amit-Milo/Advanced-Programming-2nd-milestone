@@ -16,7 +16,7 @@ not abstract.
 
 
 """
-In future/ TODO: MatrixGraphSolver extends Solver<MatrixGraph, list*>: solves matrix graphs.
+In future/ todo: MatrixGraphSolver extends Solver<MatrixGraph, list*>: solves matrix graphs.
 not abstract.
 the list will bee of movements.
 """

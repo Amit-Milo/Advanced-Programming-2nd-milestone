@@ -20,8 +20,13 @@ and solves a searching problem on them.
 Amit Milo
 Yoav Carmel
 
-#### Done for the course "Advanced Programming 1" in Bar Ilan university
+## Notes
 
+the text file for each algorithm, the text file of the matrices and the pdf file of the algorithms chart
+are in the "algorithms result" package
+
+
+#### Done for the course "Advanced Programming 1" in Bar Ilan university
 
 
 

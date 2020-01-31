@@ -5,7 +5,7 @@
 #ifndef EX4__MOVEMENT_H_
 #define EX4__MOVEMENT_H_
 
-#include "MatrixVertex.h"
+#include "VerticesClasses/MatrixVerticesClasses/MatrixVertex.h"
 #include "Movement.h"
 
 typedef enum {UP, LEFT, RIGHT, DOWN} movement;

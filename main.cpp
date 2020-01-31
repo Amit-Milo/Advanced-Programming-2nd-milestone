@@ -1,21 +1,20 @@
 #include <iostream>
-#include "MySerialServer.h"
-#include "MyParallelServer.h"
-#include "MyTestClientHandler.h"
-#include "FileStringCacheManager.h"
-#include "StringReverser.h"
-#include "ClientInputToStringConverter.h"
-#include "MyClientHandler.h"
-#include "FileMatrixCacheManager.h"
-#include "MatrixGraphSearcher.h"
-#include "BestFirstSearch.h"
-#include "MatrixShortestPathSolver.h"
-#include "ClientInputToMatrixConverter.h"
+#include "Servers/MySerialServer.h"
+#include "Servers/MyParallelServer.h"
+#include "ClientHandlers/MyTestClientHandler.h"
+#include "CacheManagers/FileCacheManagers/FileStringCacheManager.h"
+#include "Solvers/StringReverser.h"
+#include "ClientInputInterpreters/ClientInputToStringConverter.h"
+#include "ClientHandlers/MyClientHandler.h"
+#include "CacheManagers/FileCacheManagers/FileMatrixCacheManager.h"
+#include "Searchers/GraphSearchers/MatrixGraphSearcher.h"
+#include "Searchers/GraphSearchers/BestFirstSearch.h"
+#include "Solvers/MatrixShortestPathSolver.h"
+#include "ClientInputInterpreters/ClientInputToMatrixConverter.h"
 
-//TODO remove couts and printfs
-#include "BFS.h"
-#include "DFS.h"
-#include "AStar.h"
+#include "Searchers/GraphSearchers/BFS.h"
+#include "Searchers/GraphSearchers/DFS.h"
+#include "Searchers/GraphSearchers/AStar.h"
 
 int main(int argc, char *argv[]) {
   int port_number;
@@ -24,12 +23,8 @@ int main(int argc, char *argv[]) {
   } else {
     port_number = atoi(argv[1]);
   }
-  //MySerialServer serialServer;
   MyParallelServer parallel_server;
 
-  BestFirstSearch bf;
-  BFS b;
-  DFS d;
   AStar a;
   MatrixGraphSearcher m(&a);
   MatrixShortestPathSolver msps(m);
@@ -40,7 +35,6 @@ int main(int argc, char *argv[]) {
       new MyClientHandler(new FileMatrixCacheManager(),
                           (&msps), new ClientInputToMatrixConverter());
 
-  //reinterpret_cast<Solver<struct MatrixGraph, std::__cxx11::string> *>
 
   parallel_server.start(port_number, clientHandler);
 
@@ -49,39 +43,5 @@ int main(int argc, char *argv[]) {
   delete clientHandler;
 
   return 0;
-  /*///queue<int> q;
-  ///BFS b;
-  ///DFS d;
-  ///AStar a;
-  BestFirstSearch bf;
-  MatrixGraphSearcher m = MatrixGraphSearcher(&bf);
 
-  int r = 20, c = 20;
-
-  int **arr = new int*[r];
-
-  for (int i = 0; i < r; i++)
-    arr[i] = new int[c];
-
-  for (int i = 0; i < r; i++)
-    for(int j = 0; j < c; j++)
-      if (i == 0)
-        arr[i][j] = 3;
-      else if (i == 1)
-        arr[i][j] = 5;
-      else
-        arr[i][j] = 1;
-
-      arr[1][0] = -1;
-
-  Matrix<int> mat = Matrix<int>(arr, r, c);
-
-  MatrixGraph graph = MatrixGraph(mat, Point(0, 0), Point(r - 1, c - 1));
-
-  MatrixShortestPathSolver msps = MatrixShortestPathSolver(m);
-  string s = msps.solve(graph);
-  ///list<Vertex> *l = m.search(graph);
-  cout << s <<endl;
-
-  return 0;*/
 }

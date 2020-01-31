@@ -6,35 +6,35 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 
 add_executable(ex4
-        CacheManager.h
-        ClientHandler.h
-        FileCacheManager.h
-        FileMatrixCacheManager.cpp FileMatrixCacheManager.h
-        FileStringCacheManager.cpp FileStringCacheManager.h
+        CacheManagers/CacheManager.h
+        ClientHandlers/ClientHandler.h
+        CacheManagers/FileCacheManagers/FileCacheManager.h
+        CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp CacheManagers/FileCacheManagers/FileMatrixCacheManager.h
+        CacheManagers/FileCacheManagers/FileStringCacheManager.cpp CacheManagers/FileCacheManagers/FileStringCacheManager.h
         main.cpp
-        ClientInputToMatrixConverter.cpp ClientInputToMatrixConverter.h
-        MySerialServer.cpp MySerialServer.h
-        MyTestClientHandler.cpp MyTestClientHandler.h
-        Server.h
-        SerialServerRunner.cpp SerialServerRunner.h
+        ClientInputInterpreters/ClientInputToMatrixConverter.cpp ClientInputInterpreters/ClientInputToMatrixConverter.h
+        Servers/MySerialServer.cpp Servers/MySerialServer.h
+        ClientHandlers/MyTestClientHandler.cpp ClientHandlers/MyTestClientHandler.h
+        Servers/Server.h
+        ServerRunners/SerialServerRunner.cpp ServerRunners/SerialServerRunner.h
         ServerSocket.cpp ServerSocket.h
-        Solver.h
-        StringReverser.cpp StringReverser.h
-        StringToFileNameConverter.cpp StringToFileNameConverter.h
-        ToFileNameConverter.h
-        ClientInputToProblemConverter.h ClientInputToStringConverter.cpp
-        ClientInputToStringConverter.h
-        MatrixToFileNameConverter.cpp MatrixToFileNameConverter.h
-        MyClientHandler.cpp MyClientHandler.h
-        ClientHandlerAbs.h
-        MyParallelServer.cpp MyParallelServer.h
-        ServerAbs.h
-        ParallelServerRunner.cpp ParallelServerRunner.h
-        ServerRunner.h
+        Solvers/Solver.h
+        Solvers/StringReverser.cpp Solvers/StringReverser.h
+        ProblemsToFileNamesConverters/StringToFileNameConverter.cpp ProblemsToFileNamesConverters/StringToFileNameConverter.h
+        ProblemsToFileNamesConverters/ToFileNameConverter.h
+        ClientInputInterpreters/ClientInputToProblemConverter.h ClientInputInterpreters/ClientInputToStringConverter.cpp
+        ClientInputInterpreters/ClientInputToStringConverter.h
+        ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp ProblemsToFileNamesConverters/MatrixToFileNameConverter.h
+        ClientHandlers/MyClientHandler.cpp ClientHandlers/MyClientHandler.h
+        ClientHandlers/ClientHandlerAbs.h
+        Servers/MyParallelServer.cpp Servers/MyParallelServer.h
+        Servers/ServerAbs.h
+        ServerRunners/ParallelServerRunner.cpp ServerRunners/ParallelServerRunner.h
+        ServerRunners/ServerRunner.h
 
-        Searcher.h Searchable.h
-        Vertex.h Movement.h Point.cpp Point.h MatrixVertex.cpp MatrixVertex.h MatrixGraph.cpp MatrixGraph.h
-        Cost.cpp Cost.h VertexAdapter.cpp VertexAdapter.h VertexFactory.h MatrixVertexFactory.cpp MatrixVertexFactory.h
-        MatrixVertexCreator.cpp MatrixVertexCreator.h Matrix.h GraphSearcher.h MatrixGraphSearcher.h
-        Vertex.cpp BFS.h BFS.cpp DFS.cpp DFS.h BestFirstSearch.h AStar.cpp AStar.h
-        MatrixShortestPathSolver.h MatrixShortestPathSolver.cpp BestFirstSearch.cpp)
+        Searchers/Searcher.h Searchables/Searchable.h
+        VerticesClasses/Vertex.h Movement.h Point.cpp Point.h VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp VerticesClasses/MatrixVerticesClasses/MatrixVertex.h Searchables/MatrixGraph.cpp Searchables/MatrixGraph.h
+        Cost.cpp Cost.h VerticesClasses/VertexAdapter.cpp VerticesClasses/VertexAdapter.h VerticesClasses/VertexFactory.h VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.h
+        VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.h Matrix.h Searchers/GraphSearchers/GraphSearcher.h Searchers/GraphSearchers/MatrixGraphSearcher.h
+        VerticesClasses/Vertex.cpp Searchers/GraphSearchers/BFS.h Searchers/GraphSearchers/BFS.cpp Searchers/GraphSearchers/DFS.cpp Searchers/GraphSearchers/DFS.h Searchers/GraphSearchers/BestFirstSearch.h Searchers/GraphSearchers/AStar.cpp Searchers/GraphSearchers/AStar.h
+        Solvers/MatrixShortestPathSolver.h Solvers/MatrixShortestPathSolver.cpp Searchers/GraphSearchers/BestFirstSearch.cpp)
