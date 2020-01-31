@@ -1,0 +1,119 @@
+commit 9f5769b78f1a25d67f235403e24cd1df5c29c92c
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Fri Jan 31 17:17:24 2020 +0200
+
+    final
+
+commit 1dd0c32bb743bcc9ce084cdcaacf004c411f300d
+Author: Amit Milo <amitmilo6@gmail.com>
+Date:   Fri Jan 31 13:15:00 2020 +0200
+
+    Final Version
+
+commit e9e8ab154ce593bd3d06533f2a7e38e2abc054f5
+Merge: e24c956 b936e30
+Author: Amit Milo <amitmilo6@gmail.com>
+Date:   Fri Jan 31 09:54:33 2020 +0200
+
+    Merge branch 'v2' of https://github.com/Amit-Milo/Advanced-Programming-2nd-milestone into algorithms
+    
+    Changing on yoav's computer
+
+commit e24c9568e841679b332cb74dfdb3aa44bb13c163
+Author: Amit Milo <amitmilo6@gmail.com>
+Date:   Fri Jan 31 09:54:15 2020 +0200
+
+    test
+
+commit b936e30717afc86592e473e4f05a8248e54b4071
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Fri Jan 31 01:54:40 2020 +0200
+
+    client input to matrix converter is fixed
+
+commit 1cb53e041d7620d1ede980d5869baa13bae7e0ac
+Merge: c989fcd 1fb106e
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Fri Jan 31 00:27:56 2020 +0200
+
+    need to fix
+
+commit c989fcdfa365b84022f90746fbdce026ff74456c
+Merge: 63e8374 37aac81
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Thu Jan 30 20:32:21 2020 +0200
+
+    Merge branch 'algorithms' of https://github.com/Amit-Milo/Advanced-Programming-2nd-milestone into yoav
+
+commit 1fb106e3d5b59cda2d85921e6a79a81f7ba14680
+Author: Amit Milo <amitmilo6@gmail.com>
+Date:   Thu Jan 30 20:28:47 2020 +0200
+
+    Changed solution type
+
+commit 63e8374770523eff4cdf50a5e25859306df96b88
+Merge: dea57fc da31f8d
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Thu Jan 30 19:25:44 2020 +0200
+
+    Merge branch 'algorithms' of https://github.com/Amit-Milo/Advanced-Programming-2nd-milestone into yoav
+
+commit 37aac8162000a8089de7129c705f6527017e9c5b
+Author: Amit Milo <amitmilo6@gmail.com>
+Date:   Thu Jan 30 12:18:15 2020 +0200
+
+    AAlgorithms are all implemented.
+
+commit dea57fcc4fc2bfa5d6285a11088e53abef7f17e0
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Wed Jan 29 17:23:54 2020 +0200
+
+    finished my server
+
+commit 34610ac43f89a7dd26da8ff397f55404ecb8853b
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Wed Jan 29 17:22:38 2020 +0200
+
+    finished server
+
+commit da31f8d8613df3cec155fc19fce67b30111e5126
+Author: Amit Milo <amitmilo6@gmail.com>
+Date:   Wed Jan 29 16:48:37 2020 +0200
+
+    missing A star and BestFirstSsearch
+
+commit 68ee00e11f39f403791b0ce8938f88db7ca81342
+Author: Amit Milo <amitmilo6@gmail.com>
+Date:   Wed Jan 29 15:25:26 2020 +0200
+
+    Abstraction finished. BFS and DFS implmented.
+
+commit 3c4a2128aa3aa50e07f5239f72c76fdde4375a71
+Author: Amit Milo <amitmilo6@gmail.com>
+Date:   Mon Jan 27 21:37:51 2020 +0200
+
+    Abstraction finished, some runtime errors
+
+commit d817dfb31c742a3c44d07f7c5b61539b51827f11
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Mon Jan 20 16:22:50 2020 +0200
+
+    added cache manager code
+
+commit b343727bd4c80804cc53bb7bd90b0db77327bb8c
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Sun Jan 19 20:32:24 2020 +0200
+
+    almost finished the part 1 structure. i dont know if we should implement now and how. we should decide who's cache manager to include
+
+commit 8d8f73f3c5bcdb11debf1dade43b242717f0072a
+Author: YoavCarmel <carmel.yoav@gmail.com>
+Date:   Sun Jan 19 16:35:10 2020 +0200
+
+    test
+
+commit 59876cf68ec1b60c27641b141e5c3cc455b502ff
+Author: Amit-Milo <56229281+Amit-Milo@users.noreply.github.com>
+Date:   Sun Jan 19 16:21:04 2020 +0200
+
+    Initial commit
