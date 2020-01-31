@@ -19,6 +19,10 @@ class AStar : public GraphSearcher{
    * @return a list of vertexes which make a shortest path in the graph.
    */
   virtual list<pair<Vertex, Cost>> * search(Searchable& graph) const;
+
+  virtual GraphSearcher * clone() const {
+    return new AStar;
+  }
 };
 
 #endif //ADVANCEDPROGRAMMINGMILESTONE2__ASTAR_H_

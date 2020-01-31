@@ -19,6 +19,10 @@ class BestFirstSearch : public GraphSearcher {
    * @return a list of vertexes which make a shortest path in the graph.
    */
   virtual list<pair<Vertex, Cost>> * search(Searchable& graph) const;
+
+  virtual GraphSearcher * clone() const {
+    return new BestFirstSearch;
+  }
 };
 
 #endif //ADVANCEDPROGRAMMINGMILESTONE2__BESTFIRSTSEARCH_H_

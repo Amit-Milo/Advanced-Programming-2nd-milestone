@@ -13,8 +13,11 @@ string StringReverser::solve(string p) {
 
   for (int i = 0; i < length; ++i) {
     // Copy next char from the corresponding place from the end.
-    result[i] = p[lastIndex - i];
+    result+=(p[lastIndex - i]);
   }
 
   return result;
+}
+Solver<string, string> *StringReverser::clone() {
+  return new StringReverser();
 }

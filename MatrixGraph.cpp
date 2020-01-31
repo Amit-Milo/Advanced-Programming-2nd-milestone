@@ -25,7 +25,7 @@ Matrix<VertexAdapter> CostsToVertexes(const Matrix<int> &mat, MatrixVertexCreato
 MatrixGraph::MatrixGraph(const Matrix<int> &mat, const Point &start, const Point &end) : _creator(MatrixVertexCreator()),
 _start(this->_creator.create(start, mat.GetRows())), _end(this->_creator.create(end, mat.GetRows())),
 _mat(CostsToVertexes(mat, this->_creator)){
-  auto startVertex = this->_mat.Get(0 ,0);
+  auto startVertex = this->_mat.Get(0, 0);
   startVertex->SetPathLength(*startVertex->GetCost());
 }
 
@@ -94,6 +94,7 @@ void MatrixGraph::UpdateVertex(const Vertex &v, const Vertex &p) const {
   auto vAdapter = this->_mat.Get(vi, vj);
   auto pAdapter = this->_mat.Get(pi, pj);
 
+
   if (vAdapter->GetPathLength() > pAdapter->GetPathLength() + vAdapter->GetCost()->GetValue()) {
     vAdapter->SetParent(*pAdapter);
   }
@@ -142,4 +143,13 @@ Cost MatrixGraph::GetCost(const Vertex &v) const {
 
 int MatrixGraph::GetRows() const {
   return this->_mat.GetRows();
+}
+
+//TODO
+size_t MatrixGraph::hash() {
+  size_t result=0;
+  result += _start.hash();
+  result += _end.hash();
+  result += _mat.hash();
+  return result;
 }

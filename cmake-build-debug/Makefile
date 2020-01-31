@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/100/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/yoav/Downloads/clion-2019.2.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/100/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/yoav/Downloads/clion-2019.2.5/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amit/CLionProjects/advancedProgrammngMilestone2
+CMAKE_SOURCE_DIR = /home/yoav/CLionProjects/cpp/ex4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/yoav/CLionProjects/cpp/ex4/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-b
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/100/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/yoav/Downloads/clion-2019.2.5/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/100/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/yoav/Downloads/clion-2019.2.5/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles /home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles /home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named advancedProgrammingMilestone2
+# Target rules for targets named ex4
 
 # Build rule for target.
-advancedProgrammingMilestone2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 advancedProgrammingMilestone2
-.PHONY : advancedProgrammingMilestone2
+ex4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex4
+.PHONY : ex4
 
 # fast build rule for target.
-advancedProgrammingMilestone2/fast:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/build
-.PHONY : advancedProgrammingMilestone2/fast
+ex4/fast:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
+.PHONY : ex4/fast
 
 AStar.o: AStar.cpp.o
 
@@ -129,7 +129,7 @@ AStar.o: AStar.cpp.o
 
 # target to build an object file
 AStar.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/AStar.cpp.o
 .PHONY : AStar.cpp.o
 
 AStar.i: AStar.cpp.i
@@ -138,7 +138,7 @@ AStar.i: AStar.cpp.i
 
 # target to preprocess a source file
 AStar.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/AStar.cpp.i
 .PHONY : AStar.cpp.i
 
 AStar.s: AStar.cpp.s
@@ -147,7 +147,7 @@ AStar.s: AStar.cpp.s
 
 # target to generate assembly for a file
 AStar.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/AStar.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/AStar.cpp.s
 .PHONY : AStar.cpp.s
 
 BFS.o: BFS.cpp.o
@@ -156,7 +156,7 @@ BFS.o: BFS.cpp.o
 
 # target to build an object file
 BFS.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BFS.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/BFS.cpp.o
 .PHONY : BFS.cpp.o
 
 BFS.i: BFS.cpp.i
@@ -165,7 +165,7 @@ BFS.i: BFS.cpp.i
 
 # target to preprocess a source file
 BFS.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BFS.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/BFS.cpp.i
 .PHONY : BFS.cpp.i
 
 BFS.s: BFS.cpp.s
@@ -174,7 +174,7 @@ BFS.s: BFS.cpp.s
 
 # target to generate assembly for a file
 BFS.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BFS.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/BFS.cpp.s
 .PHONY : BFS.cpp.s
 
 BestFirstSearch.o: BestFirstSearch.cpp.o
@@ -183,7 +183,7 @@ BestFirstSearch.o: BestFirstSearch.cpp.o
 
 # target to build an object file
 BestFirstSearch.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/BestFirstSearch.cpp.o
 .PHONY : BestFirstSearch.cpp.o
 
 BestFirstSearch.i: BestFirstSearch.cpp.i
@@ -192,7 +192,7 @@ BestFirstSearch.i: BestFirstSearch.cpp.i
 
 # target to preprocess a source file
 BestFirstSearch.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/BestFirstSearch.cpp.i
 .PHONY : BestFirstSearch.cpp.i
 
 BestFirstSearch.s: BestFirstSearch.cpp.s
@@ -201,8 +201,62 @@ BestFirstSearch.s: BestFirstSearch.cpp.s
 
 # target to generate assembly for a file
 BestFirstSearch.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/BestFirstSearch.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/BestFirstSearch.cpp.s
 .PHONY : BestFirstSearch.cpp.s
+
+ClientInputToMatrixConverter.o: ClientInputToMatrixConverter.cpp.o
+
+.PHONY : ClientInputToMatrixConverter.o
+
+# target to build an object file
+ClientInputToMatrixConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.o
+.PHONY : ClientInputToMatrixConverter.cpp.o
+
+ClientInputToMatrixConverter.i: ClientInputToMatrixConverter.cpp.i
+
+.PHONY : ClientInputToMatrixConverter.i
+
+# target to preprocess a source file
+ClientInputToMatrixConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.i
+.PHONY : ClientInputToMatrixConverter.cpp.i
+
+ClientInputToMatrixConverter.s: ClientInputToMatrixConverter.cpp.s
+
+.PHONY : ClientInputToMatrixConverter.s
+
+# target to generate assembly for a file
+ClientInputToMatrixConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputToMatrixConverter.cpp.s
+.PHONY : ClientInputToMatrixConverter.cpp.s
+
+ClientInputToStringConverter.o: ClientInputToStringConverter.cpp.o
+
+.PHONY : ClientInputToStringConverter.o
+
+# target to build an object file
+ClientInputToStringConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.o
+.PHONY : ClientInputToStringConverter.cpp.o
+
+ClientInputToStringConverter.i: ClientInputToStringConverter.cpp.i
+
+.PHONY : ClientInputToStringConverter.i
+
+# target to preprocess a source file
+ClientInputToStringConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.i
+.PHONY : ClientInputToStringConverter.cpp.i
+
+ClientInputToStringConverter.s: ClientInputToStringConverter.cpp.s
+
+.PHONY : ClientInputToStringConverter.s
+
+# target to generate assembly for a file
+ClientInputToStringConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputToStringConverter.cpp.s
+.PHONY : ClientInputToStringConverter.cpp.s
 
 Cost.o: Cost.cpp.o
 
@@ -210,7 +264,7 @@ Cost.o: Cost.cpp.o
 
 # target to build an object file
 Cost.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Cost.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Cost.cpp.o
 .PHONY : Cost.cpp.o
 
 Cost.i: Cost.cpp.i
@@ -219,7 +273,7 @@ Cost.i: Cost.cpp.i
 
 # target to preprocess a source file
 Cost.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Cost.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Cost.cpp.i
 .PHONY : Cost.cpp.i
 
 Cost.s: Cost.cpp.s
@@ -228,7 +282,7 @@ Cost.s: Cost.cpp.s
 
 # target to generate assembly for a file
 Cost.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Cost.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Cost.cpp.s
 .PHONY : Cost.cpp.s
 
 DFS.o: DFS.cpp.o
@@ -237,7 +291,7 @@ DFS.o: DFS.cpp.o
 
 # target to build an object file
 DFS.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/DFS.cpp.o
 .PHONY : DFS.cpp.o
 
 DFS.i: DFS.cpp.i
@@ -246,7 +300,7 @@ DFS.i: DFS.cpp.i
 
 # target to preprocess a source file
 DFS.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/DFS.cpp.i
 .PHONY : DFS.cpp.i
 
 DFS.s: DFS.cpp.s
@@ -255,8 +309,62 @@ DFS.s: DFS.cpp.s
 
 # target to generate assembly for a file
 DFS.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/DFS.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/DFS.cpp.s
 .PHONY : DFS.cpp.s
+
+FileMatrixCacheManager.o: FileMatrixCacheManager.cpp.o
+
+.PHONY : FileMatrixCacheManager.o
+
+# target to build an object file
+FileMatrixCacheManager.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.o
+.PHONY : FileMatrixCacheManager.cpp.o
+
+FileMatrixCacheManager.i: FileMatrixCacheManager.cpp.i
+
+.PHONY : FileMatrixCacheManager.i
+
+# target to preprocess a source file
+FileMatrixCacheManager.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.i
+.PHONY : FileMatrixCacheManager.cpp.i
+
+FileMatrixCacheManager.s: FileMatrixCacheManager.cpp.s
+
+.PHONY : FileMatrixCacheManager.s
+
+# target to generate assembly for a file
+FileMatrixCacheManager.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/FileMatrixCacheManager.cpp.s
+.PHONY : FileMatrixCacheManager.cpp.s
+
+FileStringCacheManager.o: FileStringCacheManager.cpp.o
+
+.PHONY : FileStringCacheManager.o
+
+# target to build an object file
+FileStringCacheManager.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/FileStringCacheManager.cpp.o
+.PHONY : FileStringCacheManager.cpp.o
+
+FileStringCacheManager.i: FileStringCacheManager.cpp.i
+
+.PHONY : FileStringCacheManager.i
+
+# target to preprocess a source file
+FileStringCacheManager.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/FileStringCacheManager.cpp.i
+.PHONY : FileStringCacheManager.cpp.i
+
+FileStringCacheManager.s: FileStringCacheManager.cpp.s
+
+.PHONY : FileStringCacheManager.s
+
+# target to generate assembly for a file
+FileStringCacheManager.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/FileStringCacheManager.cpp.s
+.PHONY : FileStringCacheManager.cpp.s
 
 MatrixGraph.o: MatrixGraph.cpp.o
 
@@ -264,7 +372,7 @@ MatrixGraph.o: MatrixGraph.cpp.o
 
 # target to build an object file
 MatrixGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixGraph.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixGraph.cpp.o
 .PHONY : MatrixGraph.cpp.o
 
 MatrixGraph.i: MatrixGraph.cpp.i
@@ -273,7 +381,7 @@ MatrixGraph.i: MatrixGraph.cpp.i
 
 # target to preprocess a source file
 MatrixGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixGraph.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixGraph.cpp.i
 .PHONY : MatrixGraph.cpp.i
 
 MatrixGraph.s: MatrixGraph.cpp.s
@@ -282,7 +390,7 @@ MatrixGraph.s: MatrixGraph.cpp.s
 
 # target to generate assembly for a file
 MatrixGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixGraph.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixGraph.cpp.s
 .PHONY : MatrixGraph.cpp.s
 
 MatrixShortestPathSolver.o: MatrixShortestPathSolver.cpp.o
@@ -291,7 +399,7 @@ MatrixShortestPathSolver.o: MatrixShortestPathSolver.cpp.o
 
 # target to build an object file
 MatrixShortestPathSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.o
 .PHONY : MatrixShortestPathSolver.cpp.o
 
 MatrixShortestPathSolver.i: MatrixShortestPathSolver.cpp.i
@@ -300,7 +408,7 @@ MatrixShortestPathSolver.i: MatrixShortestPathSolver.cpp.i
 
 # target to preprocess a source file
 MatrixShortestPathSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.i
 .PHONY : MatrixShortestPathSolver.cpp.i
 
 MatrixShortestPathSolver.s: MatrixShortestPathSolver.cpp.s
@@ -309,8 +417,35 @@ MatrixShortestPathSolver.s: MatrixShortestPathSolver.cpp.s
 
 # target to generate assembly for a file
 MatrixShortestPathSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixShortestPathSolver.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixShortestPathSolver.cpp.s
 .PHONY : MatrixShortestPathSolver.cpp.s
+
+MatrixToFileNameConverter.o: MatrixToFileNameConverter.cpp.o
+
+.PHONY : MatrixToFileNameConverter.o
+
+# target to build an object file
+MatrixToFileNameConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.o
+.PHONY : MatrixToFileNameConverter.cpp.o
+
+MatrixToFileNameConverter.i: MatrixToFileNameConverter.cpp.i
+
+.PHONY : MatrixToFileNameConverter.i
+
+# target to preprocess a source file
+MatrixToFileNameConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.i
+.PHONY : MatrixToFileNameConverter.cpp.i
+
+MatrixToFileNameConverter.s: MatrixToFileNameConverter.cpp.s
+
+.PHONY : MatrixToFileNameConverter.s
+
+# target to generate assembly for a file
+MatrixToFileNameConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixToFileNameConverter.cpp.s
+.PHONY : MatrixToFileNameConverter.cpp.s
 
 MatrixVertex.o: MatrixVertex.cpp.o
 
@@ -318,7 +453,7 @@ MatrixVertex.o: MatrixVertex.cpp.o
 
 # target to build an object file
 MatrixVertex.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertex.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertex.cpp.o
 .PHONY : MatrixVertex.cpp.o
 
 MatrixVertex.i: MatrixVertex.cpp.i
@@ -327,7 +462,7 @@ MatrixVertex.i: MatrixVertex.cpp.i
 
 # target to preprocess a source file
 MatrixVertex.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertex.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertex.cpp.i
 .PHONY : MatrixVertex.cpp.i
 
 MatrixVertex.s: MatrixVertex.cpp.s
@@ -336,7 +471,7 @@ MatrixVertex.s: MatrixVertex.cpp.s
 
 # target to generate assembly for a file
 MatrixVertex.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertex.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertex.cpp.s
 .PHONY : MatrixVertex.cpp.s
 
 MatrixVertexCreator.o: MatrixVertexCreator.cpp.o
@@ -345,7 +480,7 @@ MatrixVertexCreator.o: MatrixVertexCreator.cpp.o
 
 # target to build an object file
 MatrixVertexCreator.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertexCreator.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.o
 .PHONY : MatrixVertexCreator.cpp.o
 
 MatrixVertexCreator.i: MatrixVertexCreator.cpp.i
@@ -354,7 +489,7 @@ MatrixVertexCreator.i: MatrixVertexCreator.cpp.i
 
 # target to preprocess a source file
 MatrixVertexCreator.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertexCreator.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.i
 .PHONY : MatrixVertexCreator.cpp.i
 
 MatrixVertexCreator.s: MatrixVertexCreator.cpp.s
@@ -363,7 +498,7 @@ MatrixVertexCreator.s: MatrixVertexCreator.cpp.s
 
 # target to generate assembly for a file
 MatrixVertexCreator.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertexCreator.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexCreator.cpp.s
 .PHONY : MatrixVertexCreator.cpp.s
 
 MatrixVertexFactory.o: MatrixVertexFactory.cpp.o
@@ -372,7 +507,7 @@ MatrixVertexFactory.o: MatrixVertexFactory.cpp.o
 
 # target to build an object file
 MatrixVertexFactory.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertexFactory.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.o
 .PHONY : MatrixVertexFactory.cpp.o
 
 MatrixVertexFactory.i: MatrixVertexFactory.cpp.i
@@ -381,7 +516,7 @@ MatrixVertexFactory.i: MatrixVertexFactory.cpp.i
 
 # target to preprocess a source file
 MatrixVertexFactory.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertexFactory.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.i
 .PHONY : MatrixVertexFactory.cpp.i
 
 MatrixVertexFactory.s: MatrixVertexFactory.cpp.s
@@ -390,8 +525,62 @@ MatrixVertexFactory.s: MatrixVertexFactory.cpp.s
 
 # target to generate assembly for a file
 MatrixVertexFactory.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MatrixVertexFactory.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MatrixVertexFactory.cpp.s
 .PHONY : MatrixVertexFactory.cpp.s
+
+MyClientHandler.o: MyClientHandler.cpp.o
+
+.PHONY : MyClientHandler.o
+
+# target to build an object file
+MyClientHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyClientHandler.cpp.o
+.PHONY : MyClientHandler.cpp.o
+
+MyClientHandler.i: MyClientHandler.cpp.i
+
+.PHONY : MyClientHandler.i
+
+# target to preprocess a source file
+MyClientHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyClientHandler.cpp.i
+.PHONY : MyClientHandler.cpp.i
+
+MyClientHandler.s: MyClientHandler.cpp.s
+
+.PHONY : MyClientHandler.s
+
+# target to generate assembly for a file
+MyClientHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyClientHandler.cpp.s
+.PHONY : MyClientHandler.cpp.s
+
+MyParallelServer.o: MyParallelServer.cpp.o
+
+.PHONY : MyParallelServer.o
+
+# target to build an object file
+MyParallelServer.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyParallelServer.cpp.o
+.PHONY : MyParallelServer.cpp.o
+
+MyParallelServer.i: MyParallelServer.cpp.i
+
+.PHONY : MyParallelServer.i
+
+# target to preprocess a source file
+MyParallelServer.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyParallelServer.cpp.i
+.PHONY : MyParallelServer.cpp.i
+
+MyParallelServer.s: MyParallelServer.cpp.s
+
+.PHONY : MyParallelServer.s
+
+# target to generate assembly for a file
+MyParallelServer.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyParallelServer.cpp.s
+.PHONY : MyParallelServer.cpp.s
 
 MySerialServer.o: MySerialServer.cpp.o
 
@@ -399,7 +588,7 @@ MySerialServer.o: MySerialServer.cpp.o
 
 # target to build an object file
 MySerialServer.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MySerialServer.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MySerialServer.cpp.o
 .PHONY : MySerialServer.cpp.o
 
 MySerialServer.i: MySerialServer.cpp.i
@@ -408,7 +597,7 @@ MySerialServer.i: MySerialServer.cpp.i
 
 # target to preprocess a source file
 MySerialServer.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MySerialServer.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MySerialServer.cpp.i
 .PHONY : MySerialServer.cpp.i
 
 MySerialServer.s: MySerialServer.cpp.s
@@ -417,7 +606,7 @@ MySerialServer.s: MySerialServer.cpp.s
 
 # target to generate assembly for a file
 MySerialServer.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MySerialServer.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MySerialServer.cpp.s
 .PHONY : MySerialServer.cpp.s
 
 MyTestClientHandler.o: MyTestClientHandler.cpp.o
@@ -426,7 +615,7 @@ MyTestClientHandler.o: MyTestClientHandler.cpp.o
 
 # target to build an object file
 MyTestClientHandler.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MyTestClientHandler.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyTestClientHandler.cpp.o
 .PHONY : MyTestClientHandler.cpp.o
 
 MyTestClientHandler.i: MyTestClientHandler.cpp.i
@@ -435,7 +624,7 @@ MyTestClientHandler.i: MyTestClientHandler.cpp.i
 
 # target to preprocess a source file
 MyTestClientHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MyTestClientHandler.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyTestClientHandler.cpp.i
 .PHONY : MyTestClientHandler.cpp.i
 
 MyTestClientHandler.s: MyTestClientHandler.cpp.s
@@ -444,8 +633,35 @@ MyTestClientHandler.s: MyTestClientHandler.cpp.s
 
 # target to generate assembly for a file
 MyTestClientHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/MyTestClientHandler.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/MyTestClientHandler.cpp.s
 .PHONY : MyTestClientHandler.cpp.s
+
+ParallelServerRunner.o: ParallelServerRunner.cpp.o
+
+.PHONY : ParallelServerRunner.o
+
+# target to build an object file
+ParallelServerRunner.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ParallelServerRunner.cpp.o
+.PHONY : ParallelServerRunner.cpp.o
+
+ParallelServerRunner.i: ParallelServerRunner.cpp.i
+
+.PHONY : ParallelServerRunner.i
+
+# target to preprocess a source file
+ParallelServerRunner.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ParallelServerRunner.cpp.i
+.PHONY : ParallelServerRunner.cpp.i
+
+ParallelServerRunner.s: ParallelServerRunner.cpp.s
+
+.PHONY : ParallelServerRunner.s
+
+# target to generate assembly for a file
+ParallelServerRunner.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ParallelServerRunner.cpp.s
+.PHONY : ParallelServerRunner.cpp.s
 
 Point.o: Point.cpp.o
 
@@ -453,7 +669,7 @@ Point.o: Point.cpp.o
 
 # target to build an object file
 Point.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Point.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.o
 .PHONY : Point.cpp.o
 
 Point.i: Point.cpp.i
@@ -462,7 +678,7 @@ Point.i: Point.cpp.i
 
 # target to preprocess a source file
 Point.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Point.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.i
 .PHONY : Point.cpp.i
 
 Point.s: Point.cpp.s
@@ -471,8 +687,62 @@ Point.s: Point.cpp.s
 
 # target to generate assembly for a file
 Point.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Point.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.s
 .PHONY : Point.cpp.s
+
+SerialServerRunner.o: SerialServerRunner.cpp.o
+
+.PHONY : SerialServerRunner.o
+
+# target to build an object file
+SerialServerRunner.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/SerialServerRunner.cpp.o
+.PHONY : SerialServerRunner.cpp.o
+
+SerialServerRunner.i: SerialServerRunner.cpp.i
+
+.PHONY : SerialServerRunner.i
+
+# target to preprocess a source file
+SerialServerRunner.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/SerialServerRunner.cpp.i
+.PHONY : SerialServerRunner.cpp.i
+
+SerialServerRunner.s: SerialServerRunner.cpp.s
+
+.PHONY : SerialServerRunner.s
+
+# target to generate assembly for a file
+SerialServerRunner.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/SerialServerRunner.cpp.s
+.PHONY : SerialServerRunner.cpp.s
+
+ServerSocket.o: ServerSocket.cpp.o
+
+.PHONY : ServerSocket.o
+
+# target to build an object file
+ServerSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.o
+.PHONY : ServerSocket.cpp.o
+
+ServerSocket.i: ServerSocket.cpp.i
+
+.PHONY : ServerSocket.i
+
+# target to preprocess a source file
+ServerSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.i
+.PHONY : ServerSocket.cpp.i
+
+ServerSocket.s: ServerSocket.cpp.s
+
+.PHONY : ServerSocket.s
+
+# target to generate assembly for a file
+ServerSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.s
+.PHONY : ServerSocket.cpp.s
 
 StringReverser.o: StringReverser.cpp.o
 
@@ -480,7 +750,7 @@ StringReverser.o: StringReverser.cpp.o
 
 # target to build an object file
 StringReverser.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/StringReverser.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringReverser.cpp.o
 .PHONY : StringReverser.cpp.o
 
 StringReverser.i: StringReverser.cpp.i
@@ -489,7 +759,7 @@ StringReverser.i: StringReverser.cpp.i
 
 # target to preprocess a source file
 StringReverser.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/StringReverser.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringReverser.cpp.i
 .PHONY : StringReverser.cpp.i
 
 StringReverser.s: StringReverser.cpp.s
@@ -498,8 +768,35 @@ StringReverser.s: StringReverser.cpp.s
 
 # target to generate assembly for a file
 StringReverser.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/StringReverser.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringReverser.cpp.s
 .PHONY : StringReverser.cpp.s
+
+StringToFileNameConverter.o: StringToFileNameConverter.cpp.o
+
+.PHONY : StringToFileNameConverter.o
+
+# target to build an object file
+StringToFileNameConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.o
+.PHONY : StringToFileNameConverter.cpp.o
+
+StringToFileNameConverter.i: StringToFileNameConverter.cpp.i
+
+.PHONY : StringToFileNameConverter.i
+
+# target to preprocess a source file
+StringToFileNameConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.i
+.PHONY : StringToFileNameConverter.cpp.i
+
+StringToFileNameConverter.s: StringToFileNameConverter.cpp.s
+
+.PHONY : StringToFileNameConverter.s
+
+# target to generate assembly for a file
+StringToFileNameConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/StringToFileNameConverter.cpp.s
+.PHONY : StringToFileNameConverter.cpp.s
 
 Vertex.o: Vertex.cpp.o
 
@@ -507,7 +804,7 @@ Vertex.o: Vertex.cpp.o
 
 # target to build an object file
 Vertex.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Vertex.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Vertex.cpp.o
 .PHONY : Vertex.cpp.o
 
 Vertex.i: Vertex.cpp.i
@@ -516,7 +813,7 @@ Vertex.i: Vertex.cpp.i
 
 # target to preprocess a source file
 Vertex.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Vertex.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Vertex.cpp.i
 .PHONY : Vertex.cpp.i
 
 Vertex.s: Vertex.cpp.s
@@ -525,7 +822,7 @@ Vertex.s: Vertex.cpp.s
 
 # target to generate assembly for a file
 Vertex.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/Vertex.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Vertex.cpp.s
 .PHONY : Vertex.cpp.s
 
 VertexAdapter.o: VertexAdapter.cpp.o
@@ -534,7 +831,7 @@ VertexAdapter.o: VertexAdapter.cpp.o
 
 # target to build an object file
 VertexAdapter.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/VertexAdapter.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VertexAdapter.cpp.o
 .PHONY : VertexAdapter.cpp.o
 
 VertexAdapter.i: VertexAdapter.cpp.i
@@ -543,7 +840,7 @@ VertexAdapter.i: VertexAdapter.cpp.i
 
 # target to preprocess a source file
 VertexAdapter.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/VertexAdapter.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VertexAdapter.cpp.i
 .PHONY : VertexAdapter.cpp.i
 
 VertexAdapter.s: VertexAdapter.cpp.s
@@ -552,7 +849,7 @@ VertexAdapter.s: VertexAdapter.cpp.s
 
 # target to generate assembly for a file
 VertexAdapter.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/VertexAdapter.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VertexAdapter.cpp.s
 .PHONY : VertexAdapter.cpp.s
 
 main.o: main.cpp.o
@@ -561,7 +858,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -570,7 +867,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -579,7 +876,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedProgrammingMilestone2.dir/build.make CMakeFiles/advancedProgrammingMilestone2.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -589,7 +886,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... advancedProgrammingMilestone2"
+	@echo "... ex4"
 	@echo "... edit_cache"
 	@echo "... AStar.o"
 	@echo "... AStar.i"
@@ -600,18 +897,33 @@ help:
 	@echo "... BestFirstSearch.o"
 	@echo "... BestFirstSearch.i"
 	@echo "... BestFirstSearch.s"
+	@echo "... ClientInputToMatrixConverter.o"
+	@echo "... ClientInputToMatrixConverter.i"
+	@echo "... ClientInputToMatrixConverter.s"
+	@echo "... ClientInputToStringConverter.o"
+	@echo "... ClientInputToStringConverter.i"
+	@echo "... ClientInputToStringConverter.s"
 	@echo "... Cost.o"
 	@echo "... Cost.i"
 	@echo "... Cost.s"
 	@echo "... DFS.o"
 	@echo "... DFS.i"
 	@echo "... DFS.s"
+	@echo "... FileMatrixCacheManager.o"
+	@echo "... FileMatrixCacheManager.i"
+	@echo "... FileMatrixCacheManager.s"
+	@echo "... FileStringCacheManager.o"
+	@echo "... FileStringCacheManager.i"
+	@echo "... FileStringCacheManager.s"
 	@echo "... MatrixGraph.o"
 	@echo "... MatrixGraph.i"
 	@echo "... MatrixGraph.s"
 	@echo "... MatrixShortestPathSolver.o"
 	@echo "... MatrixShortestPathSolver.i"
 	@echo "... MatrixShortestPathSolver.s"
+	@echo "... MatrixToFileNameConverter.o"
+	@echo "... MatrixToFileNameConverter.i"
+	@echo "... MatrixToFileNameConverter.s"
 	@echo "... MatrixVertex.o"
 	@echo "... MatrixVertex.i"
 	@echo "... MatrixVertex.s"
@@ -621,18 +933,36 @@ help:
 	@echo "... MatrixVertexFactory.o"
 	@echo "... MatrixVertexFactory.i"
 	@echo "... MatrixVertexFactory.s"
+	@echo "... MyClientHandler.o"
+	@echo "... MyClientHandler.i"
+	@echo "... MyClientHandler.s"
+	@echo "... MyParallelServer.o"
+	@echo "... MyParallelServer.i"
+	@echo "... MyParallelServer.s"
 	@echo "... MySerialServer.o"
 	@echo "... MySerialServer.i"
 	@echo "... MySerialServer.s"
 	@echo "... MyTestClientHandler.o"
 	@echo "... MyTestClientHandler.i"
 	@echo "... MyTestClientHandler.s"
+	@echo "... ParallelServerRunner.o"
+	@echo "... ParallelServerRunner.i"
+	@echo "... ParallelServerRunner.s"
 	@echo "... Point.o"
 	@echo "... Point.i"
 	@echo "... Point.s"
+	@echo "... SerialServerRunner.o"
+	@echo "... SerialServerRunner.i"
+	@echo "... SerialServerRunner.s"
+	@echo "... ServerSocket.o"
+	@echo "... ServerSocket.i"
+	@echo "... ServerSocket.s"
 	@echo "... StringReverser.o"
 	@echo "... StringReverser.i"
 	@echo "... StringReverser.s"
+	@echo "... StringToFileNameConverter.o"
+	@echo "... StringToFileNameConverter.i"
+	@echo "... StringToFileNameConverter.s"
 	@echo "... Vertex.o"
 	@echo "... Vertex.i"
 	@echo "... Vertex.s"

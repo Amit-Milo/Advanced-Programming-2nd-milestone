@@ -17,8 +17,7 @@ class MatrixShortestPathSolver : public Solver<MatrixGraph, string> {
   MatrixGraphSearcher _searcher;
 
  public:
-  MatrixShortestPathSolver(MatrixGraphSearcher searcher) :_searcher(std::move(searcher)) {}
-
+  MatrixShortestPathSolver(MatrixGraphSearcher searcher) : _searcher(std::move(searcher)) {}
 
   /**
    * Solve a problem.
@@ -26,6 +25,10 @@ class MatrixShortestPathSolver : public Solver<MatrixGraph, string> {
    * @return A solution to the problem.
    */
   virtual string solve(MatrixGraph graph);
+
+  Solver<MatrixGraph, string> *clone() override {
+    return new MatrixShortestPathSolver(*_searcher.clone());
+  }
 };
 
 #endif //ADVANCEDPROGRAMMINGMILESTONE2__MATRIXSHORTESTPATHSOLVER_H_

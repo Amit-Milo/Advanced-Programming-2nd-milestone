@@ -8,6 +8,7 @@
 #include "Cost.h"
 #include "Vertex.h"
 
+
 class MatrixVertex : public Vertex{
   friend class MatrixVertexFactory;
 
@@ -16,6 +17,7 @@ class MatrixVertex : public Vertex{
   * @param index the index of the matrix vertex.
   */
   MatrixVertex(int index) : Vertex(index){ }
+
 };
 
 #endif //EX4__MATRIXVERTEX_H_

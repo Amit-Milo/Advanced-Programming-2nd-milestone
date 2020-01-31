@@ -11,16 +11,39 @@
 #include <set>
 #include <functional>
 #include <fstream>
+#include "Solver.h"
 
 using namespace std;
-//TODO this is Yoav's cache manager
+/**
+ * this is an interface that has the methods that a cache manager should handle.
+ * @tparam T the type of data to handle
+ */
 template<class T>
 class CacheManager {
  public:
-  virtual void insert(string key, T obj) = 0;
-  virtual T get(string key) = 0;
-  virtual void foreach(const function<void(T &)> func) = 0;
-  virtual void moveToFrontOfCache(string key) = 0;
+  /**
+   * save the solution for the input object to memory using the solver.
+   * @param obj the object to save to memory
+   * @param solution the solution to write
+   */
+  virtual void Save(T obj, string solution) = 0;
+  /**
+   * @param obj the object to check if we already have a solution to.
+   * @return whether there is a solution already or not.
+   */
+  virtual bool IsAlreadySolved(T obj) = 0;
+  /**
+   * calculate the solution to a given problem
+   * @param problem the problem to solve
+   * @param solver the solver of the problem
+   * @return the solution to the problem
+   */
+  virtual string Solution(T problem) = 0;
+
+  /**
+   * clone the cache manager
+   */
+  virtual CacheManager *clone() = 0;
 };
 
 #endif //EX4__CACHEMANAGER_H_

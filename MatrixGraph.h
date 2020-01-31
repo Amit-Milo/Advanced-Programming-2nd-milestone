@@ -6,6 +6,7 @@
 #define EX4__MATRIXGRAPH_H_
 
 #include <list>
+#include <string>
 
 #include "Matrix.h"
 #include "Cost.h"
@@ -93,6 +94,8 @@ class MatrixGraph : public Searchable {
   virtual Cost GetCost(const Vertex &v) const;
 
   int GetRows() const;
+
+  size_t hash();
 };
 
 #endif //EX4__MATRIXGRAPH_H_

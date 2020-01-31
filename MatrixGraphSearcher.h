@@ -27,6 +27,14 @@ class MatrixGraphSearcher : public GraphSearcher {
   virtual list<pair<Vertex, Cost>> * search(Searchable& graph) const {
     this->_searcher->search(graph);
   };
+
+
+  virtual MatrixGraphSearcher* clone() const{
+    return new MatrixGraphSearcher(_searcher->clone());
+  }
+
+
+
 };
 
 #endif //EX4__MATRIXGRAPHSEARCHER_H_

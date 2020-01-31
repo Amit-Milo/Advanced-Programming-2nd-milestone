@@ -44,6 +44,19 @@ class Matrix {
   int GetColumns() const {
     return this->_columns;
   }
+
+  std::size_t hash() {
+    std::size_t result = 0;
+    for (int i = 0; i < _rows; i++) {
+      for (int j = 0; j < _columns; j++) {
+        result += std::hash<T>{}(_mat[i][j]);
+      }
+    }
+    result *= 10;
+    result += std::hash<int>{}(_rows);
+    result += std::hash<int>{}(_columns);
+    return result;
+  }
 };
 
 #endif //EX4__MATRIX_H_

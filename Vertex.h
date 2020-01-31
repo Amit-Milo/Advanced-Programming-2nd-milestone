@@ -5,6 +5,7 @@
 #ifndef EX4__VERTEX_H_
 #define EX4__VERTEX_H_
 
+#include <string>
 
 class Vertex {
   friend class VertexFactory;
@@ -40,6 +41,9 @@ class Vertex {
    * @return true if the vertexes are unequal, false otherwise.
    */
   friend bool operator!=(const Vertex &first, const Vertex &second);
+
+
+  size_t hash() const;
 };
 
 #endif //EX4__VERTEX_H_

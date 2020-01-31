@@ -9,11 +9,14 @@ const Cost* VertexAdapter::GetCost() {
   return this->_cost;
 }
 
-
+/*
 const Vertex *VertexAdapter::GetVertex() {
   return this->_vertex;
 }
-
+*/
+const Vertex *VertexAdapter::GetVertex() const {
+  return this->_vertex;
+}
 
 void VertexAdapter::travel() {
   this->_traveled = true;
@@ -25,7 +28,7 @@ bool VertexAdapter::isTraveled() {
 }
 
 
-const Vertex *VertexAdapter::GetParent() {
+const Vertex *VertexAdapter::GetParent()  const{
   return this->_parent;
 }
 
@@ -56,4 +59,6 @@ bool operator==(const Vertex &first, const VertexAdapter &second) {
 bool operator==(const VertexAdapter &first, const Vertex &second) {
   return second == first;
 }
+
+
 

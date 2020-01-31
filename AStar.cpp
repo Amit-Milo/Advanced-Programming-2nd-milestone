@@ -36,10 +36,6 @@ list<pair<Vertex, Cost>> * AStar::search(Searchable &graph) const {
     });
     heap.pop_back();
 
-    if (head == end) {
-      break;
-    }
-
     graph.Visit(head);
 
     auto neighbors = graph.GetNeighbors(head);
@@ -49,21 +45,22 @@ list<pair<Vertex, Cost>> * AStar::search(Searchable &graph) const {
       Cost tentativeScore = graph.currentPathLength(head) + graph.GetCost(*it);
       Cost heuristic = tentativeScore + graph.distance(head, *it);
 
-      if (tentativeScore < graph.currentPathLength(*it)){
-        auto val = f_function.find(it->GetIndex());
-        if (val != f_function.end())
-          val->second = heuristic;
-        else
-          f_function.insert({it->GetIndex(), heuristic});
-      }
-      graph.UpdateVertex(*it, head);
-
-      if (!graph.IsVisited(*it)) {
+      auto val = f_function.find(it->GetIndex());
+      if (!graph.IsVisited(*it) && tentativeScore < graph.currentPathLength(*it)) {
+        val->second = heuristic;
         heap.push_back(*it);
         push_heap(heap.begin(), heap.end(), [f_function](const Vertex &first, const Vertex &second) {
           return f_function.at(first.GetIndex()) > f_function.at(second.GetIndex());
         });
       }
+      else if(tentativeScore < graph.currentPathLength(*it)) {
+        f_function.insert({it->GetIndex(), heuristic});
+        heap.push_back(*it);
+        push_heap(heap.begin(), heap.end(), [f_function](const Vertex &first, const Vertex &second) {
+          return f_function.at(first.GetIndex()) > f_function.at(second.GetIndex());
+        });
+      }
+      graph.UpdateVertex(*it, head);
 
       ++it;
     }

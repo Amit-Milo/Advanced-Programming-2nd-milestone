@@ -11,6 +11,9 @@
 
 using namespace std;
 
+/**
+ * this is a solve that accepts a string type and returns a string that is the input string reversed.
+ */
 class StringReverser : public Solver<string, string> {
  public:
   /**
@@ -20,6 +23,8 @@ class StringReverser : public Solver<string, string> {
    * @return A solution to the problem. The reversed string.
    */
   string solve(string p);
+
+  Solver<string, string> *clone() override;
 };
 
 #endif //EX4__STRINGREVERSER_H_

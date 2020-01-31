@@ -17,4 +17,6 @@ class VertexFactory {
   virtual const Vertex* create(int index) = 0;
 };
 
+
+
 #endif //EX4__VERTEXFACTORY_H_

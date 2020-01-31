@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ex4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4">
+				<Option output="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/ex4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4/fast">
+				<Option output="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/ex4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/AStar.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/AStar.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BFS.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BFS.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandlerAbs.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToMatrixConverter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToMatrixConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToProblemConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToStringConverter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToStringConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Cost.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Cost.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/DFS.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/DFS.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileCacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileMatrixCacheManager.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileMatrixCacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileStringCacheManager.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileStringCacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/GraphSearcher.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Matrix.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixGraph.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixGraph.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixGraphSearcher.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixToFileNameConverter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixToFileNameConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertex.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertex.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Movement.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyClientHandler.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyParallelServer.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyParallelServer.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MySerialServer.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MySerialServer.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ParallelServerRunner.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ParallelServerRunner.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Point.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Point.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchable.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searcher.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/SerialServerRunner.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/SerialServerRunner.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Server.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerAbs.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunner.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solver.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringReverser.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringReverser.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringToFileNameConverter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringToFileNameConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ToFileNameConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Vertex.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Vertex.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VertexAdapter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VertexAdapter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VertexFactory.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/main.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
