@@ -14,11 +14,13 @@
 
 //TODO remove couts and printfs
 #include "BFS.h"
+#include "DFS.h"
+#include "AStar.h"
 
 int main(int argc, char *argv[]) {
   int port_number;
   if (argc <= 1) {
-    port_number = 5600;
+    port_number = 12345;
   } else {
     port_number = atoi(argv[1]);
   }
@@ -27,7 +29,9 @@ int main(int argc, char *argv[]) {
 
   BestFirstSearch bf;
   BFS b;
-  MatrixGraphSearcher m(&bf);
+  DFS d;
+  AStar a;
+  MatrixGraphSearcher m(&a);
   MatrixShortestPathSolver msps(m);
 
 
@@ -52,25 +56,27 @@ int main(int argc, char *argv[]) {
   BestFirstSearch bf;
   MatrixGraphSearcher m = MatrixGraphSearcher(&bf);
 
-  int **arr = new int*[3];
+  int r = 20, c = 20;
 
-  for (int i = 0; i < 3; i++)
-    arr[i] = new int[3];
+  int **arr = new int*[r];
 
-  for (int i = 0; i < 3; i++)
-    for(int j = 0; j < 3; j++)
+  for (int i = 0; i < r; i++)
+    arr[i] = new int[c];
+
+  for (int i = 0; i < r; i++)
+    for(int j = 0; j < c; j++)
       if (i == 0)
         arr[i][j] = 3;
       else if (i == 1)
-        arr[i][j] = 2;
+        arr[i][j] = 5;
       else
         arr[i][j] = 1;
 
       arr[1][0] = -1;
 
-  Matrix<int> mat = Matrix<int>(arr, 3, 3);
+  Matrix<int> mat = Matrix<int>(arr, r, c);
 
-  MatrixGraph graph = MatrixGraph(mat, Point(0, 0), Point(2, 2));
+  MatrixGraph graph = MatrixGraph(mat, Point(0, 0), Point(r - 1, c - 1));
 
   MatrixShortestPathSolver msps = MatrixShortestPathSolver(m);
   string s = msps.solve(graph);

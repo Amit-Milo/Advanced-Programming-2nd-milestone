@@ -243,6 +243,7 @@ CMakeFiles/ex4.dir/VertexAdapter.cpp.o: ../Vertex.h
 CMakeFiles/ex4.dir/VertexAdapter.cpp.o: ../VertexAdapter.cpp
 CMakeFiles/ex4.dir/VertexAdapter.cpp.o: ../VertexAdapter.h
 
+CMakeFiles/ex4.dir/main.cpp.o: ../AStar.h
 CMakeFiles/ex4.dir/main.cpp.o: ../BFS.h
 CMakeFiles/ex4.dir/main.cpp.o: ../BestFirstSearch.h
 CMakeFiles/ex4.dir/main.cpp.o: ../CacheManager.h
@@ -252,6 +253,7 @@ CMakeFiles/ex4.dir/main.cpp.o: ../ClientInputToMatrixConverter.h
 CMakeFiles/ex4.dir/main.cpp.o: ../ClientInputToProblemConverter.h
 CMakeFiles/ex4.dir/main.cpp.o: ../ClientInputToStringConverter.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Cost.h
+CMakeFiles/ex4.dir/main.cpp.o: ../DFS.h
 CMakeFiles/ex4.dir/main.cpp.o: ../FileCacheManager.h
 CMakeFiles/ex4.dir/main.cpp.o: ../FileMatrixCacheManager.h
 CMakeFiles/ex4.dir/main.cpp.o: ../FileStringCacheManager.h

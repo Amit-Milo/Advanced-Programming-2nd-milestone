@@ -1,7 +1,7 @@
 //
 // Created by yoav on 28/01/2020.
 //
-
+#include <iostream>
 #include "ParallelServerRunner.h"
 void ParallelServerRunner::RunServer(ServerSocket *s, server_side::ClientHandler *client_handler) {
   printf("entered RunServer\n");
@@ -38,7 +38,8 @@ void ParallelServerRunner::RunServer(ServerSocket *s, server_side::ClientHandler
         accept(s->GetServerSocket(), (struct sockaddr *) &s->GetServerAddress(), (socklen_t *) &s->GetServerAddress());
     //if time out, end the loop
     if (client_socket == -1) {
-      break;
+      std::cout << "failed:"<<s->GetServerSocket() <<std::endl;
+      continue;
     }
 
     printf("connected to client!\n");

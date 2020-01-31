@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4">
-				<Option output="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/ex4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option output="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/ex4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4/fast">
-				<Option output="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/ex4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option output="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/ex4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,240 +67,240 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug"/>
+				<Option working_dir="/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/yoav/CLionProjects/cpp/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/amit/CLionProjects/advancedProgrammngMilestone2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/AStar.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/AStar.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BFS.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BFS.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/BestFirstSearch.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManager.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/CacheManager.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandler.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ClientHandler.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandlerAbs.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ClientHandlerAbs.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToMatrixConverter.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ClientInputToMatrixConverter.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToMatrixConverter.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ClientInputToMatrixConverter.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToProblemConverter.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ClientInputToProblemConverter.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToStringConverter.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ClientInputToStringConverter.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputToStringConverter.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ClientInputToStringConverter.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Cost.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Cost.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/DFS.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/DFS.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileCacheManager.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/FileCacheManager.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileMatrixCacheManager.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/FileMatrixCacheManager.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileMatrixCacheManager.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/FileMatrixCacheManager.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileStringCacheManager.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/FileStringCacheManager.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/FileStringCacheManager.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/FileStringCacheManager.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/GraphSearcher.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/GraphSearcher.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Matrix.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Matrix.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixGraph.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixGraph.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixGraph.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixGraph.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixGraphSearcher.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixGraphSearcher.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixShortestPathSolver.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixToFileNameConverter.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixToFileNameConverter.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixToFileNameConverter.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixToFileNameConverter.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertex.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertex.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertex.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertex.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexCreator.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexCreator.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexCreator.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexFactory.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MatrixVertexFactory.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertexFactory.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Movement.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Movement.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyClientHandler.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MyClientHandler.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyClientHandler.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MyClientHandler.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyParallelServer.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MyParallelServer.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyParallelServer.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MyParallelServer.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MySerialServer.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MySerialServer.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MySerialServer.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MySerialServer.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MyTestClientHandler.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/MyTestClientHandler.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/MyTestClientHandler.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ParallelServerRunner.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ParallelServerRunner.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ParallelServerRunner.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ParallelServerRunner.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Point.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Point.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Point.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Point.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchable.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Searchable.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searcher.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Searcher.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/SerialServerRunner.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/SerialServerRunner.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/SerialServerRunner.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/SerialServerRunner.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Server.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Server.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerAbs.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ServerAbs.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunner.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ServerRunner.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ServerSocket.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ServerSocket.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solver.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Solver.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringReverser.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/StringReverser.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringReverser.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/StringReverser.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringToFileNameConverter.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/StringToFileNameConverter.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/StringToFileNameConverter.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/StringToFileNameConverter.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ToFileNameConverter.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/ToFileNameConverter.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Vertex.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Vertex.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VertexAdapter.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/VertexAdapter.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VertexAdapter.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/VertexAdapter.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VertexFactory.h">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/VertexFactory.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/main.cpp">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/main.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CMakeLists.txt">
+		<Unit filename="/home/amit/CLionProjects/advancedProgrammngMilestone2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

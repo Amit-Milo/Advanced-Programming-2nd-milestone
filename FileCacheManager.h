@@ -29,6 +29,7 @@ class FileCacheManager : public CacheManager<T> {
   void Save(T obj, string solution) override {
     cout << "saving obj to file" << endl;
     string new_file_name = converter->Convert(obj);
+    cout << "file name:" << new_file_name << endl;
     ofstream solution_file(new_file_name.c_str());
     if (solution_file.is_open()) {
       cout << new_file_name << endl;
@@ -41,9 +42,10 @@ class FileCacheManager : public CacheManager<T> {
 
   bool IsAlreadySolved(T obj) override {
     cout << "checking the files if already solved...."<<converter->Convert(obj) << endl;
+    cout << "checking the files if already solved...."<<converter->Convert(obj) << endl;
     //check if the file already exists
     ifstream saved_file(converter->Convert(obj));
-    if (saved_file.is_open()) {
+    if (saved_file.good()) {
       saved_file.close();
       return true;
     }

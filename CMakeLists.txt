@@ -36,5 +36,5 @@ add_executable(ex4
         Vertex.h Movement.h Point.cpp Point.h MatrixVertex.cpp MatrixVertex.h MatrixGraph.cpp MatrixGraph.h
         Cost.cpp Cost.h VertexAdapter.cpp VertexAdapter.h VertexFactory.h MatrixVertexFactory.cpp MatrixVertexFactory.h
         MatrixVertexCreator.cpp MatrixVertexCreator.h Matrix.h GraphSearcher.h MatrixGraphSearcher.h
-        Vertex.cpp BFS.h BFS.cpp DFS.cpp DFS.h BestFirstSearch.h BestFirstSearch.cpp AStar.cpp AStar.h
-        MatrixShortestPathSolver.h MatrixShortestPathSolver.cpp)
+        Vertex.cpp BFS.h BFS.cpp DFS.cpp DFS.h BestFirstSearch.h AStar.cpp AStar.h
+        MatrixShortestPathSolver.h MatrixShortestPathSolver.cpp BestFirstSearch.cpp)

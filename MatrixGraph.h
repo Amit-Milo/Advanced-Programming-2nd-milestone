@@ -24,6 +24,14 @@ class MatrixGraph : public Searchable {
 
   MatrixVertexCreator _creator;
 
+  std::size_t hash_val;
+
+  /**
+   * Get hash of the graph.
+   * @return the hash of the graph.
+   */
+  std::size_t _hash();
+
  public:
   /**
    * A constructor.
@@ -87,14 +95,38 @@ class MatrixGraph : public Searchable {
   virtual const Vertex* GetParent(const Vertex &v) const;
 
 
+  /**
+   * Get the pure distance between two vertices.
+   * @param src source vertex.
+   * @param dst destination vertex.
+   * @return the pure distance between them.
+   */
   virtual Cost distance(const Vertex &src, const Vertex &dst) const;
 
+  /**
+   * Get the current path length.
+   * @param v the vertex to find the current path length of.
+   * @return the cost of the currentpath length.
+   */
   virtual Cost currentPathLength(const Vertex &v) const;
 
+  /**
+   * Get the cost of the vertex.
+   * @param v the vertex to find cost of.
+   * @return the vertex's cost.
+   */
   virtual Cost GetCost(const Vertex &v) const;
 
+  /**
+   * Get the number of rows in the matrix.
+   * @return the number of rows.
+   */
   int GetRows() const;
 
+  /**
+   * Get hash of the graph.
+   * @return the hash of the graph.
+   */
   size_t hash();
 };
 

@@ -28,9 +28,10 @@ string MatrixShortestPathSolver::solve(MatrixGraph graph) {
     auto first = static_cast<MatrixVertex*>(&it1->first);
     auto second = static_cast<MatrixVertex*>(&it2->first);
     cost = cost + it2->second;
-    cout << "costcost " << it2->second.GetValue()<< endl;
     moves += cast.at(NextStep(first, second, graph.GetRows())) + " (" + to_string(cost.GetValue()) + ") ";
   }
+
+  cout << "total cost is:" << to_string(cost.GetValue()) << endl;
 
   return moves;
 }

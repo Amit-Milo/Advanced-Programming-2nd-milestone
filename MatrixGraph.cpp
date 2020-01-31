@@ -24,7 +24,7 @@ Matrix<VertexAdapter> CostsToVertexes(const Matrix<int> &mat, MatrixVertexCreato
 
 MatrixGraph::MatrixGraph(const Matrix<int> &mat, const Point &start, const Point &end) : _creator(MatrixVertexCreator()),
 _start(this->_creator.create(start, mat.GetRows())), _end(this->_creator.create(end, mat.GetRows())),
-_mat(CostsToVertexes(mat, this->_creator)){
+_mat(CostsToVertexes(mat, this->_creator)), hash_val(this->_hash()){
   auto startVertex = this->_mat.Get(0, 0);
   startVertex->SetPathLength(*startVertex->GetCost());
 }
@@ -66,7 +66,7 @@ list<Vertex>* MatrixGraph::GetNeighbors(const Vertex &v) {
 void MatrixGraph::Visit(const Vertex &v) const {
   int index = v.GetIndex();
   int i = index / this->_mat.GetRows();
-  int j = index % this->_mat.GetColumns();
+  int j = index % this->_mat.GetRows();
 
   this->_mat.Get(i, j)->travel();
 }
@@ -75,7 +75,7 @@ void MatrixGraph::Visit(const Vertex &v) const {
 bool MatrixGraph::IsVisited(const Vertex &v) const {
   int index = v.GetIndex();
   int i = index / this->_mat.GetRows();
-  int j = index % this->_mat.GetColumns();
+  int j = index % this->_mat.GetRows();
 
   auto temp = this->_mat.Get(i, j);
   return temp->isTraveled();
@@ -85,17 +85,17 @@ bool MatrixGraph::IsVisited(const Vertex &v) const {
 void MatrixGraph::UpdateVertex(const Vertex &v, const Vertex &p) const {
   int vIndex = v.GetIndex();
   int vi = vIndex / this->_mat.GetRows();
-  int vj = vIndex % this->_mat.GetColumns();
+  int vj = vIndex % this->_mat.GetRows();
 
   int pIndex = p.GetIndex();
   int pi = pIndex / this->_mat.GetRows();
-  int pj = pIndex % this->_mat.GetColumns();
+  int pj = pIndex % this->_mat.GetRows();
 
   auto vAdapter = this->_mat.Get(vi, vj);
   auto pAdapter = this->_mat.Get(pi, pj);
 
 
-  if (vAdapter->GetPathLength() > pAdapter->GetPathLength() + vAdapter->GetCost()->GetValue()) {
+  if (vAdapter->GetPathLength() > pAdapter->GetPathLength() + *vAdapter->GetCost()) {
     vAdapter->SetParent(*pAdapter);
   }
 }
@@ -104,7 +104,7 @@ void MatrixGraph::UpdateVertex(const Vertex &v, const Vertex &p) const {
 const Vertex *MatrixGraph::GetParent(const Vertex &v) const {
   int index = v.GetIndex();
   int i = index / this->_mat.GetRows();
-  int j = index % this->_mat.GetColumns();
+  int j = index % this->_mat.GetRows();
 
   return this->_mat.Get(i, j)->GetParent();
 }
@@ -113,11 +113,11 @@ const Vertex *MatrixGraph::GetParent(const Vertex &v) const {
 Cost MatrixGraph::distance(const Vertex &src, const Vertex &dst) const {
   int srcIndex = src.GetIndex();
   int srcI = srcIndex / this->_mat.GetRows();
-  int srcJ = srcIndex % this->_mat.GetColumns();
+  int srcJ = srcIndex % this->_mat.GetRows();
 
   int dstIndex = dst.GetIndex();
   int dstI = dstIndex / this->_mat.GetRows();
-  int dstJ = dstIndex % this->_mat.GetColumns();
+  int dstJ = dstIndex % this->_mat.GetRows();
 
   return Cost(abs(dstI - srcI) + abs(dstJ - srcJ));
 }
@@ -126,7 +126,7 @@ Cost MatrixGraph::distance(const Vertex &src, const Vertex &dst) const {
 Cost MatrixGraph::currentPathLength(const Vertex &v) const {
   int index = v.GetIndex();
   int i = index / this->_mat.GetRows();
-  int j = index % this->_mat.GetColumns();
+  int j = index % this->_mat.GetRows();
 
   return this->_mat.Get(i, j)->GetPathLength();
 }
@@ -135,7 +135,7 @@ Cost MatrixGraph::currentPathLength(const Vertex &v) const {
 Cost MatrixGraph::GetCost(const Vertex &v) const {
   int index = v.GetIndex();
   int i = index / this->_mat.GetRows();
-  int j = index % this->_mat.GetColumns();
+  int j = index % this->_mat.GetRows();
 
   return *this->_mat.Get(i, j)->GetCost();
 }
@@ -147,6 +147,10 @@ int MatrixGraph::GetRows() const {
 
 //TODO
 size_t MatrixGraph::hash() {
+  return this->hash_val;
+}
+
+std::size_t MatrixGraph::_hash() {
   size_t result=0;
   result += _start.hash();
   result += _end.hash();
