@@ -38,6 +38,8 @@ int main() {
       else
         arr[i][j] = 1;
 
+      arr[1][0] = -1;
+
   Matrix<int> mat = Matrix<int>(arr, 3, 3);
 
   MatrixGraph graph = MatrixGraph(mat, Point(0, 0), Point(2, 2));

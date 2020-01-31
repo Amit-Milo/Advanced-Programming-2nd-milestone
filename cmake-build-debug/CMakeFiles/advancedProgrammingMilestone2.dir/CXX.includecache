@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.cpp
-algorithm
--
-unordered_map
--
-vector
--
-AStar.h
-/home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.h
-
 /home/amit/CLionProjects/advancedProgrammngMilestone2/AStar.h
 list
 -
@@ -26,10 +16,6 @@ GraphSearcher.h
 Vertex.h
 /home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h
 
-/home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.cpp
-BFS.h
-/home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.h
-
 /home/amit/CLionProjects/advancedProgrammngMilestone2/BFS.h
 queue
 -
@@ -37,16 +23,6 @@ GraphSearcher.h
 /home/amit/CLionProjects/advancedProgrammngMilestone2/GraphSearcher.h
 Vertex.h
 /home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h
-
-/home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.cpp
-algorithm
--
-unordered_map
--
-vector
--
-BestFirstSearch.h
-/home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.h
 
 /home/amit/CLionProjects/advancedProgrammngMilestone2/BestFirstSearch.h
 list
@@ -59,10 +35,6 @@ Vertex.h
 /home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h
 
 /home/amit/CLionProjects/advancedProgrammngMilestone2/Cost.h
-
-/home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.cpp
-DFS.h
-/home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.h
 
 /home/amit/CLionProjects/advancedProgrammngMilestone2/DFS.h
 stack
@@ -118,14 +90,6 @@ Searcher.h
 Vertex.h
 /home/amit/CLionProjects/advancedProgrammngMilestone2/Vertex.h
 
-/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.cpp
-unordered_map
--
-MatrixShortestPathSolver.h
-/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.h
-Movement.h
-/home/amit/CLionProjects/advancedProgrammngMilestone2/Movement.h
-
 /home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixShortestPathSolver.h
 list
 -
@@ -159,12 +123,6 @@ MatrixVertex.h
 /home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertex.h
 VertexFactory.h
 /home/amit/CLionProjects/advancedProgrammngMilestone2/VertexFactory.h
-
-/home/amit/CLionProjects/advancedProgrammngMilestone2/Movement.h
-MatrixVertex.h
-/home/amit/CLionProjects/advancedProgrammngMilestone2/MatrixVertex.h
-Movement.h
-/home/amit/CLionProjects/advancedProgrammngMilestone2/Movement.h
 
 /home/amit/CLionProjects/advancedProgrammngMilestone2/Point.h
 
