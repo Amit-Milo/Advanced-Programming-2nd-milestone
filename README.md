@@ -25,6 +25,8 @@ Yoav Carmel
 the text file for each algorithm, the text file of the matrices and the pdf file of the algorithms chart
 are in the "algorithms result" package
 
+When running the program with default port, the default port is 12345.
+
 
 #### Done for the course "Advanced Programming 1" in Bar Ilan university
 
