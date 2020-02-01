@@ -123,6 +123,735 @@ ex4/fast:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
 .PHONY : ex4/fast
 
+CacheManagers/FileCacheManagers/FileMatrixCacheManager.o: CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.o
+
+.PHONY : CacheManagers/FileCacheManagers/FileMatrixCacheManager.o
+
+# target to build an object file
+CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.o
+.PHONY : CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.o
+
+CacheManagers/FileCacheManagers/FileMatrixCacheManager.i: CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.i
+
+.PHONY : CacheManagers/FileCacheManagers/FileMatrixCacheManager.i
+
+# target to preprocess a source file
+CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.i
+.PHONY : CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.i
+
+CacheManagers/FileCacheManagers/FileMatrixCacheManager.s: CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.s
+
+.PHONY : CacheManagers/FileCacheManagers/FileMatrixCacheManager.s
+
+# target to generate assembly for a file
+CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.s
+.PHONY : CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp.s
+
+CacheManagers/FileCacheManagers/FileStringCacheManager.o: CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.o
+
+.PHONY : CacheManagers/FileCacheManagers/FileStringCacheManager.o
+
+# target to build an object file
+CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.o
+.PHONY : CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.o
+
+CacheManagers/FileCacheManagers/FileStringCacheManager.i: CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.i
+
+.PHONY : CacheManagers/FileCacheManagers/FileStringCacheManager.i
+
+# target to preprocess a source file
+CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.i
+.PHONY : CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.i
+
+CacheManagers/FileCacheManagers/FileStringCacheManager.s: CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.s
+
+.PHONY : CacheManagers/FileCacheManagers/FileStringCacheManager.s
+
+# target to generate assembly for a file
+CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.s
+.PHONY : CacheManagers/FileCacheManagers/FileStringCacheManager.cpp.s
+
+ClientHandlers/MyClientHandler.o: ClientHandlers/MyClientHandler.cpp.o
+
+.PHONY : ClientHandlers/MyClientHandler.o
+
+# target to build an object file
+ClientHandlers/MyClientHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientHandlers/MyClientHandler.cpp.o
+.PHONY : ClientHandlers/MyClientHandler.cpp.o
+
+ClientHandlers/MyClientHandler.i: ClientHandlers/MyClientHandler.cpp.i
+
+.PHONY : ClientHandlers/MyClientHandler.i
+
+# target to preprocess a source file
+ClientHandlers/MyClientHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientHandlers/MyClientHandler.cpp.i
+.PHONY : ClientHandlers/MyClientHandler.cpp.i
+
+ClientHandlers/MyClientHandler.s: ClientHandlers/MyClientHandler.cpp.s
+
+.PHONY : ClientHandlers/MyClientHandler.s
+
+# target to generate assembly for a file
+ClientHandlers/MyClientHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientHandlers/MyClientHandler.cpp.s
+.PHONY : ClientHandlers/MyClientHandler.cpp.s
+
+ClientHandlers/MyTestClientHandler.o: ClientHandlers/MyTestClientHandler.cpp.o
+
+.PHONY : ClientHandlers/MyTestClientHandler.o
+
+# target to build an object file
+ClientHandlers/MyTestClientHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientHandlers/MyTestClientHandler.cpp.o
+.PHONY : ClientHandlers/MyTestClientHandler.cpp.o
+
+ClientHandlers/MyTestClientHandler.i: ClientHandlers/MyTestClientHandler.cpp.i
+
+.PHONY : ClientHandlers/MyTestClientHandler.i
+
+# target to preprocess a source file
+ClientHandlers/MyTestClientHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientHandlers/MyTestClientHandler.cpp.i
+.PHONY : ClientHandlers/MyTestClientHandler.cpp.i
+
+ClientHandlers/MyTestClientHandler.s: ClientHandlers/MyTestClientHandler.cpp.s
+
+.PHONY : ClientHandlers/MyTestClientHandler.s
+
+# target to generate assembly for a file
+ClientHandlers/MyTestClientHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientHandlers/MyTestClientHandler.cpp.s
+.PHONY : ClientHandlers/MyTestClientHandler.cpp.s
+
+ClientInputInterpreters/ClientInputToMatrixConverter.o: ClientInputInterpreters/ClientInputToMatrixConverter.cpp.o
+
+.PHONY : ClientInputInterpreters/ClientInputToMatrixConverter.o
+
+# target to build an object file
+ClientInputInterpreters/ClientInputToMatrixConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputInterpreters/ClientInputToMatrixConverter.cpp.o
+.PHONY : ClientInputInterpreters/ClientInputToMatrixConverter.cpp.o
+
+ClientInputInterpreters/ClientInputToMatrixConverter.i: ClientInputInterpreters/ClientInputToMatrixConverter.cpp.i
+
+.PHONY : ClientInputInterpreters/ClientInputToMatrixConverter.i
+
+# target to preprocess a source file
+ClientInputInterpreters/ClientInputToMatrixConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputInterpreters/ClientInputToMatrixConverter.cpp.i
+.PHONY : ClientInputInterpreters/ClientInputToMatrixConverter.cpp.i
+
+ClientInputInterpreters/ClientInputToMatrixConverter.s: ClientInputInterpreters/ClientInputToMatrixConverter.cpp.s
+
+.PHONY : ClientInputInterpreters/ClientInputToMatrixConverter.s
+
+# target to generate assembly for a file
+ClientInputInterpreters/ClientInputToMatrixConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputInterpreters/ClientInputToMatrixConverter.cpp.s
+.PHONY : ClientInputInterpreters/ClientInputToMatrixConverter.cpp.s
+
+ClientInputInterpreters/ClientInputToStringConverter.o: ClientInputInterpreters/ClientInputToStringConverter.cpp.o
+
+.PHONY : ClientInputInterpreters/ClientInputToStringConverter.o
+
+# target to build an object file
+ClientInputInterpreters/ClientInputToStringConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputInterpreters/ClientInputToStringConverter.cpp.o
+.PHONY : ClientInputInterpreters/ClientInputToStringConverter.cpp.o
+
+ClientInputInterpreters/ClientInputToStringConverter.i: ClientInputInterpreters/ClientInputToStringConverter.cpp.i
+
+.PHONY : ClientInputInterpreters/ClientInputToStringConverter.i
+
+# target to preprocess a source file
+ClientInputInterpreters/ClientInputToStringConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputInterpreters/ClientInputToStringConverter.cpp.i
+.PHONY : ClientInputInterpreters/ClientInputToStringConverter.cpp.i
+
+ClientInputInterpreters/ClientInputToStringConverter.s: ClientInputInterpreters/ClientInputToStringConverter.cpp.s
+
+.PHONY : ClientInputInterpreters/ClientInputToStringConverter.s
+
+# target to generate assembly for a file
+ClientInputInterpreters/ClientInputToStringConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ClientInputInterpreters/ClientInputToStringConverter.cpp.s
+.PHONY : ClientInputInterpreters/ClientInputToStringConverter.cpp.s
+
+Cost.o: Cost.cpp.o
+
+.PHONY : Cost.o
+
+# target to build an object file
+Cost.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Cost.cpp.o
+.PHONY : Cost.cpp.o
+
+Cost.i: Cost.cpp.i
+
+.PHONY : Cost.i
+
+# target to preprocess a source file
+Cost.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Cost.cpp.i
+.PHONY : Cost.cpp.i
+
+Cost.s: Cost.cpp.s
+
+.PHONY : Cost.s
+
+# target to generate assembly for a file
+Cost.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Cost.cpp.s
+.PHONY : Cost.cpp.s
+
+Point.o: Point.cpp.o
+
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
+ProblemsToFileNamesConverters/MatrixToFileNameConverter.o: ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.o
+
+.PHONY : ProblemsToFileNamesConverters/MatrixToFileNameConverter.o
+
+# target to build an object file
+ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.o
+.PHONY : ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.o
+
+ProblemsToFileNamesConverters/MatrixToFileNameConverter.i: ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.i
+
+.PHONY : ProblemsToFileNamesConverters/MatrixToFileNameConverter.i
+
+# target to preprocess a source file
+ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.i
+.PHONY : ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.i
+
+ProblemsToFileNamesConverters/MatrixToFileNameConverter.s: ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.s
+
+.PHONY : ProblemsToFileNamesConverters/MatrixToFileNameConverter.s
+
+# target to generate assembly for a file
+ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.s
+.PHONY : ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp.s
+
+ProblemsToFileNamesConverters/StringToFileNameConverter.o: ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.o
+
+.PHONY : ProblemsToFileNamesConverters/StringToFileNameConverter.o
+
+# target to build an object file
+ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.o
+.PHONY : ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.o
+
+ProblemsToFileNamesConverters/StringToFileNameConverter.i: ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.i
+
+.PHONY : ProblemsToFileNamesConverters/StringToFileNameConverter.i
+
+# target to preprocess a source file
+ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.i
+.PHONY : ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.i
+
+ProblemsToFileNamesConverters/StringToFileNameConverter.s: ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.s
+
+.PHONY : ProblemsToFileNamesConverters/StringToFileNameConverter.s
+
+# target to generate assembly for a file
+ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.s
+.PHONY : ProblemsToFileNamesConverters/StringToFileNameConverter.cpp.s
+
+Searchables/MatrixGraph.o: Searchables/MatrixGraph.cpp.o
+
+.PHONY : Searchables/MatrixGraph.o
+
+# target to build an object file
+Searchables/MatrixGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchables/MatrixGraph.cpp.o
+.PHONY : Searchables/MatrixGraph.cpp.o
+
+Searchables/MatrixGraph.i: Searchables/MatrixGraph.cpp.i
+
+.PHONY : Searchables/MatrixGraph.i
+
+# target to preprocess a source file
+Searchables/MatrixGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchables/MatrixGraph.cpp.i
+.PHONY : Searchables/MatrixGraph.cpp.i
+
+Searchables/MatrixGraph.s: Searchables/MatrixGraph.cpp.s
+
+.PHONY : Searchables/MatrixGraph.s
+
+# target to generate assembly for a file
+Searchables/MatrixGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchables/MatrixGraph.cpp.s
+.PHONY : Searchables/MatrixGraph.cpp.s
+
+Searchers/GraphSearchers/AStar.o: Searchers/GraphSearchers/AStar.cpp.o
+
+.PHONY : Searchers/GraphSearchers/AStar.o
+
+# target to build an object file
+Searchers/GraphSearchers/AStar.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/AStar.cpp.o
+.PHONY : Searchers/GraphSearchers/AStar.cpp.o
+
+Searchers/GraphSearchers/AStar.i: Searchers/GraphSearchers/AStar.cpp.i
+
+.PHONY : Searchers/GraphSearchers/AStar.i
+
+# target to preprocess a source file
+Searchers/GraphSearchers/AStar.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/AStar.cpp.i
+.PHONY : Searchers/GraphSearchers/AStar.cpp.i
+
+Searchers/GraphSearchers/AStar.s: Searchers/GraphSearchers/AStar.cpp.s
+
+.PHONY : Searchers/GraphSearchers/AStar.s
+
+# target to generate assembly for a file
+Searchers/GraphSearchers/AStar.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/AStar.cpp.s
+.PHONY : Searchers/GraphSearchers/AStar.cpp.s
+
+Searchers/GraphSearchers/BFS.o: Searchers/GraphSearchers/BFS.cpp.o
+
+.PHONY : Searchers/GraphSearchers/BFS.o
+
+# target to build an object file
+Searchers/GraphSearchers/BFS.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/BFS.cpp.o
+.PHONY : Searchers/GraphSearchers/BFS.cpp.o
+
+Searchers/GraphSearchers/BFS.i: Searchers/GraphSearchers/BFS.cpp.i
+
+.PHONY : Searchers/GraphSearchers/BFS.i
+
+# target to preprocess a source file
+Searchers/GraphSearchers/BFS.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/BFS.cpp.i
+.PHONY : Searchers/GraphSearchers/BFS.cpp.i
+
+Searchers/GraphSearchers/BFS.s: Searchers/GraphSearchers/BFS.cpp.s
+
+.PHONY : Searchers/GraphSearchers/BFS.s
+
+# target to generate assembly for a file
+Searchers/GraphSearchers/BFS.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/BFS.cpp.s
+.PHONY : Searchers/GraphSearchers/BFS.cpp.s
+
+Searchers/GraphSearchers/BestFirstSearch.o: Searchers/GraphSearchers/BestFirstSearch.cpp.o
+
+.PHONY : Searchers/GraphSearchers/BestFirstSearch.o
+
+# target to build an object file
+Searchers/GraphSearchers/BestFirstSearch.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/BestFirstSearch.cpp.o
+.PHONY : Searchers/GraphSearchers/BestFirstSearch.cpp.o
+
+Searchers/GraphSearchers/BestFirstSearch.i: Searchers/GraphSearchers/BestFirstSearch.cpp.i
+
+.PHONY : Searchers/GraphSearchers/BestFirstSearch.i
+
+# target to preprocess a source file
+Searchers/GraphSearchers/BestFirstSearch.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/BestFirstSearch.cpp.i
+.PHONY : Searchers/GraphSearchers/BestFirstSearch.cpp.i
+
+Searchers/GraphSearchers/BestFirstSearch.s: Searchers/GraphSearchers/BestFirstSearch.cpp.s
+
+.PHONY : Searchers/GraphSearchers/BestFirstSearch.s
+
+# target to generate assembly for a file
+Searchers/GraphSearchers/BestFirstSearch.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/BestFirstSearch.cpp.s
+.PHONY : Searchers/GraphSearchers/BestFirstSearch.cpp.s
+
+Searchers/GraphSearchers/DFS.o: Searchers/GraphSearchers/DFS.cpp.o
+
+.PHONY : Searchers/GraphSearchers/DFS.o
+
+# target to build an object file
+Searchers/GraphSearchers/DFS.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/DFS.cpp.o
+.PHONY : Searchers/GraphSearchers/DFS.cpp.o
+
+Searchers/GraphSearchers/DFS.i: Searchers/GraphSearchers/DFS.cpp.i
+
+.PHONY : Searchers/GraphSearchers/DFS.i
+
+# target to preprocess a source file
+Searchers/GraphSearchers/DFS.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/DFS.cpp.i
+.PHONY : Searchers/GraphSearchers/DFS.cpp.i
+
+Searchers/GraphSearchers/DFS.s: Searchers/GraphSearchers/DFS.cpp.s
+
+.PHONY : Searchers/GraphSearchers/DFS.s
+
+# target to generate assembly for a file
+Searchers/GraphSearchers/DFS.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Searchers/GraphSearchers/DFS.cpp.s
+.PHONY : Searchers/GraphSearchers/DFS.cpp.s
+
+ServerRunners/ParallelServerRunner.o: ServerRunners/ParallelServerRunner.cpp.o
+
+.PHONY : ServerRunners/ParallelServerRunner.o
+
+# target to build an object file
+ServerRunners/ParallelServerRunner.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunners/ParallelServerRunner.cpp.o
+.PHONY : ServerRunners/ParallelServerRunner.cpp.o
+
+ServerRunners/ParallelServerRunner.i: ServerRunners/ParallelServerRunner.cpp.i
+
+.PHONY : ServerRunners/ParallelServerRunner.i
+
+# target to preprocess a source file
+ServerRunners/ParallelServerRunner.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunners/ParallelServerRunner.cpp.i
+.PHONY : ServerRunners/ParallelServerRunner.cpp.i
+
+ServerRunners/ParallelServerRunner.s: ServerRunners/ParallelServerRunner.cpp.s
+
+.PHONY : ServerRunners/ParallelServerRunner.s
+
+# target to generate assembly for a file
+ServerRunners/ParallelServerRunner.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunners/ParallelServerRunner.cpp.s
+.PHONY : ServerRunners/ParallelServerRunner.cpp.s
+
+ServerRunners/SerialServerRunner.o: ServerRunners/SerialServerRunner.cpp.o
+
+.PHONY : ServerRunners/SerialServerRunner.o
+
+# target to build an object file
+ServerRunners/SerialServerRunner.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunners/SerialServerRunner.cpp.o
+.PHONY : ServerRunners/SerialServerRunner.cpp.o
+
+ServerRunners/SerialServerRunner.i: ServerRunners/SerialServerRunner.cpp.i
+
+.PHONY : ServerRunners/SerialServerRunner.i
+
+# target to preprocess a source file
+ServerRunners/SerialServerRunner.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunners/SerialServerRunner.cpp.i
+.PHONY : ServerRunners/SerialServerRunner.cpp.i
+
+ServerRunners/SerialServerRunner.s: ServerRunners/SerialServerRunner.cpp.s
+
+.PHONY : ServerRunners/SerialServerRunner.s
+
+# target to generate assembly for a file
+ServerRunners/SerialServerRunner.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerRunners/SerialServerRunner.cpp.s
+.PHONY : ServerRunners/SerialServerRunner.cpp.s
+
+ServerSocket.o: ServerSocket.cpp.o
+
+.PHONY : ServerSocket.o
+
+# target to build an object file
+ServerSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.o
+.PHONY : ServerSocket.cpp.o
+
+ServerSocket.i: ServerSocket.cpp.i
+
+.PHONY : ServerSocket.i
+
+# target to preprocess a source file
+ServerSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.i
+.PHONY : ServerSocket.cpp.i
+
+ServerSocket.s: ServerSocket.cpp.s
+
+.PHONY : ServerSocket.s
+
+# target to generate assembly for a file
+ServerSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ServerSocket.cpp.s
+.PHONY : ServerSocket.cpp.s
+
+Servers/MyParallelServer.o: Servers/MyParallelServer.cpp.o
+
+.PHONY : Servers/MyParallelServer.o
+
+# target to build an object file
+Servers/MyParallelServer.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Servers/MyParallelServer.cpp.o
+.PHONY : Servers/MyParallelServer.cpp.o
+
+Servers/MyParallelServer.i: Servers/MyParallelServer.cpp.i
+
+.PHONY : Servers/MyParallelServer.i
+
+# target to preprocess a source file
+Servers/MyParallelServer.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Servers/MyParallelServer.cpp.i
+.PHONY : Servers/MyParallelServer.cpp.i
+
+Servers/MyParallelServer.s: Servers/MyParallelServer.cpp.s
+
+.PHONY : Servers/MyParallelServer.s
+
+# target to generate assembly for a file
+Servers/MyParallelServer.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Servers/MyParallelServer.cpp.s
+.PHONY : Servers/MyParallelServer.cpp.s
+
+Servers/MySerialServer.o: Servers/MySerialServer.cpp.o
+
+.PHONY : Servers/MySerialServer.o
+
+# target to build an object file
+Servers/MySerialServer.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Servers/MySerialServer.cpp.o
+.PHONY : Servers/MySerialServer.cpp.o
+
+Servers/MySerialServer.i: Servers/MySerialServer.cpp.i
+
+.PHONY : Servers/MySerialServer.i
+
+# target to preprocess a source file
+Servers/MySerialServer.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Servers/MySerialServer.cpp.i
+.PHONY : Servers/MySerialServer.cpp.i
+
+Servers/MySerialServer.s: Servers/MySerialServer.cpp.s
+
+.PHONY : Servers/MySerialServer.s
+
+# target to generate assembly for a file
+Servers/MySerialServer.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Servers/MySerialServer.cpp.s
+.PHONY : Servers/MySerialServer.cpp.s
+
+Solvers/MatrixShortestPathSolver.o: Solvers/MatrixShortestPathSolver.cpp.o
+
+.PHONY : Solvers/MatrixShortestPathSolver.o
+
+# target to build an object file
+Solvers/MatrixShortestPathSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solvers/MatrixShortestPathSolver.cpp.o
+.PHONY : Solvers/MatrixShortestPathSolver.cpp.o
+
+Solvers/MatrixShortestPathSolver.i: Solvers/MatrixShortestPathSolver.cpp.i
+
+.PHONY : Solvers/MatrixShortestPathSolver.i
+
+# target to preprocess a source file
+Solvers/MatrixShortestPathSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solvers/MatrixShortestPathSolver.cpp.i
+.PHONY : Solvers/MatrixShortestPathSolver.cpp.i
+
+Solvers/MatrixShortestPathSolver.s: Solvers/MatrixShortestPathSolver.cpp.s
+
+.PHONY : Solvers/MatrixShortestPathSolver.s
+
+# target to generate assembly for a file
+Solvers/MatrixShortestPathSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solvers/MatrixShortestPathSolver.cpp.s
+.PHONY : Solvers/MatrixShortestPathSolver.cpp.s
+
+Solvers/StringReverser.o: Solvers/StringReverser.cpp.o
+
+.PHONY : Solvers/StringReverser.o
+
+# target to build an object file
+Solvers/StringReverser.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solvers/StringReverser.cpp.o
+.PHONY : Solvers/StringReverser.cpp.o
+
+Solvers/StringReverser.i: Solvers/StringReverser.cpp.i
+
+.PHONY : Solvers/StringReverser.i
+
+# target to preprocess a source file
+Solvers/StringReverser.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solvers/StringReverser.cpp.i
+.PHONY : Solvers/StringReverser.cpp.i
+
+Solvers/StringReverser.s: Solvers/StringReverser.cpp.s
+
+.PHONY : Solvers/StringReverser.s
+
+# target to generate assembly for a file
+Solvers/StringReverser.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solvers/StringReverser.cpp.s
+.PHONY : Solvers/StringReverser.cpp.s
+
+VerticesClasses/MatrixVerticesClasses/MatrixVertex.o: VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.o
+
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertex.o
+
+# target to build an object file
+VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.o
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.o
+
+VerticesClasses/MatrixVerticesClasses/MatrixVertex.i: VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.i
+
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertex.i
+
+# target to preprocess a source file
+VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.i
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.i
+
+VerticesClasses/MatrixVerticesClasses/MatrixVertex.s: VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.s
+
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertex.s
+
+# target to generate assembly for a file
+VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.s
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp.s
+
+VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.o: VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.o
+
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.o
+
+# target to build an object file
+VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.o
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.o
+
+VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.i: VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.i
+
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.i
+
+# target to preprocess a source file
+VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.i
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.i
+
+VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.s: VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.s
+
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.s
+
+# target to generate assembly for a file
+VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.s
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp.s
+
+VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.o: VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.o
+
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.o
+
+# target to build an object file
+VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.o
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.o
+
+VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.i: VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.i
+
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.i
+
+# target to preprocess a source file
+VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.i
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.i
+
+VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.s: VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.s
+
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.s
+
+# target to generate assembly for a file
+VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.s
+.PHONY : VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp.s
+
+VerticesClasses/Vertex.o: VerticesClasses/Vertex.cpp.o
+
+.PHONY : VerticesClasses/Vertex.o
+
+# target to build an object file
+VerticesClasses/Vertex.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/Vertex.cpp.o
+.PHONY : VerticesClasses/Vertex.cpp.o
+
+VerticesClasses/Vertex.i: VerticesClasses/Vertex.cpp.i
+
+.PHONY : VerticesClasses/Vertex.i
+
+# target to preprocess a source file
+VerticesClasses/Vertex.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/Vertex.cpp.i
+.PHONY : VerticesClasses/Vertex.cpp.i
+
+VerticesClasses/Vertex.s: VerticesClasses/Vertex.cpp.s
+
+.PHONY : VerticesClasses/Vertex.s
+
+# target to generate assembly for a file
+VerticesClasses/Vertex.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/Vertex.cpp.s
+.PHONY : VerticesClasses/Vertex.cpp.s
+
+VerticesClasses/VertexAdapter.o: VerticesClasses/VertexAdapter.cpp.o
+
+.PHONY : VerticesClasses/VertexAdapter.o
+
+# target to build an object file
+VerticesClasses/VertexAdapter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/VertexAdapter.cpp.o
+.PHONY : VerticesClasses/VertexAdapter.cpp.o
+
+VerticesClasses/VertexAdapter.i: VerticesClasses/VertexAdapter.cpp.i
+
+.PHONY : VerticesClasses/VertexAdapter.i
+
+# target to preprocess a source file
+VerticesClasses/VertexAdapter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/VertexAdapter.cpp.i
+.PHONY : VerticesClasses/VertexAdapter.cpp.i
+
+VerticesClasses/VertexAdapter.s: VerticesClasses/VertexAdapter.cpp.s
+
+.PHONY : VerticesClasses/VertexAdapter.s
+
+# target to generate assembly for a file
+VerticesClasses/VertexAdapter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/VerticesClasses/VertexAdapter.cpp.s
+.PHONY : VerticesClasses/VertexAdapter.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +888,87 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex4"
 	@echo "... edit_cache"
+	@echo "... CacheManagers/FileCacheManagers/FileMatrixCacheManager.o"
+	@echo "... CacheManagers/FileCacheManagers/FileMatrixCacheManager.i"
+	@echo "... CacheManagers/FileCacheManagers/FileMatrixCacheManager.s"
+	@echo "... CacheManagers/FileCacheManagers/FileStringCacheManager.o"
+	@echo "... CacheManagers/FileCacheManagers/FileStringCacheManager.i"
+	@echo "... CacheManagers/FileCacheManagers/FileStringCacheManager.s"
+	@echo "... ClientHandlers/MyClientHandler.o"
+	@echo "... ClientHandlers/MyClientHandler.i"
+	@echo "... ClientHandlers/MyClientHandler.s"
+	@echo "... ClientHandlers/MyTestClientHandler.o"
+	@echo "... ClientHandlers/MyTestClientHandler.i"
+	@echo "... ClientHandlers/MyTestClientHandler.s"
+	@echo "... ClientInputInterpreters/ClientInputToMatrixConverter.o"
+	@echo "... ClientInputInterpreters/ClientInputToMatrixConverter.i"
+	@echo "... ClientInputInterpreters/ClientInputToMatrixConverter.s"
+	@echo "... ClientInputInterpreters/ClientInputToStringConverter.o"
+	@echo "... ClientInputInterpreters/ClientInputToStringConverter.i"
+	@echo "... ClientInputInterpreters/ClientInputToStringConverter.s"
+	@echo "... Cost.o"
+	@echo "... Cost.i"
+	@echo "... Cost.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
+	@echo "... ProblemsToFileNamesConverters/MatrixToFileNameConverter.o"
+	@echo "... ProblemsToFileNamesConverters/MatrixToFileNameConverter.i"
+	@echo "... ProblemsToFileNamesConverters/MatrixToFileNameConverter.s"
+	@echo "... ProblemsToFileNamesConverters/StringToFileNameConverter.o"
+	@echo "... ProblemsToFileNamesConverters/StringToFileNameConverter.i"
+	@echo "... ProblemsToFileNamesConverters/StringToFileNameConverter.s"
+	@echo "... Searchables/MatrixGraph.o"
+	@echo "... Searchables/MatrixGraph.i"
+	@echo "... Searchables/MatrixGraph.s"
+	@echo "... Searchers/GraphSearchers/AStar.o"
+	@echo "... Searchers/GraphSearchers/AStar.i"
+	@echo "... Searchers/GraphSearchers/AStar.s"
+	@echo "... Searchers/GraphSearchers/BFS.o"
+	@echo "... Searchers/GraphSearchers/BFS.i"
+	@echo "... Searchers/GraphSearchers/BFS.s"
+	@echo "... Searchers/GraphSearchers/BestFirstSearch.o"
+	@echo "... Searchers/GraphSearchers/BestFirstSearch.i"
+	@echo "... Searchers/GraphSearchers/BestFirstSearch.s"
+	@echo "... Searchers/GraphSearchers/DFS.o"
+	@echo "... Searchers/GraphSearchers/DFS.i"
+	@echo "... Searchers/GraphSearchers/DFS.s"
+	@echo "... ServerRunners/ParallelServerRunner.o"
+	@echo "... ServerRunners/ParallelServerRunner.i"
+	@echo "... ServerRunners/ParallelServerRunner.s"
+	@echo "... ServerRunners/SerialServerRunner.o"
+	@echo "... ServerRunners/SerialServerRunner.i"
+	@echo "... ServerRunners/SerialServerRunner.s"
+	@echo "... ServerSocket.o"
+	@echo "... ServerSocket.i"
+	@echo "... ServerSocket.s"
+	@echo "... Servers/MyParallelServer.o"
+	@echo "... Servers/MyParallelServer.i"
+	@echo "... Servers/MyParallelServer.s"
+	@echo "... Servers/MySerialServer.o"
+	@echo "... Servers/MySerialServer.i"
+	@echo "... Servers/MySerialServer.s"
+	@echo "... Solvers/MatrixShortestPathSolver.o"
+	@echo "... Solvers/MatrixShortestPathSolver.i"
+	@echo "... Solvers/MatrixShortestPathSolver.s"
+	@echo "... Solvers/StringReverser.o"
+	@echo "... Solvers/StringReverser.i"
+	@echo "... Solvers/StringReverser.s"
+	@echo "... VerticesClasses/MatrixVerticesClasses/MatrixVertex.o"
+	@echo "... VerticesClasses/MatrixVerticesClasses/MatrixVertex.i"
+	@echo "... VerticesClasses/MatrixVerticesClasses/MatrixVertex.s"
+	@echo "... VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.o"
+	@echo "... VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.i"
+	@echo "... VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.s"
+	@echo "... VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.o"
+	@echo "... VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.i"
+	@echo "... VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.s"
+	@echo "... VerticesClasses/Vertex.o"
+	@echo "... VerticesClasses/Vertex.i"
+	@echo "... VerticesClasses/Vertex.s"
+	@echo "... VerticesClasses/VertexAdapter.o"
+	@echo "... VerticesClasses/VertexAdapter.i"
+	@echo "... VerticesClasses/VertexAdapter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

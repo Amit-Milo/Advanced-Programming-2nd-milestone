@@ -84,6 +84,219 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManagers/CacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManagers/FileCacheManagers/FileCacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManagers/FileCacheManagers/FileMatrixCacheManager.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManagers/FileCacheManagers/FileMatrixCacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManagers/FileCacheManagers/FileStringCacheManager.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/CacheManagers/FileCacheManagers/FileStringCacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandlers/ClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandlers/ClientHandlerAbs.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandlers/MyClientHandler.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandlers/MyClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandlers/MyTestClientHandler.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientHandlers/MyTestClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputInterpreters/ClientInputToMatrixConverter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputInterpreters/ClientInputToMatrixConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputInterpreters/ClientInputToProblemConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputInterpreters/ClientInputToStringConverter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ClientInputInterpreters/ClientInputToStringConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Cost.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Cost.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Matrix.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Movement.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Point.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Point.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ProblemsToFileNamesConverters/MatrixToFileNameConverter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ProblemsToFileNamesConverters/MatrixToFileNameConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ProblemsToFileNamesConverters/StringToFileNameConverter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ProblemsToFileNamesConverters/StringToFileNameConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ProblemsToFileNamesConverters/ToFileNameConverter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchables/MatrixGraph.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchables/MatrixGraph.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchables/Searchable.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/AStar.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/AStar.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/BFS.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/BFS.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/BestFirstSearch.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/BestFirstSearch.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/DFS.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/DFS.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/GraphSearcher.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/GraphSearchers/MatrixGraphSearcher.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Searchers/Searcher.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunners/ParallelServerRunner.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunners/ParallelServerRunner.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunners/SerialServerRunner.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunners/SerialServerRunner.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerRunners/ServerRunner.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/ServerSocket.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Servers/MyParallelServer.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Servers/MyParallelServer.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Servers/MySerialServer.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Servers/MySerialServer.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Servers/Server.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Servers/ServerAbs.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solvers/MatrixShortestPathSolver.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solvers/MatrixShortestPathSolver.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solvers/Solver.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solvers/StringReverser.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/Solvers/StringReverser.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/MatrixVerticesClasses/MatrixVertex.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/MatrixVerticesClasses/MatrixVertex.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/MatrixVerticesClasses/MatrixVertexCreator.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/MatrixVerticesClasses/MatrixVertexFactory.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/Vertex.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/Vertex.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/VertexAdapter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/VertexAdapter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/VerticesClasses/VertexFactory.h">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/home/yoav/CLionProjects/cpp/ex4/main.cpp">
 			<Option target="ex4"/>
 		</Unit>
